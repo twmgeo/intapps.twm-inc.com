@@ -1,0 +1,2870 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page",
+      "header": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_1",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_1": {
+      "type": "FIXED",
+      "label": "First",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_2",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_2": {
+      "type": "FIXED",
+      "label": "Second",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_7",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_3": {
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "400px",
+            "height": "400px"
+          },
+          "widgetId": "widget_3",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        }
+      }
+    },
+    "layout_4": {
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "right": "5.0%",
+            "top": "0%",
+            "bottom": "71.5%",
+            "width": "100.00%",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_9",
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true
+            },
+            "hCenter": true,
+            "vCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "40.00px",
+            "bottom": "0%",
+            "width": "100.0%",
+            "height": "100%"
+          },
+          "widgetId": "widget_10",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      }
+    },
+    "layout_5": {
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "30.00px",
+            "right": "89.2%",
+            "top": "50%",
+            "bottom": "20.0%",
+            "width": "112px",
+            "height": "48px"
+          },
+          "widgetId": "widget_4",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "160px",
+            "right": "69.8%",
+            "top": "50%",
+            "bottom": "18.3%",
+            "width": "226px",
+            "height": "38px"
+          },
+          "widgetId": "widget_5",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "right": "30.00px",
+            "top": "50%",
+            "bottom": "21.7%",
+            "width": "350.00px",
+            "height": "56.7%"
+          },
+          "widgetId": "widget_6",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "400.00px",
+            "right": "42.0%",
+            "top": "50%",
+            "bottom": "21.7%",
+            "width": "322px",
+            "height": "26.00px"
+          },
+          "widgetId": "widget_20",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_6": {
+      "type": "FIXED",
+      "label": "First",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_8",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_7": {
+      "type": "FIXED",
+      "label": "Second",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "sectionId": "section_1",
+          "type": "SECTION",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0.00px",
+            "bottom": "65.00px",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "90.1%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "65.00px"
+          },
+          "widgetId": "widget_14",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": true,
+              "bottom": false,
+              "width": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      }
+    },
+    "layout_8": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [],
+      "content": {}
+    },
+    "layout_10": {
+      "label": "Selected"
+    },
+    "layout_12": {
+      "type": "FIXED",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "19px",
+            "width": "90.2%",
+            "height": "63px",
+            "right": "20px",
+            "top": "50%",
+            "bottom": "12px"
+          },
+          "widgetId": "widget_12",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "width": true,
+              "height": "CUSTOM",
+              "top": true,
+              "bottom": false,
+              "left": false,
+              "right": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "1"
+      ],
+      "label": "Regular"
+    },
+    "layout_13": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "290.00px",
+            "bottom": "380.00px",
+            "width": "100%",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_15"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "10px",
+            "right": "10px",
+            "top": "336.00px",
+            "bottom": "54.00px",
+            "width": "95.2%",
+            "height": "320.00px"
+          },
+          "widgetId": "widget_21",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH",
+              "height": "AUTO"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "10.00%",
+            "right": "10.00%",
+            "top": "400.00px",
+            "bottom": "10.00px",
+            "width": "100%",
+            "height": "34.00px"
+          },
+          "widgetId": "widget_23",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "top": true
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "hCenter": true,
+            "vCenter": false
+          },
+          "bbox": {
+            "left": "50%",
+            "right": "18.7%",
+            "top": "0%",
+            "bottom": "53.4%",
+            "width": "100.00%",
+            "height": "280px"
+          },
+          "widgetId": "widget_25"
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    "layout_14": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "75.8%",
+            "width": "100%",
+            "height": "6.0%"
+          },
+          "widgetId": "widget_16"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "40.00px",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_18",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_15": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "88.7%",
+            "width": "100%",
+            "height": "6.0%"
+          },
+          "widgetId": "widget_17"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "40px",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "94.0%"
+          },
+          "widgetId": "widget_19",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_16": {
+      "type": "FIXED",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": true
+          },
+          "bbox": {
+            "left": "50%",
+            "right": "4.7%",
+            "top": "40.00px",
+            "bottom": "2.0%",
+            "width": "100.00%",
+            "height": "116.00px"
+          },
+          "widgetId": "widget_24"
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": true
+          },
+          "bbox": {
+            "left": "50%",
+            "right": "4.7%",
+            "top": "154.00px",
+            "bottom": "0.0%",
+            "width": "100.00%",
+            "height": "116.00px"
+          },
+          "widgetId": "widget_26",
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0%",
+            "bottom": "85.4%",
+            "width": "100.0%",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_27"
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    }
+  },
+  "exbVersion": "1.10.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/ink/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.10.0",
+      "label": "Outer Layout (sidebar left)",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "400px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "iconSource": 0,
+          "icon": "LEFT",
+          "offsetX": 15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 12,
+          "width": 15,
+          "height": 60,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          }
+        },
+        "defaultState": 1,
+        "firstPanelStyle": {
+          "background": {
+            "fillType": "fit",
+            "image": {
+              "url": ""
+            }
+          }
+        },
+        "secondPanelStyle": {
+          "background": {
+            "fillType": "fit",
+            "image": {
+              "url": ""
+            }
+          }
+        }
+      },
+      "id": "widget_1",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_1"
+        },
+        "SECOND": {
+          "LARGE": "layout_2"
+        }
+      }
+    },
+    "widget_2": {
+      "uri": "widgets/layout/column/",
+      "version": "1.10.0",
+      "label": "Left Sidebar (column)",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_2",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_3"
+        }
+      },
+      "style": {
+        "background": {
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_3": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.10.0",
+      "label": "Left Sidebar (fixed panel)",
+      "id": "widget_3",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_4"
+        }
+      },
+      "style": {
+        "background": {
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_4": {
+      "uri": "widgets/common/image/",
+      "version": "1.10.0",
+      "label": "TWM Logo (image)",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_4/1678112002687.png",
+            "originalUrl": "${appResourceUrl}/images/widget_4/1678112002687.png",
+            "fileName": "1678112002687.png",
+            "originalName": "TWM_CMYK_white_buffer_xs.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1678112002687",
+            "isUseCompress": false,
+            "originalWidth": 150,
+            "originalHeight": 63
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_4"
+    },
+    "widget_5": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Title of App (text)",
+      "config": {
+        "text": "<p><span style=\"color: var(--light); font-size: 20px;\">Illinois Water Systems</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_5"
+    },
+    "widget_6": {
+      "uri": "widgets/common/search/",
+      "version": "1.10.0",
+      "label": "Search",
+      "config": {
+        "searchResultView": "Other_Widgets",
+        "arrangementStyle": "Style1",
+        "maxSuggestions": 8,
+        "recentSearchesMaxNumber": 4,
+        "resultMaxNumber": 6,
+        "datasourceConfig": [
+          {
+            "configId": "config_0",
+            "icon": null,
+            "label": "ArcGIS World Geocoding Service",
+            "hint": "",
+            "useUtility": {
+              "utilityId": "utility_1"
+            },
+            "searchServiceType": "GeocodeService",
+            "singleLineFieldName": "SingleLine",
+            "isSupportSuggest": true,
+            "outputDataSourceId": "widget_6_output_config_0",
+            "addressFields": [
+              {
+                "jimuName": "Default Address",
+                "alias": "Default Address",
+                "type": "STRING",
+                "name": "Default Address"
+              },
+              {
+                "jimuName": "Address or Place",
+                "alias": "Address or Place",
+                "type": "STRING",
+                "name": "Address or Place"
+              },
+              {
+                "jimuName": "Address2",
+                "alias": "Address2",
+                "type": "STRING",
+                "name": "Address2"
+              },
+              {
+                "jimuName": "Address3",
+                "alias": "Address3",
+                "type": "STRING",
+                "name": "Address3"
+              },
+              {
+                "jimuName": "Neighborhood",
+                "alias": "Neighborhood",
+                "type": "STRING",
+                "name": "Neighborhood"
+              },
+              {
+                "jimuName": "City",
+                "alias": "City",
+                "type": "STRING",
+                "name": "City"
+              },
+              {
+                "jimuName": "County",
+                "alias": "County",
+                "type": "STRING",
+                "name": "County"
+              },
+              {
+                "jimuName": "State",
+                "alias": "State",
+                "type": "STRING",
+                "name": "State"
+              },
+              {
+                "jimuName": "ZIP",
+                "alias": "ZIP",
+                "type": "STRING",
+                "name": "ZIP"
+              },
+              {
+                "jimuName": "ZIP4",
+                "alias": "ZIP4",
+                "type": "STRING",
+                "name": "ZIP4"
+              },
+              {
+                "jimuName": "Country",
+                "alias": "Country",
+                "type": "STRING",
+                "name": "Country"
+              }
+            ],
+            "displayFields": [
+              {
+                "jimuName": "Default Address",
+                "alias": "Default Address",
+                "type": "STRING",
+                "name": "Default Address"
+              }
+            ],
+            "defaultAddressFieldName": "Default Address"
+          }
+        ],
+        "isUseCurrentLoation": true,
+        "isShowRecentSearches": true
+      },
+      "id": "widget_6",
+      "useDataSources": [],
+      "outputDataSources": [
+        "widget_6_output_config_0"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_1"
+        }
+      ],
+      "style": {
+        "background": {
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_7": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.10.0",
+      "label": "Inner Layout (sidebar right)",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "SECOND",
+        "overlay": false,
+        "size": "460px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "iconSource": 0,
+          "icon": "RIGHT",
+          "offsetX": -15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 60,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "92px 0 0 92px"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "92px 0 0 92px"
+            }
+          }
+        },
+        "defaultState": 1,
+        "firstPanelStyle": {
+          "background": {
+            "fillType": "fit",
+            "image": {
+              "url": ""
+            }
+          }
+        },
+        "secondPanelStyle": {
+          "background": {
+            "fillType": "fit",
+            "image": {
+              "url": ""
+            }
+          }
+        }
+      },
+      "id": "widget_7",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_6"
+        },
+        "SECOND": {
+          "LARGE": "layout_7"
+        }
+      },
+      "style": {
+        "background": {
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_8": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.10.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true,
+          "canBaseMap": true
+        },
+        "isUseCustomMapState": false,
+        "disablePopUp": true
+      },
+      "id": "widget_8",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_8"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_9": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Heading (text)",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"color: var(--light); font-size: 16px;\">   Feature List</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_9",
+      "style": {
+        "background": {
+          "color": "var(--dark-400)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_10": {
+      "uri": "widgets/common/list/",
+      "version": "1.10.0",
+      "label": "Feature List (list)",
+      "config": {
+        "maxItems": 100,
+        "space": 10,
+        "verticalSpace": 10,
+        "horizontalSpace": 10,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE5",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 320,
+                "height": 88
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Custom"
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 320,
+                "height": 88
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              },
+              "background": {
+                "color": "var(--info-100)",
+                "fillType": "fit",
+                "image": {
+                  "url": ""
+                }
+              }
+            },
+            "listLayout": "Auto"
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 320,
+                "height": 88
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--info-500)",
+                "width": "1px"
+              },
+              "background": {
+                "color": "var(--info-100)",
+                "fillType": "fit",
+                "image": {
+                  "url": ""
+                }
+              }
+            },
+            "selectionMode": "SINGLE",
+            "listLayout": "Auto"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "isCheckEmptyTemplate": false,
+        "searchFields": "Contact_Email,Contact_Name,Contact_Phone,Notes,Primary_Source_Water_Type,Principal_County_Served,Water_System_ID,Water_System_Name",
+        "filters": null,
+        "isShowAutoRefresh": false,
+        "layoutType": "ROW",
+        "keepAspectRatio": false,
+        "searchOpen": true,
+        "filterOpen": false
+      },
+      "id": "widget_10",
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_12"
+        },
+        "SELECTED": {
+          "LARGE": "layout_10"
+        },
+        "HOVER": {}
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSourcesEnabled": true,
+      "style": {
+        "background": {
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          },
+          "color": "var(--secondary-100)"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Contact_Email",
+            "Contact_Name",
+            "Contact_Phone",
+            "Notes",
+            "Primary_Source_Water_Type",
+            "Principal_County_Served",
+            "Water_System_ID",
+            "Water_System_Name"
+          ]
+        }
+      ],
+      "enableDataAction": true
+    },
+    "widget_12": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Text",
+      "config": {
+        "text": "<p><strong><exp data-uniqueid=\"6848092b_941d_945c_9aed_9624c018e5d7\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4%22%2C%22jimuFieldName%22%3A%22Water_System_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Water System Name}</span>﻿</exp>  - <exp data-uniqueid=\"1b6e8e7a_675c_bda6_6562_b2328fab80bc\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4%22%2C%22jimuFieldName%22%3A%22Water_System_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Water System ID}</span>﻿</exp>  </strong></p><p>Principal County Served: <exp data-uniqueid=\"e7c06513_b92d_4f42_2d1a_68a91eeff141\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4%22%2C%22jimuFieldName%22%3A%22Principal_County_Served%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Principal County Served}</span>﻿</exp>  </p><p>Type: <exp data-uniqueid=\"ba0c11e9_77b5_7032_e55a_22db5ed9aafe\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BType%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BType%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4%22%2C%22jimuFieldName%22%3A%22Type%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Type}</span>﻿</exp>      Status: <exp data-uniqueid=\"2bc6f31b_9cf5_4c2c_f627_c873df433439\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BStatus%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BStatus%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4%22%2C%22jimuFieldName%22%3A%22Status%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Status}</span>﻿</exp> </p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true,
+          "overflow": "scroll",
+          "padding": "p-1"
+        }
+      },
+      "id": "widget_12",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Water_System_Name",
+            "Water_System_ID",
+            "Principal_County_Served",
+            "Type",
+            "Status"
+          ]
+        }
+      ]
+    },
+    "widget_14": {
+      "uri": "widgets/common/navigator/",
+      "version": "1.10.0",
+      "label": "Right Sidebar Navigation (views navigation)",
+      "config": {
+        "data": {
+          "type": "AUTO",
+          "section": "section_1",
+          "views": [
+            "view_1",
+            "view_2",
+            "view_3"
+          ]
+        },
+        "display": {
+          "type": "nav",
+          "navStyle": "default",
+          "standard": {
+            "gap": "0px",
+            "scrollable": true,
+            "showIcon": false,
+            "showText": true,
+            "iconPosition": "start",
+            "textAlign": "center"
+          },
+          "vertical": false,
+          "advanced": true,
+          "variant": {
+            "size": {
+              "fontSize": "0.875rem",
+              "lineHeight": 1.5,
+              "paddingX": "1rem",
+              "paddingY": "0.25rem"
+            },
+            "gutter": "0.25rem",
+            "icon": {
+              "spacing": "0.5rem"
+            },
+            "root": {
+              "borderRadius": 0
+            },
+            "item": {
+              "default": {
+                "color": "#181818",
+                "bg": "transparent",
+                "border": {
+                  "width": 0
+                },
+                "borderRadius": 0,
+                "icon": {
+                  "size": "8px"
+                },
+                "size": "14px"
+              },
+              "hover": {
+                "color": "#181818",
+                "borderRadius": 0,
+                "icon": {
+                  "color": "var(--primary)",
+                  "size": "8px"
+                },
+                "size": "14px",
+                "border": {
+                  "type": "dashed",
+                  "color": "var(--dark-700)",
+                  "width": "1px"
+                }
+              },
+              "active": {
+                "color": "#181818",
+                "borderRadius": 0,
+                "icon": {
+                  "color": "var(--primary)",
+                  "size": "8px"
+                },
+                "size": "14px",
+                "border": {
+                  "type": "solid",
+                  "color": "var(--dark-700)",
+                  "width": "1px"
+                }
+              },
+              "disabled": {
+                "color": "#989898",
+                "shadow": "none",
+                "borderRadius": 0
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_14"
+    },
+    "widget_15": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Heading (text)",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"color: var(--light); font-size: 16px;\">   Feature Info</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_15",
+      "style": {
+        "background": {
+          "color": "var(--dark-400)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_16": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Heading (text)",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"color: var(--light); font-size: 16px;\">   Map Layers</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_16",
+      "style": {
+        "background": {
+          "color": "var(--dark-400)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_17": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Heading (text)",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"color: var(--light); font-size: 16px;\">   Edit Data</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_17",
+      "style": {
+        "background": {
+          "color": "var(--dark-400)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_18": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.10.0",
+      "label": "Map Layers",
+      "config": {
+        "useMapWidget": true,
+        "label": true,
+        "setVisibility": true
+      },
+      "id": "widget_18",
+      "useMapWidgetIds": [
+        "widget_8"
+      ]
+    },
+    "widget_19": {
+      "uri": "widgets/common/edit/",
+      "version": "1.10.0",
+      "label": "Edit",
+      "config": {
+        "layersConfig": [
+          {
+            "id": "dataSource_1-186c6f8623f-layer-4",
+            "name": "IL_Water_Systems_Curated",
+            "layerId": "186c6f8623f-layer-4",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "addRecords": true,
+            "deleteRecords": true,
+            "updateGeometries": true,
+            "featureSnapping": false,
+            "showFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Water_System_ID",
+                "name": "Water_System_ID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Water System ID",
+                "format": null
+              },
+              {
+                "jimuName": "Water_System_Name",
+                "name": "Water_System_Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Water System Name",
+                "format": null
+              },
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
+                "format": null
+              },
+              {
+                "jimuName": "Status",
+                "name": "Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Status",
+                "format": null
+              },
+              {
+                "jimuName": "Principal_County_Served",
+                "name": "Principal_County_Served",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Principal County Served",
+                "format": null
+              },
+              {
+                "jimuName": "Primary_Source_Water_Type",
+                "name": "Primary_Source_Water_Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Primary Source Water Type",
+                "format": null
+              },
+              {
+                "jimuName": "Population_Served",
+                "name": "Population_Served",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Population Served",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Service_Connection",
+                "name": "Service_Connection",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Service Connection",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Contact_Name",
+                "name": "Contact_Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null
+              },
+              {
+                "jimuName": "Contact_Position",
+                "name": "Contact_Position",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Position",
+                "format": null
+              },
+              {
+                "jimuName": "Contact_Email",
+                "name": "Contact_Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Email",
+                "format": null
+              },
+              {
+                "jimuName": "Contact_Phone",
+                "name": "Contact_Phone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Phone",
+                "format": null
+              },
+              {
+                "jimuName": "Date_of_Last_Contact",
+                "name": "Date_of_Last_Contact",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Date of Last Contact",
+                "format": null
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null
+              },
+              {
+                "jimuName": "REGISTRY_ID",
+                "name": "REGISTRY_ID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "REGISTRY_ID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                }
+              },
+              {
+                "jimuName": "DFR_URL",
+                "name": "DFR_URL",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DFR URL",
+                "format": null
+              }
+            ],
+            "groupedFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "Water_System_ID",
+                "name": "Water_System_ID",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Water System ID",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Water_System_Name",
+                "name": "Water_System_Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Water System Name",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Status",
+                "name": "Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Status",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Principal_County_Served",
+                "name": "Principal_County_Served",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Principal County Served",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Primary_Source_Water_Type",
+                "name": "Primary_Source_Water_Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Primary Source Water Type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Population_Served",
+                "name": "Population_Served",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Population Served",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Service_Connection",
+                "name": "Service_Connection",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "Service Connection",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Contact_Name",
+                "name": "Contact_Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Name",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Contact_Position",
+                "name": "Contact_Position",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Position",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Contact_Email",
+                "name": "Contact_Email",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Email",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Contact_Phone",
+                "name": "Contact_Phone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Phone",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Date_of_Last_Contact",
+                "name": "Date_of_Last_Contact",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Date of Last Contact",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "REGISTRY_ID",
+                "name": "REGISTRY_ID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "REGISTRY_ID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DFR_URL",
+                "name": "DFR_URL",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DFR URL",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              }
+            ],
+            "layerHonorMode": "WEBMAP"
+          }
+        ],
+        "editMode": "GEOMETRY",
+        "selfSnapping": false,
+        "featureSnapping": false,
+        "description": "",
+        "noDataMessage": ""
+      },
+      "id": "widget_19",
+      "useMapWidgetIds": [
+        "widget_8"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_20": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Title of App (text) 2",
+      "config": {
+        "text": "<p><span style=\"color: var(--light); font-size: 15px;\">Based on ECHO data<span class=\"ql-cursor\">﻿</span></span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_20"
+    },
+    "widget_21": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Info Summary (text)",
+      "config": {
+        "text": "<p><strong><exp data-uniqueid=\"826056fe_84c8_3783_4cb6_eb2a95053121\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Water_System_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Water System Name}﻿</span>﻿</exp>  - <exp data-uniqueid=\"868e9002_0559_6fc8_f7c1_e7b7a7f487f9\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Water_System_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Water System ID}﻿</span>﻿</exp>  </strong></p><p><br></p><p><strong>Contact Name:</strong> <exp data-uniqueid=\"f6717055_2fae_2f13_5086_116ea7bec751\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Contact_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Contact Name}﻿</span>﻿</exp>  </p><p><strong>Contact Position:</strong> <exp data-uniqueid=\"4fa53572_4b9d_fffe_c9ed_f365a1040c71\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Position%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Position%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Contact_Position%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Contact Position}﻿</span>﻿</exp>   </p><p><strong>Email:</strong> <exp data-uniqueid=\"4b0ce4ff_6524_f8d6_1ad7_e60e5696312d\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Email%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Email%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Contact_Email%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Contact Email}﻿</span>﻿</exp>  </p><p><strong>Phone:</strong> <exp data-uniqueid=\"7ed11a3d_4992_37d9_d68b_dd7720b23cb7\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Phone%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Phone%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Contact_Phone%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Contact Phone}﻿</span>﻿</exp>  </p><p><strong>Date of Last Contact :</strong> <exp data-uniqueid=\"af69790b_b65b_1035_4d5d_e9dd429e46a0\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BDate%20of%20Last%20Contact%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20of%20Last%20Contact%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Date_of_Last_Contact%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Date of Last Contact}﻿</span>﻿</exp>   </p><p><strong>Notes:</strong> <exp data-uniqueid=\"47763522_626f_e008_ab1b_1e2aecb54583\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BNotes%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNotes%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Notes%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Notes}﻿</span>﻿</exp>   </p><p><br></p><p><strong>Type:</strong> <exp data-uniqueid=\"e7dc9555_3691_febb_d3b2_5c61e1de6141\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BType%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BType%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Type%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Type}﻿</span>﻿</exp>  </p><p><strong>Status:</strong> <exp data-uniqueid=\"5d7275b8_fb8c_82da_9628_83a5211827d6\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BStatus%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BStatus%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Status%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Status}﻿</span>﻿</exp>  </p><p><strong>Principal County Served:</strong> <exp data-uniqueid=\"a1b9f5d6_2852_c9ec_4322_aeb021778f1b\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Principal_County_Served%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Principal County Served}﻿</span>﻿</exp>  </p><p><strong>Primary Source Water Type:</strong> <exp data-uniqueid=\"303fca1b_1ae4_01f2_d5fc_f7e52535c4d7\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BPrimary%20Source%20Water%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPrimary%20Source%20Water%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Primary_Source_Water_Type%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Primary Source Water Type}﻿</span>﻿</exp>  </p><p><strong>Population Served:</strong> <exp data-uniqueid=\"4f9738f1_37c9_69d0_0546_d902e26723cf\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BPopulation%20Served%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPopulation%20Served%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Population_Served%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Population Served}﻿</span>﻿</exp>  </p><p><strong>Service Connection:</strong> <exp data-uniqueid=\"b39ea8d7_d642_37a0_b990_88dbff68b063\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BService%20Connection%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BService%20Connection%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Service_Connection%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Service Connection}﻿</span>﻿</exp>  </p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_21",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Water_System_Name",
+            "Water_System_ID",
+            "Contact_Name",
+            "Contact_Position",
+            "Contact_Email",
+            "Contact_Phone",
+            "Date_of_Last_Contact",
+            "Notes",
+            "Type",
+            "Status",
+            "Principal_County_Served",
+            "Primary_Source_Water_Type",
+            "Population_Served",
+            "Service_Connection"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_23": {
+      "uri": "widgets/common/button/",
+      "version": "1.10.0",
+      "label": "Button",
+      "config": {
+        "functionConfig": {
+          "textExpression": {
+            "name": "View on ECHO Website",
+            "parts": [
+              {
+                "type": "STRING",
+                "exp": "\"View on ECHO Website\""
+              }
+            ]
+          },
+          "toolTipExpression": {
+            "name": "",
+            "parts": [
+              {
+                "type": "STRING",
+                "exp": "\"\""
+              }
+            ]
+          },
+          "linkParam": {
+            "linkType": "WEB_ADDRESS",
+            "openType": "_blank",
+            "value": "",
+            "expression": {
+              "name": "{DFR URL}",
+              "parts": [
+                {
+                  "type": "FIELD",
+                  "exp": "{DFR URL}",
+                  "dataSourceId": "dataSource_1-186c6f8623f-layer-4-selection",
+                  "jimuFieldName": "DFR_URL",
+                  "isFromRepeatedDataSourceContext": false
+                }
+              ]
+            }
+          },
+          "text": ""
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "var(--org-header-bg)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "var(--org-header-bg)",
+                "width": "0px"
+              },
+              "text": {
+                "color": "#fff",
+                "size": "12px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "iconProps": {
+                "color": "#fff",
+                "size": 14
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "var(--dark-500)",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "iconProps": {
+                "size": 14
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_23",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "DFR_URL"
+          ]
+        }
+      ]
+    },
+    "widget_24": {
+      "uri": "widgets/common/filter/",
+      "version": "1.10.0",
+      "label": "Filter",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "BLOCK",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": false,
+        "filterItems": [
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295H15ZM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1Z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter.svg",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "Filter by Type",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Primary_Source_Water_Type"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "Primary_Source_Water_Type",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE_PREDEFINED",
+                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
+                    "value": [
+                      {
+                        "value": "-empty-",
+                        "label": null,
+                        "alias": null,
+                        "selected": true
+                      },
+                      {
+                        "value": "GU",
+                        "label": "GU",
+                        "alias": "GU",
+                        "selected": false
+                      },
+                      {
+                        "value": "GUP",
+                        "label": "GUP",
+                        "alias": "GUP",
+                        "selected": false
+                      },
+                      {
+                        "value": "GW",
+                        "label": "GW",
+                        "alias": "GW",
+                        "selected": false
+                      },
+                      {
+                        "value": "GWP",
+                        "label": "GWP",
+                        "alias": "GWP",
+                        "selected": false
+                      },
+                      {
+                        "value": "SW",
+                        "label": "SW",
+                        "alias": "SW",
+                        "selected": false
+                      },
+                      {
+                        "value": "SWP",
+                        "label": "SWP",
+                        "alias": "SWP",
+                        "selected": false
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Primary Source Water Type = ?)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          }
+        ]
+      },
+      "id": "widget_24",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Primary_Source_Water_Type"
+          ]
+        }
+      ]
+    },
+    "widget_25": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.10.0",
+      "label": "Filters (fixed panel)",
+      "id": "widget_25",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_16"
+        }
+      }
+    },
+    "widget_26": {
+      "uri": "widgets/common/filter/",
+      "version": "1.10.0",
+      "label": "Filter 2",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "BLOCK",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": false,
+        "filterItems": [
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295H15ZM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1Z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter.svg",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "Filter by County",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Principal_County_Served"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "Principal_County_Served",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE_PREDEFINED",
+                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
+                    "value": [
+                      {
+                        "value": "-empty-",
+                        "label": null,
+                        "alias": null,
+                        "selected": true
+                      },
+                      {
+                        "value": "BOND  ",
+                        "label": "BOND  ",
+                        "alias": "BOND  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "CLAY  ",
+                        "label": "CLAY  ",
+                        "alias": "CLAY  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "CLINTON  ",
+                        "label": "CLINTON  ",
+                        "alias": "CLINTON  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "EFFINGHAM  ",
+                        "label": "EFFINGHAM  ",
+                        "alias": "EFFINGHAM  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "FAYETTE  ",
+                        "label": "FAYETTE  ",
+                        "alias": "FAYETTE  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "FULTON  ",
+                        "label": "FULTON  ",
+                        "alias": "FULTON  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "JERSEY  ",
+                        "label": "JERSEY  ",
+                        "alias": "JERSEY  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "KNOX  ",
+                        "label": "KNOX  ",
+                        "alias": "KNOX  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "MACOUPIN  ",
+                        "label": "MACOUPIN  ",
+                        "alias": "MACOUPIN  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "MADISON  ",
+                        "label": "MADISON  ",
+                        "alias": "MADISON  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "MARION  ",
+                        "label": "MARION  ",
+                        "alias": "MARION  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "MARSHALL  ",
+                        "label": "MARSHALL  ",
+                        "alias": "MARSHALL  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "MONROE  ",
+                        "label": "MONROE  ",
+                        "alias": "MONROE  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "MONTGOMERY  ",
+                        "label": "MONTGOMERY  ",
+                        "alias": "MONTGOMERY  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "PEORIA  ",
+                        "label": "PEORIA  ",
+                        "alias": "PEORIA  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "RANDOLPH  ",
+                        "label": "RANDOLPH  ",
+                        "alias": "RANDOLPH  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "SHELBY  ",
+                        "label": "SHELBY  ",
+                        "alias": "SHELBY  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "ST CLAIR  ",
+                        "label": "ST CLAIR  ",
+                        "alias": "ST CLAIR  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "TAZEWELL  ",
+                        "label": "TAZEWELL  ",
+                        "alias": "TAZEWELL  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "WASHINGTON  ",
+                        "label": "WASHINGTON  ",
+                        "alias": "WASHINGTON  ",
+                        "selected": false
+                      },
+                      {
+                        "value": "WOODFORD  ",
+                        "label": "WOODFORD  ",
+                        "alias": "WOODFORD  ",
+                        "selected": false
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Principal County Served = ?)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          }
+        ]
+      },
+      "id": "widget_26",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Principal_County_Served"
+          ]
+        }
+      ]
+    },
+    "widget_27": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Heading (text) 2",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">   Filters</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_27",
+      "style": {
+        "background": {
+          "color": "var(--dark-400)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    }
+  },
+  "widgetsManifest": {},
+  "views": {
+    "view_1": {
+      "id": "view_1",
+      "label": "Info",
+      "layout": {
+        "LARGE": "layout_13"
+      }
+    },
+    "view_2": {
+      "id": "view_2",
+      "label": "Layers",
+      "layout": {
+        "LARGE": "layout_14"
+      }
+    },
+    "view_3": {
+      "id": "view_3",
+      "label": "Edit",
+      "layout": {
+        "LARGE": "layout_15"
+      }
+    }
+  },
+  "sections": {
+    "section_1": {
+      "id": "section_1",
+      "label": "Right Sidebar Views (section)",
+      "views": [
+        "view_1",
+        "view_2",
+        "view_3"
+      ]
+    }
+  },
+  "dialogs": {},
+  "dataSources": {
+    "widget_6_output_config_0": {
+      "id": "widget_6_output_config_0",
+      "type": "FEATURE_LAYER",
+      "label": "ArcGIS World Geocoding Service",
+      "originDataSources": [],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": false,
+      "schema": {
+        "label": "ArcGIS World Geocoding Service",
+        "idField": "objectid",
+        "fields": {
+          "Default Address": {
+            "jimuName": "Default Address",
+            "alias": "Default Address",
+            "type": "STRING",
+            "name": "Default Address"
+          },
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Address or Place": {
+            "jimuName": "Address or Place",
+            "alias": "Address or Place",
+            "type": "STRING",
+            "name": "Address or Place"
+          },
+          "Address2": {
+            "jimuName": "Address2",
+            "alias": "Address2",
+            "type": "STRING",
+            "name": "Address2"
+          },
+          "Address3": {
+            "jimuName": "Address3",
+            "alias": "Address3",
+            "type": "STRING",
+            "name": "Address3"
+          },
+          "Neighborhood": {
+            "jimuName": "Neighborhood",
+            "alias": "Neighborhood",
+            "type": "STRING",
+            "name": "Neighborhood"
+          },
+          "City": {
+            "jimuName": "City",
+            "alias": "City",
+            "type": "STRING",
+            "name": "City"
+          },
+          "County": {
+            "jimuName": "County",
+            "alias": "County",
+            "type": "STRING",
+            "name": "County"
+          },
+          "State": {
+            "jimuName": "State",
+            "alias": "State",
+            "type": "STRING",
+            "name": "State"
+          },
+          "ZIP": {
+            "jimuName": "ZIP",
+            "alias": "ZIP",
+            "type": "STRING",
+            "name": "ZIP"
+          },
+          "ZIP4": {
+            "jimuName": "ZIP4",
+            "alias": "ZIP4",
+            "type": "STRING",
+            "name": "ZIP4"
+          },
+          "Country": {
+            "jimuName": "Country",
+            "alias": "Country",
+            "type": "STRING",
+            "name": "Country"
+          }
+        }
+      },
+      "geometryType": "esriGeometryPoint"
+    },
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "IL Water Systems (Peoria BD)",
+      "itemId": "d9b9d7f29fba4abe9ab09e4feccb8e3d",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
+    }
+  },
+  "messageConfigs": {
+    "messageConfig_2": {
+      "id": "messageConfig_2",
+      "widgetId": "widget_10",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_8-zoomToFeature-1678116888729",
+          "widgetId": "widget_8",
+          "messageWidgetId": "widget_10",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+                "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+                "rootDataSourceId": "dataSource_1"
+              }
+            ],
+            "isUseCustomZoomToOption": true,
+            "zoomToOption": {
+              "scale": 100000
+            }
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_3": {
+      "id": "messageConfig_3",
+      "widgetId": "widget_8",
+      "messageType": "EXTENT_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1678117100969",
+          "messageWidgetId": "widget_8",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": null,
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.10.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "rootDataSourceId": "dataSource_1",
+              "fields": []
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_4": {
+      "id": "messageConfig_4",
+      "widgetId": "widget_8",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "select-data-record-action-1678117124848",
+          "messageWidgetId": "widget_8",
+          "actionName": "select data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.10.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "rootDataSourceId": "dataSource_1"
+            },
+            {
+              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "rootDataSourceId": "dataSource_1",
+              "fields": []
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_6": {
+      "id": "messageConfig_6",
+      "widgetId": "widget_6",
+      "messageType": "DATA_RECORD_SET_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_8-zoomToFeature-1678117313290",
+          "widgetId": "widget_8",
+          "messageWidgetId": "widget_6",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "widget_6_output_config_0",
+              "mainDataSourceId": "widget_6_output_config_0",
+              "rootDataSourceId": null
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "widget_6_output_config_0",
+                "mainDataSourceId": "widget_6_output_config_0",
+                "rootDataSourceId": null
+              }
+            ],
+            "isUseCustomZoomToOption": true,
+            "zoomToOption": {
+              "scale": 75000
+            }
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
+    }
+  },
+  "attributes": {
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "intapps - bd/IL_Water_Systems",
+    "description": "Internal TWM App showing a curated set of Illinois Water Systems",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1678454402938.png"
+  },
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#730000",
+      "color": "#ffffff"
+    },
+    "body": {},
+    "button": {
+      "bg": "#730000",
+      "color": "#ffffff"
+    },
+    "logo": {
+      "small": "https://geo.twm-inc.com/arcgis/sharing/rest/content/items/d11424e0028246bdad694ab475c33447/data",
+      "link": "https://twm-inc.com"
+    }
+  },
+  "originExbVersion": "1.10.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "customTheme": {
+    "colors": {
+      "primary": "#98012e"
+    }
+  },
+  "header": {
+    "layout": {
+      "LARGE": "layout_5"
+    },
+    "height": {
+      "LARGE": "60px"
+    },
+    "backgroundColor": "var(--dark-700)"
+  },
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": null,
+      "name": "geocode",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source": "org",
+      "orgSetting": {
+        "name": "ArcGIS World Geocoding Service",
+        "placefinding": true,
+        "batch": false
+      },
+      "taskName": "ArcGIS World Geocoding Service",
+      "index": 0
+    }
+  },
+  "timestamp": 1678377621795
+}

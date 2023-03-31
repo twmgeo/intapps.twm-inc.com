@@ -489,7 +489,7 @@
         }
       },
       "icon": {
-        "svg": "/widgets/common/search/icon.svg",
+        "svg": "widgets/common/search/icon.svg",
         "properties": {
           "filename": "search.svg",
           "originalName": "default/search.svg",
@@ -689,7 +689,7 @@
       },
       "id": "widget_40",
       "icon": {
-        "svg": "/widgets/arcgis/bookmark/icon.svg",
+        "svg": "widgets/arcgis/bookmark/icon.svg",
         "properties": {
           "filename": "Bookmark",
           "originalName": null,
@@ -707,7 +707,7 @@
       "uri": "widgets/arcgis/map-layers/",
       "version": "1.10.0",
       "icon": {
-        "svg": "/widgets/arcgis/map-layers/icon.svg",
+        "svg": "widgets/arcgis/map-layers/icon.svg",
         "properties": {
           "filename": "map-layers.svg",
           "originalName": "default/map-layers.svg",
@@ -732,7 +732,7 @@
       "uri": "widgets/arcgis/legend/",
       "version": "1.10.0",
       "icon": {
-        "svg": "/widgets/arcgis/legend/icon.svg",
+        "svg": "widgets/arcgis/legend/icon.svg",
         "properties": {
           "filename": "Legend",
           "originalName": null,
@@ -863,7 +863,7 @@
         }
       },
       "icon": {
-        "svg": "/widgets/common/controller/icon.svg",
+        "svg": "widgets/common/controller/icon.svg",
         "properties": {
           "filename": "Widget Controller",
           "originalName": null,
@@ -884,7 +884,7 @@
       "uri": "widgets/common/edit/",
       "version": "1.10.0",
       "icon": {
-        "svg": "/widgets/common/edit/icon.svg",
+        "svg": "widgets/common/edit/icon.svg",
         "properties": {
           "filename": "Edit",
           "originalName": null,

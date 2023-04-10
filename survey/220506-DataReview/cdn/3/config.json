@@ -63,9 +63,10 @@
             "parent": "10",
             "effect": {
               "SCROLL_IN": {
-                "type": "FLOAT_IN",
+                "type": "ZOOM_IN",
                 "option": {
-                  "direction": null
+                  "direction": null,
+                  "configType": "SLOW"
                 }
               }
             }
@@ -110,7 +111,8 @@
     "layout_2": {
       "type": "FIXED",
       "order": [
-        "0"
+        "0",
+        "1"
       ],
       "content": {
         "0": {
@@ -133,6 +135,29 @@
             "height": "26.3%"
           },
           "widgetId": "widget_19"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "94.4%",
+            "right": "0.8%",
+            "top": "23.7%",
+            "bottom": "69.8%",
+            "width": "4.8%",
+            "height": "6.5%"
+          },
+          "widgetId": "widget_21",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
       },
       "label": "Map FixedLayout"
@@ -1572,6 +1597,16 @@
           "rootDataSourceId": "dataSource_1"
         }
       ]
+    },
+    "widget_21": {
+      "uri": "widgets/google-street-view/",
+      "version": "1.9.0",
+      "label": "Google Street View Up",
+      "config": {},
+      "id": "widget_21",
+      "useMapWidgetIds": [
+        "widget_1"
+      ]
     }
   },
   "widgetsManifest": {},
@@ -1594,7 +1629,7 @@
       "page_1": []
     }
   ],
-  "timestamp": 1681150836143,
+  "timestamp": 1681151490780,
   "attributes": {
     "portalUrl": "https://geo.twm-inc.com/arcgis",
     "isWebTier": false,

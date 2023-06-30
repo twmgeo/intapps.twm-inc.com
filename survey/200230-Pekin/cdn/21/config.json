@@ -681,7 +681,6 @@
       "label": "Title of App (text)",
       "config": {
         "text": "<p><span style=\"font-size: 20px; color: var(--light);\">200230 Pekin <span class=\"ql-cursor\">﻿</span>ADA</span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -814,7 +813,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/search/icon.svg",
+        "svg": "widgets/common/search/icon.svg",
         "properties": {
           "filename": "search.svg",
           "originalName": "default/search.svg",
@@ -1014,7 +1013,7 @@
       },
       "id": "widget_40",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/bookmark/icon.svg",
+        "svg": "widgets/arcgis/bookmark/icon.svg",
         "properties": {
           "filename": "Bookmark",
           "originalName": null,
@@ -1032,7 +1031,7 @@
       "uri": "widgets/arcgis/map-layers/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/arcgis/map-layers/icon.svg",
+        "svg": "widgets/arcgis/map-layers/icon.svg",
         "properties": {
           "filename": "map-layers.svg",
           "originalName": "default/map-layers.svg",
@@ -1057,7 +1056,7 @@
       "uri": "widgets/arcgis/legend/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/legend/icon.svg",
+        "svg": "widgets/arcgis/legend/icon.svg",
         "properties": {
           "filename": "Legend",
           "originalName": null,
@@ -1188,7 +1187,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/controller/icon.svg",
+        "svg": "widgets/common/controller/icon.svg",
         "properties": {
           "filename": "Widget Controller",
           "originalName": null,
@@ -1209,7 +1208,7 @@
       "uri": "widgets/common/edit/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/edit/icon.svg",
+        "svg": "widgets/common/edit/icon.svg",
         "properties": {
           "filename": "Edit",
           "originalName": null,
@@ -7971,6 +7970,11 @@
           "rootDataSourceId": "dataSource_1"
         },
         {
+          "dataSourceId": "dataSource_1-1873439157e-layer-37",
+          "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
           "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
           "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
           "rootDataSourceId": "dataSource_1"
@@ -7986,6 +7990,11 @@
           "rootDataSourceId": "dataSource_1"
         },
         {
+          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
+          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
           "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
           "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
           "rootDataSourceId": "dataSource_1"
@@ -7998,16 +8007,6 @@
         {
           "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
           "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
-          "rootDataSourceId": "dataSource_1"
-        },
-        {
-          "dataSourceId": "dataSource_1-1873439157e-layer-37",
-          "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
-          "rootDataSourceId": "dataSource_1"
-        },
-        {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
           "rootDataSourceId": "dataSource_1"
         }
       ]
@@ -8201,7 +8200,7 @@
       },
       "id": "widget_70",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/bookmark/icon.svg",
+        "svg": "widgets/arcgis/bookmark/icon.svg",
         "properties": {
           "filename": "Bookmark",
           "originalName": null,
@@ -8219,7 +8218,7 @@
       "uri": "widgets/arcgis/map-layers/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/arcgis/map-layers/icon.svg",
+        "svg": "widgets/arcgis/map-layers/icon.svg",
         "properties": {
           "filename": "map-layers.svg",
           "originalName": "default/map-layers.svg",
@@ -8244,7 +8243,7 @@
       "uri": "widgets/arcgis/legend/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/arcgis/legend/icon.svg",
+        "svg": "widgets/arcgis/legend/icon.svg",
         "properties": {
           "filename": "Legend",
           "originalName": null,
@@ -8379,7 +8378,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/controller/icon.svg",
+        "svg": "widgets/common/controller/icon.svg",
         "properties": {
           "filename": "Widget Controller",
           "originalName": null,
@@ -8400,7 +8399,7 @@
       "uri": "widgets/common/edit/",
       "version": "1.10.0",
       "icon": {
-        "svg": "https://localhost:3001/experience/../widgets/common/edit/icon.svg",
+        "svg": "widgets/common/edit/icon.svg",
         "properties": {
           "filename": "Edit",
           "originalName": null,
@@ -8413,6 +8412,107 @@
       "label": "Edit",
       "config": {
         "layersConfig": [
+          {
+            "id": "dataSource_1-1872f13409d-layer-4",
+            "name": "Sidewalk Rating",
+            "layerId": "1872f13409d-layer-4",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-1872f13409d-layer-4",
+              "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "addRecords": true,
+            "deleteRecords": true,
+            "updateGeometries": true,
+            "featureSnapping": false,
+            "showFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Rating",
+                "name": "Rating",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Rating",
+                "format": null
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null
+              },
+              {
+                "jimuName": "Shape__Length",
+                "name": "Shape__Length",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STLength()",
+                "format": null
+              }
+            ],
+            "groupedFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "Rating",
+                "name": "Rating",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Rating",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Shape__Length",
+                "name": "Shape__Length",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STLength()",
+                "format": null,
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              }
+            ],
+            "layerHonorMode": "WEBMAP"
+          },
           {
             "id": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
             "name": "D1 Ramp Point - FS",
@@ -14899,12 +14999,12 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-1872f13409d-layer-4",
-            "name": "Sidewalk Rating",
-            "layerId": "1872f13409d-layer-4",
+            "id": "dataSource_1-1873439157e-layer-37",
+            "name": "Sidewalk Pavement Condition",
+            "layerId": "1873439157e-layer-37",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-1872f13409d-layer-4",
-              "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
+              "dataSourceId": "dataSource_1-1873439157e-layer-37",
+              "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
               "rootDataSourceId": "dataSource_1"
             },
             "addRecords": true,
@@ -14924,19 +15024,38 @@
                 }
               },
               {
-                "jimuName": "Rating",
-                "name": "Rating",
+                "jimuName": "ImgUrn",
+                "name": "ImgUrn",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Rating",
+                "alias": "ImgUrn",
                 "format": null
               },
               {
-                "jimuName": "Notes",
-                "name": "Notes",
+                "jimuName": "ImgGeom",
+                "name": "ImgGeom",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Notes",
+                "alias": "ImgGeom",
+                "format": null
+              },
+              {
+                "jimuName": "Rating",
+                "name": "Rating",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Rating",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Note",
+                "name": "Note",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Note",
                 "format": null
               },
               {
@@ -14964,22 +15083,47 @@
                 "editable": false
               },
               {
-                "jimuName": "Rating",
-                "name": "Rating",
+                "jimuName": "ImgUrn",
+                "name": "ImgUrn",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Rating",
+                "alias": "ImgUrn",
                 "format": null,
                 "editAuthority": true,
                 "subDescription": "",
                 "editable": true
               },
               {
-                "jimuName": "Notes",
-                "name": "Notes",
+                "jimuName": "ImgGeom",
+                "name": "ImgGeom",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Notes",
+                "alias": "ImgGeom",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Rating",
+                "name": "Rating",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Rating",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Note",
+                "name": "Note",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Note",
                 "format": null,
                 "editAuthority": true,
                 "subDescription": "",
@@ -15012,6 +15156,16 @@
       ],
       "useDataSources": [
         {
+          "dataSourceId": "dataSource_1-1873439157e-layer-37",
+          "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
+          "dataSourceId": "dataSource_1-1872f13409d-layer-4",
+          "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
           "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
           "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
           "rootDataSourceId": "dataSource_1"
@@ -15027,6 +15181,11 @@
           "rootDataSourceId": "dataSource_1"
         },
         {
+          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
+          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
           "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
           "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
           "rootDataSourceId": "dataSource_1"
@@ -15039,16 +15198,6 @@
         {
           "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
           "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
-          "rootDataSourceId": "dataSource_1"
-        },
-        {
-          "dataSourceId": "dataSource_1-1872f13409d-layer-4",
-          "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
-          "rootDataSourceId": "dataSource_1"
-        },
-        {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
           "rootDataSourceId": "dataSource_1"
         }
       ]
@@ -15484,7 +15633,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "200230 Review",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1679669128119.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -15660,5 +15815,12 @@
       }
     }
   },
-  "timestamp": 1688138721739
+  "timestamp": 1688140015909,
+  "historyLabels": {
+    "pages": {
+      "page_0": [
+        "Page"
+      ]
+    }
+  }
 }

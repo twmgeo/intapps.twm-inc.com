@@ -7809,6 +7809,935 @@
             "layerHonorMode": "WEBMAP"
           },
           {
+            "id": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+            "name": "D8 Ramp Point - FS",
+            "layerId": "1894afe8ee9-layer-30",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "addRecords": true,
+            "deleteRecords": true,
+            "updateGeometries": true,
+            "featureSnapping": false,
+            "showFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "name": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "format": null
+              },
+              {
+                "jimuName": "Handle",
+                "name": "Handle",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Handle",
+                "format": null
+              },
+              {
+                "jimuName": "Layer",
+                "name": "Layer",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Layer",
+                "format": null
+              },
+              {
+                "jimuName": "LyrFrzn",
+                "name": "LyrFrzn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrFrzn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrLock",
+                "name": "LyrLock",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrLock",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrOn",
+                "name": "LyrOn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrOn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrVPFrzn",
+                "name": "LyrVPFrzn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrVPFrzn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrHandle",
+                "name": "LyrHandle",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LyrHandle",
+                "format": null
+              },
+              {
+                "jimuName": "Color",
+                "name": "Color",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Color",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "EntColor",
+                "name": "EntColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "EntColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrColor",
+                "name": "LyrColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "BlkColor",
+                "name": "BlkColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "BlkColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Linetype",
+                "name": "Linetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Linetype",
+                "format": null
+              },
+              {
+                "jimuName": "EntLinetype",
+                "name": "EntLinetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "EntLinetype",
+                "format": null
+              },
+              {
+                "jimuName": "LyrLnType",
+                "name": "LyrLnType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LyrLnType",
+                "format": null
+              },
+              {
+                "jimuName": "BlkLinetype",
+                "name": "BlkLinetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BlkLinetype",
+                "format": null
+              },
+              {
+                "jimuName": "LTScale",
+                "name": "LTScale",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "LTScale",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Elevation",
+                "name": "Elevation",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Elevation",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Thickness",
+                "name": "Thickness",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Thickness",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "LineWt",
+                "name": "LineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "EntLineWt",
+                "name": "EntLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "EntLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrLineWt",
+                "name": "LyrLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "BlkLineWt",
+                "name": "BlkLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "BlkLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "RefName",
+                "name": "RefName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "RefName",
+                "format": null
+              },
+              {
+                "jimuName": "ExtX",
+                "name": "ExtX",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtX",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "ExtY",
+                "name": "ExtY",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtY",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "ExtZ",
+                "name": "ExtZ",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtZ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "DocName",
+                "name": "DocName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocName",
+                "format": null
+              },
+              {
+                "jimuName": "DocPath",
+                "name": "DocPath",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocPath",
+                "format": null
+              },
+              {
+                "jimuName": "DocType",
+                "name": "DocType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocType",
+                "format": null
+              },
+              {
+                "jimuName": "DocVer",
+                "name": "DocVer",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocVer",
+                "format": null
+              },
+              {
+                "jimuName": "DocUpdate",
+                "name": "DocUpdate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "DocUpdate",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "DocId",
+                "name": "DocId",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "DocId",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Z_Min",
+                "name": "Z_Min",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Z_Min",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Z_Max",
+                "name": "Z_Max",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Z_Max",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null
+              },
+              {
+                "jimuName": "Slope",
+                "name": "Slope",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Slope",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "ORIG_FID",
+                "name": "ORIG_FID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "ORIG_FID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Rating",
+                "name": "Rating",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Rating",
+                "format": null
+              }
+            ],
+            "groupedFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "name": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Handle",
+                "name": "Handle",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Handle",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Layer",
+                "name": "Layer",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Layer",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrFrzn",
+                "name": "LyrFrzn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrFrzn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrLock",
+                "name": "LyrLock",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrLock",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrOn",
+                "name": "LyrOn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrOn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrVPFrzn",
+                "name": "LyrVPFrzn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrVPFrzn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrHandle",
+                "name": "LyrHandle",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LyrHandle",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Color",
+                "name": "Color",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Color",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "EntColor",
+                "name": "EntColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "EntColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrColor",
+                "name": "LyrColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "BlkColor",
+                "name": "BlkColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "BlkColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Linetype",
+                "name": "Linetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Linetype",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "EntLinetype",
+                "name": "EntLinetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "EntLinetype",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrLnType",
+                "name": "LyrLnType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LyrLnType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "BlkLinetype",
+                "name": "BlkLinetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BlkLinetype",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LTScale",
+                "name": "LTScale",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "LTScale",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Elevation",
+                "name": "Elevation",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Elevation",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Thickness",
+                "name": "Thickness",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Thickness",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LineWt",
+                "name": "LineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "EntLineWt",
+                "name": "EntLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "EntLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrLineWt",
+                "name": "LyrLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "BlkLineWt",
+                "name": "BlkLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "BlkLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "RefName",
+                "name": "RefName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "RefName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ExtX",
+                "name": "ExtX",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtX",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ExtY",
+                "name": "ExtY",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtY",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ExtZ",
+                "name": "ExtZ",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtZ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocName",
+                "name": "DocName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocPath",
+                "name": "DocPath",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocPath",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocType",
+                "name": "DocType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocVer",
+                "name": "DocVer",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocVer",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocUpdate",
+                "name": "DocUpdate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "DocUpdate",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocId",
+                "name": "DocId",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "DocId",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Z_Min",
+                "name": "Z_Min",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Z_Min",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Z_Max",
+                "name": "Z_Max",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Z_Max",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Slope",
+                "name": "Slope",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Slope",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ORIG_FID",
+                "name": "ORIG_FID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "ORIG_FID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Rating",
+                "name": "Rating",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Rating",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              }
+            ],
+            "layerHonorMode": "WEBMAP"
+          },
+          {
             "id": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
             "name": "D9 Ramp Point - FS",
             "layerId": "188d5a69791-layer-85",
@@ -9824,6 +10753,11 @@
       ],
       "useDataSources": [
         {
+          "dataSourceId": "dataSource_1-1872f13409d-layer-4",
+          "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
           "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
           "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
           "rootDataSourceId": "dataSource_1"
@@ -9869,13 +10803,13 @@
           "rootDataSourceId": "dataSource_1"
         },
         {
-          "dataSourceId": "dataSource_1-1872f13409d-layer-4",
-          "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
+          "dataSourceId": "dataSource_1-1873439157e-layer-37",
+          "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
           "rootDataSourceId": "dataSource_1"
         },
         {
-          "dataSourceId": "dataSource_1-1873439157e-layer-37",
-          "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
+          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
           "rootDataSourceId": "dataSource_1"
         }
       ]
@@ -16868,6 +17802,935 @@
             "layerHonorMode": "WEBMAP"
           },
           {
+            "id": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+            "name": "D8 Ramp Point - FS",
+            "layerId": "1894afe8ee9-layer-30",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "addRecords": true,
+            "deleteRecords": true,
+            "updateGeometries": true,
+            "featureSnapping": false,
+            "showFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "name": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "format": null
+              },
+              {
+                "jimuName": "Handle",
+                "name": "Handle",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Handle",
+                "format": null
+              },
+              {
+                "jimuName": "Layer",
+                "name": "Layer",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Layer",
+                "format": null
+              },
+              {
+                "jimuName": "LyrFrzn",
+                "name": "LyrFrzn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrFrzn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrLock",
+                "name": "LyrLock",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrLock",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrOn",
+                "name": "LyrOn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrOn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrVPFrzn",
+                "name": "LyrVPFrzn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrVPFrzn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrHandle",
+                "name": "LyrHandle",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LyrHandle",
+                "format": null
+              },
+              {
+                "jimuName": "Color",
+                "name": "Color",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Color",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "EntColor",
+                "name": "EntColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "EntColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrColor",
+                "name": "LyrColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "BlkColor",
+                "name": "BlkColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "BlkColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Linetype",
+                "name": "Linetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Linetype",
+                "format": null
+              },
+              {
+                "jimuName": "EntLinetype",
+                "name": "EntLinetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "EntLinetype",
+                "format": null
+              },
+              {
+                "jimuName": "LyrLnType",
+                "name": "LyrLnType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LyrLnType",
+                "format": null
+              },
+              {
+                "jimuName": "BlkLinetype",
+                "name": "BlkLinetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BlkLinetype",
+                "format": null
+              },
+              {
+                "jimuName": "LTScale",
+                "name": "LTScale",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "LTScale",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Elevation",
+                "name": "Elevation",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Elevation",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Thickness",
+                "name": "Thickness",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Thickness",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "LineWt",
+                "name": "LineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "EntLineWt",
+                "name": "EntLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "EntLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "LyrLineWt",
+                "name": "LyrLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "BlkLineWt",
+                "name": "BlkLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "BlkLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "RefName",
+                "name": "RefName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "RefName",
+                "format": null
+              },
+              {
+                "jimuName": "ExtX",
+                "name": "ExtX",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtX",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "ExtY",
+                "name": "ExtY",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtY",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "ExtZ",
+                "name": "ExtZ",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtZ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "DocName",
+                "name": "DocName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocName",
+                "format": null
+              },
+              {
+                "jimuName": "DocPath",
+                "name": "DocPath",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocPath",
+                "format": null
+              },
+              {
+                "jimuName": "DocType",
+                "name": "DocType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocType",
+                "format": null
+              },
+              {
+                "jimuName": "DocVer",
+                "name": "DocVer",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocVer",
+                "format": null
+              },
+              {
+                "jimuName": "DocUpdate",
+                "name": "DocUpdate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "DocUpdate",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "DocId",
+                "name": "DocId",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "DocId",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Z_Min",
+                "name": "Z_Min",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Z_Min",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Z_Max",
+                "name": "Z_Max",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Z_Max",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null
+              },
+              {
+                "jimuName": "Slope",
+                "name": "Slope",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Slope",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                }
+              },
+              {
+                "jimuName": "ORIG_FID",
+                "name": "ORIG_FID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "ORIG_FID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Rating",
+                "name": "Rating",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Rating",
+                "format": null
+              }
+            ],
+            "groupedFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "name": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TWM_PROJECTSPACE.SDE.D8_Ramp_Point.Entity",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Handle",
+                "name": "Handle",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Handle",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Layer",
+                "name": "Layer",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Layer",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrFrzn",
+                "name": "LyrFrzn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrFrzn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrLock",
+                "name": "LyrLock",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrLock",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrOn",
+                "name": "LyrOn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrOn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrVPFrzn",
+                "name": "LyrVPFrzn",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrVPFrzn",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrHandle",
+                "name": "LyrHandle",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LyrHandle",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Color",
+                "name": "Color",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Color",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "EntColor",
+                "name": "EntColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "EntColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrColor",
+                "name": "LyrColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "BlkColor",
+                "name": "BlkColor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "BlkColor",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Linetype",
+                "name": "Linetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Linetype",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "EntLinetype",
+                "name": "EntLinetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "EntLinetype",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrLnType",
+                "name": "LyrLnType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LyrLnType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "BlkLinetype",
+                "name": "BlkLinetype",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BlkLinetype",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LTScale",
+                "name": "LTScale",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "LTScale",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Elevation",
+                "name": "Elevation",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Elevation",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Thickness",
+                "name": "Thickness",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Thickness",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LineWt",
+                "name": "LineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "EntLineWt",
+                "name": "EntLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "EntLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LyrLineWt",
+                "name": "LyrLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "LyrLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "BlkLineWt",
+                "name": "BlkLineWt",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "BlkLineWt",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "RefName",
+                "name": "RefName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "RefName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ExtX",
+                "name": "ExtX",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtX",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ExtY",
+                "name": "ExtY",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtY",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ExtZ",
+                "name": "ExtZ",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ExtZ",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocName",
+                "name": "DocName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocPath",
+                "name": "DocPath",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocPath",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocType",
+                "name": "DocType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocVer",
+                "name": "DocVer",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "DocVer",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocUpdate",
+                "name": "DocUpdate",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "DocUpdate",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DocId",
+                "name": "DocId",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "DocId",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Z_Min",
+                "name": "Z_Min",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Z_Min",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Z_Max",
+                "name": "Z_Max",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Z_Max",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Slope",
+                "name": "Slope",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Slope",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 2
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ORIG_FID",
+                "name": "ORIG_FID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeInteger",
+                "alias": "ORIG_FID",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Rating",
+                "name": "Rating",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Rating",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              }
+            ],
+            "layerHonorMode": "WEBMAP"
+          },
+          {
             "id": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
             "name": "D9 Ramp Point - FS",
             "layerId": "188d5a69791-layer-85",
@@ -18883,6 +20746,11 @@
       ],
       "useDataSources": [
         {
+          "dataSourceId": "dataSource_1-1872f13409d-layer-4",
+          "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
           "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
           "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
           "rootDataSourceId": "dataSource_1"
@@ -18928,13 +20796,13 @@
           "rootDataSourceId": "dataSource_1"
         },
         {
-          "dataSourceId": "dataSource_1-1872f13409d-layer-4",
-          "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
+          "dataSourceId": "dataSource_1-1873439157e-layer-37",
+          "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
           "rootDataSourceId": "dataSource_1"
         },
         {
-          "dataSourceId": "dataSource_1-1873439157e-layer-37",
-          "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
+          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
           "rootDataSourceId": "dataSource_1"
         }
       ]
@@ -19546,5 +21414,5 @@
       }
     }
   },
-  "timestamp": 1688677860722
+  "timestamp": 1689180755878
 }

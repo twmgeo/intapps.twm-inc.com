@@ -844,10 +844,33 @@
           "canCompass": false,
           "canLocate": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "layoutIndex": 1,
-        "initialMapDataSourceID": "dataSource_1",
-        "initialMapState": null
+        "initialMapDataSourceID": "dataSource_2",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 72223.81928609734,
+            "targetGeometry": {
+              "spatialReference": {
+                "wkid": 4326
+              },
+              "x": -89.62219050783621,
+              "y": 40.57362405012541
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "wkid": 4326
+            },
+            "xmin": -89.73205378908621,
+            "ymin": 40.50968018721037,
+            "xmax": -89.51232722658621,
+            "ymax": 40.63756791304045
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        }
       },
       "id": "widget_37",
       "layouts": {
@@ -857,8 +880,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1",
-          "mainDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2",
+          "mainDataSourceId": "dataSource_2"
         }
       ]
     },
@@ -1223,13 +1246,13 @@
       "config": {
         "layersConfig": [
           {
-            "id": "dataSource_1-1872f13409d-layer-4",
+            "id": "dataSource_2-1872f13409d-layer-4",
             "name": "Sidewalk Rating",
             "layerId": "1872f13409d-layer-4",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-1872f13409d-layer-4",
-              "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-1872f13409d-layer-4",
+              "mainDataSourceId": "dataSource_2-1872f13409d-layer-4",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -1324,13 +1347,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-1899d441a3c-layer-36",
+            "id": "dataSource_2-1899d441a3c-layer-36",
             "name": "Crosswalk_Point",
             "layerId": "1899d441a3c-layer-36",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-1899d441a3c-layer-36",
-              "mainDataSourceId": "dataSource_1-1899d441a3c-layer-36",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-1899d441a3c-layer-36",
+              "mainDataSourceId": "dataSource_2-1899d441a3c-layer-36",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -1431,13 +1454,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
+            "id": "dataSource_2-188c5cb056a-layer-67-188d5a7e106-layer-87",
             "name": "D1 Ramp Point - FS",
             "layerId": "188d5a7e106-layer-87",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a7e106-layer-87",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a7e106-layer-87",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -2373,13 +2396,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188d5a882da-layer-88",
+            "id": "dataSource_2-188c5cb056a-layer-67-188d5a882da-layer-88",
             "name": "D2 Ramp Point - FS",
             "layerId": "188d5a882da-layer-88",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a882da-layer-88",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a882da-layer-88",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a882da-layer-88",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a882da-layer-88",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -3271,13 +3294,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188e489d617-layer-23",
+            "id": "dataSource_2-188c5cb056a-layer-67-188e489d617-layer-23",
             "name": "D3 Ramp Point - FS",
             "layerId": "188e489d617-layer-23",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188e489d617-layer-23",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188e489d617-layer-23",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188e489d617-layer-23",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188e489d617-layer-23",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -4200,13 +4223,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
+            "id": "dataSource_2-188c5cb056a-layer-67-1890ce1346b-layer-25",
             "name": "D4 Ramp Point - FS",
             "layerId": "1890ce1346b-layer-25",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1890ce1346b-layer-25",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1890ce1346b-layer-25",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -5129,13 +5152,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
+            "id": "dataSource_2-188c5cb056a-layer-67-188d5a90133-layer-89",
             "name": "D5 Ramp Point - FS",
             "layerId": "188d5a90133-layer-89",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a90133-layer-89",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a90133-layer-89",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -6058,13 +6081,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-1892cbf0afc-layer-28",
+            "id": "dataSource_2-188c5cb056a-layer-67-1892cbf0afc-layer-28",
             "name": "D6 Ramp Point - FS",
             "layerId": "1892cbf0afc-layer-28",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf0afc-layer-28",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf0afc-layer-28",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf0afc-layer-28",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf0afc-layer-28",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -6987,13 +7010,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-1892cbf75ac-layer-29",
+            "id": "dataSource_2-188c5cb056a-layer-67-1892cbf75ac-layer-29",
             "name": "D7 Ramp Point - FS",
             "layerId": "1892cbf75ac-layer-29",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf75ac-layer-29",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf75ac-layer-29",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf75ac-layer-29",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf75ac-layer-29",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -7916,13 +7939,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+            "id": "dataSource_2-188c5cb056a-layer-67-1894afe8ee9-layer-30",
             "name": "D8 Ramp Point - FS",
             "layerId": "1894afe8ee9-layer-30",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -8845,13 +8868,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
+            "id": "dataSource_2-188c5cb056a-layer-67-188d5a69791-layer-85",
             "name": "D9 Ramp Point - FS",
             "layerId": "188d5a69791-layer-85",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a69791-layer-85",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a69791-layer-85",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -9774,13 +9797,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
+            "id": "dataSource_2-188c5cb056a-layer-67-188c5c75bd3-layer-63",
             "name": "D10 Ramp Point - FS",
             "layerId": "188c5c75bd3-layer-63",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188c5c75bd3-layer-63",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188c5c75bd3-layer-63",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -10703,13 +10726,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-1895b30328e-layer-33",
+            "id": "dataSource_2-188c5cb056a-layer-67-1895b30328e-layer-33",
             "name": "D11 Ramp Point - FS",
             "layerId": "1895b30328e-layer-33",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1895b30328e-layer-33",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1895b30328e-layer-33",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1895b30328e-layer-33",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1895b30328e-layer-33",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -11632,13 +11655,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-1873439157e-layer-37",
+            "id": "dataSource_2-1873439157e-layer-37",
             "name": "Sidewalk Pavement Condition",
             "layerId": "1873439157e-layer-37",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-1873439157e-layer-37",
-              "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-1873439157e-layer-37",
+              "mainDataSourceId": "dataSource_2-1873439157e-layer-37",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -11789,74 +11812,74 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-1872f13409d-layer-4",
-          "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-1872f13409d-layer-4",
+          "mainDataSourceId": "dataSource_2-1872f13409d-layer-4",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-1899d441a3c-layer-36",
-          "mainDataSourceId": "dataSource_1-1899d441a3c-layer-36",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-1899d441a3c-layer-36",
+          "mainDataSourceId": "dataSource_2-1899d441a3c-layer-36",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a7e106-layer-87",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a7e106-layer-87",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a882da-layer-88",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a882da-layer-88",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a882da-layer-88",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a882da-layer-88",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188e489d617-layer-23",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188e489d617-layer-23",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188e489d617-layer-23",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188e489d617-layer-23",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1890ce1346b-layer-25",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1890ce1346b-layer-25",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a90133-layer-89",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a90133-layer-89",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf0afc-layer-28",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf0afc-layer-28",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf0afc-layer-28",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf0afc-layer-28",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf75ac-layer-29",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf75ac-layer-29",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf75ac-layer-29",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf75ac-layer-29",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a69791-layer-85",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a69791-layer-85",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188c5c75bd3-layer-63",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188c5c75bd3-layer-63",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1895b30328e-layer-33",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1895b30328e-layer-33",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1895b30328e-layer-33",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1895b30328e-layer-33",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-1873439157e-layer-37",
-          "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-1873439157e-layer-37",
+          "mainDataSourceId": "dataSource_2-1873439157e-layer-37",
+          "rootDataSourceId": "dataSource_2"
         }
       ]
     },
@@ -11879,10 +11902,33 @@
           "canCompass": false,
           "canLocate": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "layoutIndex": 1,
-        "initialMapDataSourceID": "dataSource_1",
-        "initialMapState": null
+        "initialMapDataSourceID": "dataSource_2",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 72223.81928609734,
+            "targetGeometry": {
+              "spatialReference": {
+                "wkid": 4326
+              },
+              "x": -89.62219050783621,
+              "y": 40.57362405012542
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "wkid": 4326
+            },
+            "xmin": -89.73205378908621,
+            "ymin": 40.50968018721038,
+            "xmax": -89.51232722658621,
+            "ymax": 40.637567913040456
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        }
       },
       "id": "widget_68",
       "layouts": {
@@ -11892,8 +11938,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1",
-          "mainDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2",
+          "mainDataSourceId": "dataSource_2"
         }
       ]
     },
@@ -12262,13 +12308,13 @@
       "config": {
         "layersConfig": [
           {
-            "id": "dataSource_1-1872f13409d-layer-4",
+            "id": "dataSource_2-1872f13409d-layer-4",
             "name": "Sidewalk Rating",
             "layerId": "1872f13409d-layer-4",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-1872f13409d-layer-4",
-              "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-1872f13409d-layer-4",
+              "mainDataSourceId": "dataSource_2-1872f13409d-layer-4",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -12363,13 +12409,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-1899d441a3c-layer-36",
+            "id": "dataSource_2-1899d441a3c-layer-36",
             "name": "Crosswalk_Point",
             "layerId": "1899d441a3c-layer-36",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-1899d441a3c-layer-36",
-              "mainDataSourceId": "dataSource_1-1899d441a3c-layer-36",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-1899d441a3c-layer-36",
+              "mainDataSourceId": "dataSource_2-1899d441a3c-layer-36",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -12470,13 +12516,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
+            "id": "dataSource_2-188c5cb056a-layer-67-188d5a7e106-layer-87",
             "name": "D1 Ramp Point - FS",
             "layerId": "188d5a7e106-layer-87",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a7e106-layer-87",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a7e106-layer-87",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -13412,13 +13458,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188d5a882da-layer-88",
+            "id": "dataSource_2-188c5cb056a-layer-67-188d5a882da-layer-88",
             "name": "D2 Ramp Point - FS",
             "layerId": "188d5a882da-layer-88",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a882da-layer-88",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a882da-layer-88",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a882da-layer-88",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a882da-layer-88",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -14310,13 +14356,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188e489d617-layer-23",
+            "id": "dataSource_2-188c5cb056a-layer-67-188e489d617-layer-23",
             "name": "D3 Ramp Point - FS",
             "layerId": "188e489d617-layer-23",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188e489d617-layer-23",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188e489d617-layer-23",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188e489d617-layer-23",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188e489d617-layer-23",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -15239,13 +15285,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
+            "id": "dataSource_2-188c5cb056a-layer-67-1890ce1346b-layer-25",
             "name": "D4 Ramp Point - FS",
             "layerId": "1890ce1346b-layer-25",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1890ce1346b-layer-25",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1890ce1346b-layer-25",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -16168,13 +16214,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
+            "id": "dataSource_2-188c5cb056a-layer-67-188d5a90133-layer-89",
             "name": "D5 Ramp Point - FS",
             "layerId": "188d5a90133-layer-89",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a90133-layer-89",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a90133-layer-89",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -17097,13 +17143,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-1892cbf0afc-layer-28",
+            "id": "dataSource_2-188c5cb056a-layer-67-1892cbf0afc-layer-28",
             "name": "D6 Ramp Point - FS",
             "layerId": "1892cbf0afc-layer-28",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf0afc-layer-28",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf0afc-layer-28",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf0afc-layer-28",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf0afc-layer-28",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -18026,13 +18072,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-1892cbf75ac-layer-29",
+            "id": "dataSource_2-188c5cb056a-layer-67-1892cbf75ac-layer-29",
             "name": "D7 Ramp Point - FS",
             "layerId": "1892cbf75ac-layer-29",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf75ac-layer-29",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf75ac-layer-29",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf75ac-layer-29",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf75ac-layer-29",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -18955,13 +19001,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+            "id": "dataSource_2-188c5cb056a-layer-67-1894afe8ee9-layer-30",
             "name": "D8 Ramp Point - FS",
             "layerId": "1894afe8ee9-layer-30",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -19884,13 +19930,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
+            "id": "dataSource_2-188c5cb056a-layer-67-188d5a69791-layer-85",
             "name": "D9 Ramp Point - FS",
             "layerId": "188d5a69791-layer-85",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a69791-layer-85",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a69791-layer-85",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -20813,13 +20859,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
+            "id": "dataSource_2-188c5cb056a-layer-67-188c5c75bd3-layer-63",
             "name": "D10 Ramp Point - FS",
             "layerId": "188c5c75bd3-layer-63",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188c5c75bd3-layer-63",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188c5c75bd3-layer-63",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -21742,13 +21788,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-188c5cb056a-layer-67-1895b30328e-layer-33",
+            "id": "dataSource_2-188c5cb056a-layer-67-1895b30328e-layer-33",
             "name": "D11 Ramp Point - FS",
             "layerId": "1895b30328e-layer-33",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1895b30328e-layer-33",
-              "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1895b30328e-layer-33",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1895b30328e-layer-33",
+              "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1895b30328e-layer-33",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -22671,13 +22717,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-1873439157e-layer-37",
+            "id": "dataSource_2-1873439157e-layer-37",
             "name": "Sidewalk Pavement Condition",
             "layerId": "1873439157e-layer-37",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-1873439157e-layer-37",
-              "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-1873439157e-layer-37",
+              "mainDataSourceId": "dataSource_2-1873439157e-layer-37",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
             "deleteRecords": true,
@@ -22828,74 +22874,74 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-1872f13409d-layer-4",
-          "mainDataSourceId": "dataSource_1-1872f13409d-layer-4",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-1872f13409d-layer-4",
+          "mainDataSourceId": "dataSource_2-1872f13409d-layer-4",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-1899d441a3c-layer-36",
-          "mainDataSourceId": "dataSource_1-1899d441a3c-layer-36",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-1899d441a3c-layer-36",
+          "mainDataSourceId": "dataSource_2-1899d441a3c-layer-36",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a7e106-layer-87",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a7e106-layer-87",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a7e106-layer-87",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a882da-layer-88",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a882da-layer-88",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a882da-layer-88",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a882da-layer-88",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188e489d617-layer-23",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188e489d617-layer-23",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188e489d617-layer-23",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188e489d617-layer-23",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1890ce1346b-layer-25",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1890ce1346b-layer-25",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1890ce1346b-layer-25",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a90133-layer-89",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a90133-layer-89",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a90133-layer-89",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf0afc-layer-28",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf0afc-layer-28",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf0afc-layer-28",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf0afc-layer-28",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf75ac-layer-29",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1892cbf75ac-layer-29",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf75ac-layer-29",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1892cbf75ac-layer-29",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1894afe8ee9-layer-30",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1894afe8ee9-layer-30",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188d5a69791-layer-85",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a69791-layer-85",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188d5a69791-layer-85",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-188c5c75bd3-layer-63",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-188c5c75bd3-layer-63",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-188c5c75bd3-layer-63",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-188c5cb056a-layer-67-1895b30328e-layer-33",
-          "mainDataSourceId": "dataSource_1-188c5cb056a-layer-67-1895b30328e-layer-33",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-188c5cb056a-layer-67-1895b30328e-layer-33",
+          "mainDataSourceId": "dataSource_2-188c5cb056a-layer-67-1895b30328e-layer-33",
+          "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_1-1873439157e-layer-37",
-          "mainDataSourceId": "dataSource_1-1873439157e-layer-37",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-1873439157e-layer-37",
+          "mainDataSourceId": "dataSource_2-1873439157e-layer-37",
+          "rootDataSourceId": "dataSource_2"
         }
       ]
     },
@@ -22905,7 +22951,7 @@
       "label": "Elevation Profile",
       "config": {
         "useMapWidget": true,
-        "activeDataSource": "dataSource_1",
+        "activeDataSource": "dataSource_2",
         "generalSettings": {
           "isSelectToolActive": false,
           "isDrawToolActive": true,
@@ -22915,11 +22961,11 @@
           "buttonStyle": "ICONTEXT"
         },
         "configInfo": {
-          "dataSource_1": {
+          "dataSource_2": {
             "profileChartSettings": {
               "isCustomElevationLayer": true,
               "elevationLayerURL": "https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer",
-              "linearUnit": "",
+              "linearUnit": "feet",
               "elevationUnit": "",
               "displayStatistics": true,
               "selectedStatistics": [
@@ -22977,11 +23023,11 @@
               "groundColor": "#b54900",
               "graphicsHighlightColor": "#00ffff"
             },
-            "advanceOptions": true,
+            "advanceOptions": false,
             "profileSettings": {
               "layers": [
                 {
-                  "layerId": "dataSource_1-1872f13409d-layer-4",
+                  "layerId": "dataSource_2-1872f13409d-layer-4",
                   "elevationSettings": {
                     "type": "no elevation",
                     "unit": "feet",
@@ -22995,12 +23041,12 @@
                   },
                   "style": {
                     "lineType": "solid-line",
-                    "lineColor": "#59f521",
+                    "lineColor": "#ee27c9",
                     "lineThickness": 3
                   }
                 },
                 {
-                  "layerId": "dataSource_1-1873439157e-layer-37",
+                  "layerId": "dataSource_2-1873439157e-layer-37",
                   "elevationSettings": {
                     "type": "no elevation",
                     "unit": "feet",
@@ -23014,12 +23060,12 @@
                   },
                   "style": {
                     "lineType": "solid-line",
-                    "lineColor": "#5ac179",
+                    "lineColor": "#386482",
                     "lineThickness": 3
                   }
                 },
                 {
-                  "layerId": "dataSource_1-188df3bf520-layer-20-188df3ae4b0-layer-16",
+                  "layerId": "dataSource_2-188df3bf520-layer-20-188df3ae4b0-layer-16",
                   "elevationSettings": {
                     "type": "no elevation",
                     "unit": "feet",
@@ -23033,7 +23079,7 @@
                   },
                   "style": {
                     "lineType": "solid-line",
-                    "lineColor": "#bf95c4",
+                    "lineColor": "#623253",
                     "lineThickness": 3
                   }
                 }
@@ -23222,8 +23268,8 @@
       },
       "geometryType": "esriGeometryPoint"
     },
-    "dataSource_1": {
-      "id": "dataSource_1",
+    "dataSource_2": {
+      "id": "dataSource_2",
       "type": "WEB_MAP",
       "sourceLabel": "200230 Combined Districts",
       "itemId": "63bc54ccfdf8478f8080ae4bbda389b1",
@@ -23506,5 +23552,5 @@
       }
     }
   },
-  "timestamp": 1690561721133
+  "timestamp": 1690564945569
 }

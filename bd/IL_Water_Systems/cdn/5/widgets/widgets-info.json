@@ -6621,6 +6621,95 @@
     "group": 9
   },
   {
+    "name": "my-first-widget",
+    "manifest": {
+      "name": "my-first-widget",
+      "label": "My First Widget",
+      "type": "widget",
+      "version": "1.9.0",
+      "exbVersion": "1.9.0",
+      "dependency": "jimu-arcgis",
+      "author": "Jeff Haack",
+      "description": "This is a barebones, simple widget. It includes an example of how to use the config file, and it includes a placeholder SVG icon. It intentionally does not include the following so you can use this to start from scratch: i18n translations, a Settings panel, unit tests. See the documentation for more information on how to implement these features.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 400,
+        "height": 200
+      }
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/my-first-widget/",
+    "icon": "widgets/my-first-widget/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "add-layers-to-map",
+    "manifest": {
+      "name": "add-layers-to-map",
+      "label": "add-layers-to-map",
+      "type": "widget",
+      "version": "1.9.0",
+      "dependency": "jimu-arcgis",
+      "exbVersion": "1.9.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "Tutorial: https://developers.arcgis.com/experience-builder/guide/add-layers-to-a-map/",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {},
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 800,
+        "height": 500
+      }
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/add-layers-to-map/",
+    "icon": "widgets/add-layers-to-map/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "control-the-widget-state",
+    "manifest": {
+      "name": "control-the-widget-state",
+      "label": "Control the Widget State",
+      "type": "widget",
+      "version": "1.9.0",
+      "exbVersion": "1.9.0",
+      "author": "Esri R&D Center Beijing",
+      "description": "This widgets demonstrates the ability to control the widget state of another widget.",
+      "copyright": "",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0",
+      "properties": {
+        "hasSettingPage": false,
+        "hasConfig": false
+      },
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 300,
+        "height": 300
+      }
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/control-the-widget-state/",
+    "icon": "widgets/control-the-widget-state/icon.svg",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "google-street-view",
     "manifest": {
       "name": "google-street-view",
@@ -6883,10 +6972,6 @@
       "description": "This extends ESRI's text widget to include a Copy Text button in UI",
       "copyright": "",
       "license": "http://www.apache.org/licenses/LICENSE-2.0",
-      "dependency": [
-        "https://unpkg.com/@popperjs/core@2",
-        "https://unpkg.com/tippy.js@6"
-      ],
       "defaultSize": {
         "width": 250,
         "height": 100

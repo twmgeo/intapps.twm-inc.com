@@ -169,10 +169,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
-            "top": "40.00px",
-            "bottom": "0%",
+            "top": "40px",
+            "bottom": "0.0%",
             "width": "100.0%",
-            "height": "100%"
+            "height": "94.6%"
           },
           "widgetId": "widget_10",
           "setting": {
@@ -186,7 +186,8 @@
             },
             "hCenter": false,
             "vCenter": false
-          }
+          },
+          "isPending": false
         }
       }
     },
@@ -445,38 +446,15 @@
             "vCenter": false
           },
           "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "290.00px",
-            "bottom": "380.00px",
-            "width": "100%",
-            "height": "40.00px"
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "270px",
+            "bottom": "360px",
+            "width": "100.0%",
+            "height": "40px"
           },
-          "widgetId": "widget_15"
-        },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "10px",
-            "right": "10px",
-            "top": "336.00px",
-            "bottom": "54.00px",
-            "width": "95.2%",
-            "height": "320.00px"
-          },
-          "widgetId": "widget_21",
-          "setting": {
-            "autoProps": {
-              "left": false,
-              "right": false,
-              "top": false,
-              "bottom": true,
-              "width": "STRETCH",
-              "height": "AUTO"
-            },
-            "hCenter": false,
-            "vCenter": false
-          }
+          "widgetId": "widget_15",
+          "isPending": false
         },
         "3": {
           "type": "WIDGET",
@@ -523,13 +501,36 @@
             "height": "280px"
           },
           "widgetId": "widget_25"
+        },
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "2.6%",
+            "right": "3.2%",
+            "top": "46.1%",
+            "bottom": "7.4%",
+            "width": "94.2%",
+            "height": "46.5%"
+          },
+          "widgetId": "widget_28",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
       },
       "order": [
         "0",
-        "1",
         "3",
-        "4"
+        "4",
+        "5"
       ]
     },
     "layout_14": {
@@ -744,7 +745,7 @@
         "direction": "HORIZONTAL",
         "collapseSide": "FIRST",
         "overlay": false,
-        "size": "400px",
+        "size": "357px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -1053,7 +1054,7 @@
         "direction": "HORIZONTAL",
         "collapseSide": "SECOND",
         "overlay": false,
-        "size": "460px",
+        "size": "374px",
         "divider": {
           "visible": true,
           "lineStyle": {
@@ -1153,10 +1154,36 @@
           "canHome": true,
           "canSearch": true,
           "canNavigation": true,
-          "canBaseMap": true
+          "canBaseMap": true,
+          "canLayers": true
         },
-        "isUseCustomMapState": false,
-        "disablePopUp": true
+        "isUseCustomMapState": true,
+        "disablePopUp": true,
+        "initialMapDataSourceID": "dataSource_1",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 9244648.868618,
+            "targetGeometry": {
+              "spatialReference": {
+                "wkid": 102100
+              },
+              "x": -9936314.920596454,
+              "y": 4833363.076068957
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "wkid": 102100
+            },
+            "xmin": -10398606.067665078,
+            "ymin": 4015181.125304648,
+            "xmax": -9474023.77352783,
+            "ymax": 5651545.026833266
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        }
       },
       "id": "widget_8",
       "layouts": {
@@ -1192,7 +1219,15 @@
             "url": ""
           }
         }
-      }
+      },
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+          "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
     },
     "widget_10": {
       "uri": "widgets/common/list/",
@@ -1278,7 +1313,7 @@
                 }
               }
             },
-            "selectionMode": "SINGLE",
+            "selectionMode": "MULTIPLE",
             "listLayout": "Auto"
           }
         },
@@ -1286,13 +1321,45 @@
           "id": "default"
         },
         "isCheckEmptyTemplate": false,
-        "searchFields": "Contact_Email,Contact_Name,Contact_Phone,Notes,Primary_Source_Water_Type,Principal_County_Served,Water_System_ID,Water_System_Name",
         "filters": null,
         "isShowAutoRefresh": false,
         "layoutType": "ROW",
         "keepAspectRatio": false,
         "searchOpen": true,
-        "filterOpen": false
+        "filterOpen": false,
+        "noDataMessage": "",
+        "sqlExprObj": null,
+        "sortFields": null,
+        "sorts": [
+          {
+            "ruleOptionName": "Option0",
+            "isEditOptionName": false,
+            "rule": [
+              {
+                "jimuFieldName": "",
+                "order": "ASC"
+              }
+            ]
+          }
+        ],
+        "sortOpen": false,
+        "linkParam": {
+          "linkType": "WEB_ADDRESS",
+          "openType": "_blank",
+          "value": "",
+          "expression": {
+            "name": "{DFR URL}",
+            "parts": [
+              {
+                "type": "FIELD",
+                "exp": "{DFR URL}",
+                "dataSourceId": "dataSource_1-18b6342d192-layer-8-selection",
+                "jimuFieldName": "DFR_URL",
+                "isFromRepeatedDataSourceContext": false
+              }
+            ]
+          }
+        }
       },
       "id": "widget_10",
       "layouts": {
@@ -1367,6 +1434,26 @@
                 "style": "esriSFSSolid"
               }
             }
+          },
+          "actions": {
+            "widget_8": {
+              "enabled": true
+            }
+          }
+        },
+        "zoomToFeature": {
+          "actions": {
+            "widget_8": {
+              "enabled": true
+            }
+          },
+          "enabled": true
+        },
+        "panTo": {
+          "actions": {
+            "widget_8": {
+              "enabled": true
+            }
           }
         }
       },
@@ -1382,29 +1469,23 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+          "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
           "rootDataSourceId": "dataSource_1",
           "fields": [
-            "Contact_Email",
-            "Contact_Name",
-            "Contact_Phone",
-            "Notes",
-            "Primary_Source_Water_Type",
-            "Principal_County_Served",
-            "Water_System_ID",
-            "Water_System_Name"
+            "DFR_URL"
           ]
         }
       ],
-      "enableDataAction": true
+      "enableDataAction": true,
+      "outputDataSources": []
     },
     "widget_12": {
       "uri": "widgets/common/text/",
       "version": "1.10.0",
       "label": "Text",
       "config": {
-        "text": "<p><strong><exp data-uniqueid=\"6848092b_941d_945c_9aed_9624c018e5d7\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4%22%2C%22jimuFieldName%22%3A%22Water_System_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Water System Name}</span>﻿</exp>  - <exp data-uniqueid=\"1b6e8e7a_675c_bda6_6562_b2328fab80bc\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4%22%2C%22jimuFieldName%22%3A%22Water_System_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Water System ID}</span>﻿</exp>  </strong></p><p>Principal County Served: <exp data-uniqueid=\"e7c06513_b92d_4f42_2d1a_68a91eeff141\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4%22%2C%22jimuFieldName%22%3A%22Principal_County_Served%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Principal County Served}</span>﻿</exp>  </p><p>Type: <exp data-uniqueid=\"ba0c11e9_77b5_7032_e55a_22db5ed9aafe\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BType%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BType%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4%22%2C%22jimuFieldName%22%3A%22Type%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Type}</span>﻿</exp>      Status: <exp data-uniqueid=\"2bc6f31b_9cf5_4c2c_f627_c873df433439\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BStatus%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BStatus%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4%22%2C%22jimuFieldName%22%3A%22Status%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Status}</span>﻿</exp> </p>",
+        "text": "<p><strong><exp data-uniqueid=\"e7c15df5_62a4_7112_2e6d_299c794bdf63\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8%22%2C%22jimuFieldName%22%3A%22Water_System_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Water System Name}﻿</span>﻿</exp>   - <exp data-uniqueid=\"a80331b8_b473_f0c5_255a_a1d91d7a2970\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8%22%2C%22jimuFieldName%22%3A%22Water_System_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Water System ID}﻿</span>﻿</exp>   </strong></p><p>Principal County Served: <exp data-uniqueid=\"7176562a_7228_7ae0_85ae_9b1a7dd1bc4c\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8%22%2C%22jimuFieldName%22%3A%22Principal_County_Served%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Principal County Served}﻿</span>﻿</exp>   </p><p>Type: <exp data-uniqueid=\"33a94a77_9025_6518_2e3f_8ae562dfc3f2\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BType%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BType%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8%22%2C%22jimuFieldName%22%3A%22Type%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Type}﻿</span>﻿</exp>      TWM Status: <strong><exp data-uniqueid=\"264a3524_6b7b_f17c_2cc5_b85ce4a16e38\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BTWM_Status%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTWM_Status%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8%22%2C%22jimuFieldName%22%3A%22TWM_Status%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{TWM_Status}﻿</span>﻿</exp></strong>  </p>",
         "placeholder": "<p><span style=\"font-size: 16px;color: var(--dark-800);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
@@ -1417,15 +1498,15 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+          "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "Water_System_Name",
             "Water_System_ID",
             "Principal_County_Served",
             "Type",
-            "Status"
+            "TWM_Status"
           ]
         }
       ]
@@ -1613,12 +1694,12 @@
       "config": {
         "layersConfig": [
           {
-            "id": "dataSource_1-186c6f8623f-layer-4",
+            "id": "dataSource_1-18b6342d192-layer-8",
             "name": "IL_Water_Systems_Curated",
-            "layerId": "186c6f8623f-layer-4",
+            "layerId": "18b6342d192-layer-8",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+              "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
               "rootDataSourceId": "dataSource_1"
             },
             "addRecords": true,
@@ -1773,6 +1854,14 @@
                 "esriType": "esriFieldTypeString",
                 "alias": "DFR URL",
                 "format": null
+              },
+              {
+                "jimuName": "TWM_Status",
+                "name": "TWM_Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TWM_Status",
+                "format": null
               }
             ],
             "groupedFields": [
@@ -1789,6 +1878,17 @@
                 "editAuthority": false,
                 "subDescription": "",
                 "editable": false
+              },
+              {
+                "jimuName": "TWM_Status",
+                "name": "TWM_Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TWM_Status",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
               },
               {
                 "jimuName": "Water_System_ID",
@@ -1976,7 +2076,7 @@
                 "editable": true
               }
             ],
-            "layerHonorMode": "WEBMAP"
+            "layerHonorMode": "CUSTOM"
           }
         ],
         "editMode": "GEOMETRY",
@@ -1991,8 +2091,8 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+          "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
           "rootDataSourceId": "dataSource_1"
         }
       ]
@@ -2010,44 +2110,6 @@
         }
       },
       "id": "widget_20"
-    },
-    "widget_21": {
-      "uri": "widgets/common/text/",
-      "version": "1.10.0",
-      "label": "Info Summary (text)",
-      "config": {
-        "text": "<p><strong><exp data-uniqueid=\"826056fe_84c8_3783_4cb6_eb2a95053121\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Water_System_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Water System Name}﻿</span>﻿</exp>  - <exp data-uniqueid=\"868e9002_0559_6fc8_f7c1_e7b7a7f487f9\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Water_System_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Water System ID}﻿</span>﻿</exp>  </strong></p><p><br></p><p><strong>Contact Name:</strong> <exp data-uniqueid=\"f6717055_2fae_2f13_5086_116ea7bec751\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Contact_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Contact Name}﻿</span>﻿</exp>  </p><p><strong>Contact Position:</strong> <exp data-uniqueid=\"4fa53572_4b9d_fffe_c9ed_f365a1040c71\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Position%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Position%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Contact_Position%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Contact Position}﻿</span>﻿</exp>   </p><p><strong>Email:</strong> <exp data-uniqueid=\"4b0ce4ff_6524_f8d6_1ad7_e60e5696312d\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Email%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Email%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Contact_Email%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Contact Email}﻿</span>﻿</exp>  </p><p><strong>Phone:</strong> <exp data-uniqueid=\"7ed11a3d_4992_37d9_d68b_dd7720b23cb7\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Phone%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Phone%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Contact_Phone%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Contact Phone}﻿</span>﻿</exp>  </p><p><strong>Date of Last Contact :</strong> <exp data-uniqueid=\"af69790b_b65b_1035_4d5d_e9dd429e46a0\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BDate%20of%20Last%20Contact%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20of%20Last%20Contact%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Date_of_Last_Contact%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Date of Last Contact}﻿</span>﻿</exp>   </p><p><strong>Notes:</strong> <exp data-uniqueid=\"47763522_626f_e008_ab1b_1e2aecb54583\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BNotes%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNotes%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Notes%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Notes}﻿</span>﻿</exp>   </p><p><br></p><p><strong>Type:</strong> <exp data-uniqueid=\"e7dc9555_3691_febb_d3b2_5c61e1de6141\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BType%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BType%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Type%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Type}﻿</span>﻿</exp>  </p><p><strong>Status:</strong> <exp data-uniqueid=\"5d7275b8_fb8c_82da_9628_83a5211827d6\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BStatus%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BStatus%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Status%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Status}﻿</span>﻿</exp>  </p><p><strong>Principal County Served:</strong> <exp data-uniqueid=\"a1b9f5d6_2852_c9ec_4322_aeb021778f1b\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Principal_County_Served%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Principal County Served}﻿</span>﻿</exp>  </p><p><strong>Primary Source Water Type:</strong> <exp data-uniqueid=\"303fca1b_1ae4_01f2_d5fc_f7e52535c4d7\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BPrimary%20Source%20Water%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPrimary%20Source%20Water%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Primary_Source_Water_Type%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Primary Source Water Type}﻿</span>﻿</exp>  </p><p><strong>Population Served:</strong> <exp data-uniqueid=\"4f9738f1_37c9_69d0_0546_d902e26723cf\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BPopulation%20Served%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPopulation%20Served%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Population_Served%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Population Served}﻿</span>﻿</exp>  </p><p><strong>Service Connection:</strong> <exp data-uniqueid=\"b39ea8d7_d642_37a0_b990_88dbff68b063\" data-dsid=\"dataSource_1-186c6f8623f-layer-4\" data-expression=\"%7B%22name%22%3A%22%7BService%20Connection%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BService%20Connection%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-186c6f8623f-layer-4-selection%22%2C%22jimuFieldName%22%3A%22Service_Connection%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Service Connection}﻿</span>﻿</exp>  </p>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_21",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "Water_System_Name",
-            "Water_System_ID",
-            "Contact_Name",
-            "Contact_Position",
-            "Contact_Email",
-            "Contact_Phone",
-            "Date_of_Last_Contact",
-            "Notes",
-            "Type",
-            "Status",
-            "Principal_County_Served",
-            "Primary_Source_Water_Type",
-            "Population_Served",
-            "Service_Connection"
-          ]
-        }
-      ],
-      "useDataSourcesEnabled": true
     },
     "widget_23": {
       "uri": "widgets/common/button/",
@@ -2083,7 +2145,7 @@
                 {
                   "type": "FIELD",
                   "exp": "{DFR URL}",
-                  "dataSourceId": "dataSource_1-186c6f8623f-layer-4-selection",
+                  "dataSourceId": "dataSource_1-18b6342d192-layer-8-selection",
                   "jimuFieldName": "DFR_URL",
                   "isFromRepeatedDataSourceContext": false
                 }
@@ -2155,8 +2217,8 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+          "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "DFR_URL"
@@ -2193,10 +2255,10 @@
                 "size": 14
               }
             },
-            "name": "Filter by Type",
+            "name": "Water Source Type",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+              "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
               "rootDataSourceId": "dataSource_1",
               "fields": [
                 "Primary_Source_Water_Type"
@@ -2211,56 +2273,13 @@
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "UNIQUE_PREDEFINED",
-                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
-                    "value": [
-                      {
-                        "value": "-empty-",
-                        "label": null,
-                        "alias": null,
-                        "selected": true
-                      },
-                      {
-                        "value": "GU",
-                        "label": "GU",
-                        "alias": "GU",
-                        "selected": false
-                      },
-                      {
-                        "value": "GUP",
-                        "label": "GUP",
-                        "alias": "GUP",
-                        "selected": false
-                      },
-                      {
-                        "value": "GW",
-                        "label": "GW",
-                        "alias": "GW",
-                        "selected": false
-                      },
-                      {
-                        "value": "GWP",
-                        "label": "GWP",
-                        "alias": "GWP",
-                        "selected": false
-                      },
-                      {
-                        "value": "SW",
-                        "label": "SW",
-                        "alias": "SW",
-                        "selected": false
-                      },
-                      {
-                        "value": "SWP",
-                        "label": "SWP",
-                        "alias": "SWP",
-                        "selected": false
-                      }
-                    ]
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": null
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": null,
+                    "label": "(Primary Source Water Type = ?)",
                     "display": "BLOCK",
                     "hint": "",
                     "cascade": "NONE"
@@ -2272,7 +2291,7 @@
               "sql": "",
               "displaySQL": "(Primary Source Water Type = ?)"
             },
-            "autoApplyWhenWidgetOpen": true,
+            "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
           }
         ]
@@ -2280,8 +2299,8 @@
       "id": "widget_24",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+          "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "Primary_Source_Water_Type"
@@ -2303,7 +2322,7 @@
     "widget_26": {
       "uri": "widgets/common/filter/",
       "version": "1.10.0",
-      "label": "Filter 2",
+      "label": "County Served",
       "config": {
         "groupByLayer": false,
         "logicalOperator": "AND",
@@ -2329,10 +2348,10 @@
                 "size": 14
               }
             },
-            "name": "Filter by County",
+            "name": "County Served",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+              "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
               "rootDataSourceId": "dataSource_1",
               "fields": [
                 "Principal_County_Served"
@@ -2347,146 +2366,13 @@
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "UNIQUE_PREDEFINED",
-                    "inputEditor": "UNIQUE_PREDEFINED_SELECTOR",
-                    "value": [
-                      {
-                        "value": "-empty-",
-                        "label": null,
-                        "alias": null,
-                        "selected": true
-                      },
-                      {
-                        "value": "BOND  ",
-                        "label": "BOND  ",
-                        "alias": "BOND  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "CLAY  ",
-                        "label": "CLAY  ",
-                        "alias": "CLAY  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "CLINTON  ",
-                        "label": "CLINTON  ",
-                        "alias": "CLINTON  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "EFFINGHAM  ",
-                        "label": "EFFINGHAM  ",
-                        "alias": "EFFINGHAM  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "FAYETTE  ",
-                        "label": "FAYETTE  ",
-                        "alias": "FAYETTE  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "FULTON  ",
-                        "label": "FULTON  ",
-                        "alias": "FULTON  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "JERSEY  ",
-                        "label": "JERSEY  ",
-                        "alias": "JERSEY  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "KNOX  ",
-                        "label": "KNOX  ",
-                        "alias": "KNOX  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "MACOUPIN  ",
-                        "label": "MACOUPIN  ",
-                        "alias": "MACOUPIN  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "MADISON  ",
-                        "label": "MADISON  ",
-                        "alias": "MADISON  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "MARION  ",
-                        "label": "MARION  ",
-                        "alias": "MARION  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "MARSHALL  ",
-                        "label": "MARSHALL  ",
-                        "alias": "MARSHALL  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "MONROE  ",
-                        "label": "MONROE  ",
-                        "alias": "MONROE  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "MONTGOMERY  ",
-                        "label": "MONTGOMERY  ",
-                        "alias": "MONTGOMERY  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "PEORIA  ",
-                        "label": "PEORIA  ",
-                        "alias": "PEORIA  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "RANDOLPH  ",
-                        "label": "RANDOLPH  ",
-                        "alias": "RANDOLPH  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "SHELBY  ",
-                        "label": "SHELBY  ",
-                        "alias": "SHELBY  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "ST CLAIR  ",
-                        "label": "ST CLAIR  ",
-                        "alias": "ST CLAIR  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "TAZEWELL  ",
-                        "label": "TAZEWELL  ",
-                        "alias": "TAZEWELL  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "WASHINGTON  ",
-                        "label": "WASHINGTON  ",
-                        "alias": "WASHINGTON  ",
-                        "selected": false
-                      },
-                      {
-                        "value": "WOODFORD  ",
-                        "label": "WOODFORD  ",
-                        "alias": "WOODFORD  ",
-                        "selected": false
-                      }
-                    ]
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": null
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": null,
+                    "label": "(Principal County Served = ?)",
                     "display": "BLOCK",
                     "hint": "",
                     "cascade": "NONE"
@@ -2498,7 +2384,7 @@
               "sql": "",
               "displaySQL": "(Principal County Served = ?)"
             },
-            "autoApplyWhenWidgetOpen": true,
+            "autoApplyWhenWidgetOpen": false,
             "collapseFilterExprs": false
           }
         ]
@@ -2506,8 +2392,8 @@
       "id": "widget_26",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-          "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+          "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+          "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "Principal_County_Served"
@@ -2537,6 +2423,45 @@
           }
         }
       }
+    },
+    "widget_28": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Text 2",
+      "config": {
+        "text": "<p><strong><exp data-uniqueid=\"8c96f8b8_2994_5157_3d47_d86d1ef0f499\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Water_System_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Water System Name}﻿﻿﻿</span>﻿</exp>   - <exp data-uniqueid=\"616173be_a893_ceb0_886b_3968f54c8034\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BWater%20System%20ID%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWater%20System%20ID%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Water_System_ID%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Water System ID}﻿﻿﻿</span>﻿</exp>   </strong></p><p><br></p><p><strong>Contact Name:</strong> <exp data-uniqueid=\"99b8ac45_18fb_6d31_75a9_2298dfc22de2\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Contact_Name%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Contact Name}﻿﻿﻿</span>﻿</exp></p><p><strong>Contact Position:</strong> <exp data-uniqueid=\"f0a7cc7a_3357_57a1_5aa1_7cad3d04ca85\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Position%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Position%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Contact_Position%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Contact Position}﻿﻿﻿</span>﻿</exp></p><p><strong>Email:</strong> <exp data-uniqueid=\"f2d7c3c4_5d60_6cdb_c179_e238fc7c2dc1\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Email%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Email%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Contact_Email%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Contact Email}﻿﻿﻿</span>﻿</exp></p><p><strong>Phone:</strong> <exp data-uniqueid=\"32725ad2_8595_e425_b8e1_0cb47433ce15\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BContact%20Phone%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BContact%20Phone%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Contact_Phone%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Contact Phone}﻿﻿﻿</span>﻿</exp></p><p><strong>Date of Last Contact :</strong> <exp data-uniqueid=\"e40eb18e_e19a_5650_6368_1e6c2ca23570\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BDate%20of%20Last%20Contact%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20of%20Last%20Contact%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Date_of_Last_Contact%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Date of Last Contact}﻿﻿﻿</span>﻿</exp></p><p><strong>Notes:</strong> <exp data-uniqueid=\"b29de446_3c38_97d1_444f_dd54cc5e575b\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BNotes%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNotes%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Notes%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Notes}﻿﻿﻿</span>﻿</exp>     </p><p><br></p><p><strong>Type:</strong> <exp data-uniqueid=\"257103f4_ccc7_6785_ef97_724fc6580cdf\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BType%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BType%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Type%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Type}﻿﻿﻿</span>﻿</exp></p><p><strong>Status:</strong> <exp data-uniqueid=\"9b053d59_54a8_cd9e_b7b3_c278c1e92b1a\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BStatus%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BStatus%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Status%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Status}﻿﻿﻿</span>﻿</exp></p><p><strong>TWM Status: <exp data-uniqueid=\"ae1e52e1_74d8_b209_c4c4_9ed3bfde93db\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BTWM_Status%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTWM_Status%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22TWM_Status%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{TWM_Status}</span>﻿</exp></strong></p><p><strong>Principal County Served:</strong> <exp data-uniqueid=\"0af9697c_49b1_9100_5b9e_6bfeac6f43e1\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPrincipal%20County%20Served%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Principal_County_Served%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Principal County Served}﻿﻿﻿</span>﻿</exp></p><p><strong>Primary Source Water Type:</strong> <exp data-uniqueid=\"d84591ca_b832_3ecf_80c0_e13a35009b87\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BPrimary%20Source%20Water%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPrimary%20Source%20Water%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Primary_Source_Water_Type%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Primary Source Water Type}﻿﻿﻿</span>﻿</exp></p><p><strong>Population Served:</strong> <exp data-uniqueid=\"0d9cfe78_7ffc_c73d_12c1_b225f4bba138\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BPopulation%20Served%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPopulation%20Served%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Population_Served%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Population Served}﻿﻿﻿</span>﻿</exp></p><p><strong>Service Connection:</strong> <exp data-uniqueid=\"1cf5cb1f_486a_6209_7e8b_fbfe2be682d8\" data-dsid=\"dataSource_1-18b6342d192-layer-8\" data-expression=\"%7B%22name%22%3A%22%7BService%20Connection%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BService%20Connection%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18b6342d192-layer-8-selection%22%2C%22jimuFieldName%22%3A%22Service_Connection%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Service Connection}﻿﻿﻿</span>﻿</exp>    </p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_28",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+          "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Water_System_Name",
+            "Water_System_ID",
+            "Contact_Name",
+            "Contact_Position",
+            "Contact_Email",
+            "Contact_Phone",
+            "Date_of_Last_Contact",
+            "Notes",
+            "Type",
+            "Status",
+            "TWM_Status",
+            "Principal_County_Served",
+            "Primary_Source_Water_Type",
+            "Population_Served",
+            "Service_Connection"
+          ]
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -2672,40 +2597,6 @@
     }
   },
   "messageConfigs": {
-    "messageConfig_2": {
-      "id": "messageConfig_2",
-      "widgetId": "widget_10",
-      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_8-zoomToFeature-1678116888729",
-          "widgetId": "widget_8",
-          "messageWidgetId": "widget_10",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-                "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
-                "rootDataSourceId": "dataSource_1"
-              }
-            ],
-            "isUseCustomZoomToOption": true,
-            "zoomToOption": {
-              "scale": 100000
-            }
-          },
-          "version": "1.10.0",
-          "useDataSources": []
-        }
-      ]
-    },
     "messageConfig_3": {
       "id": "messageConfig_3",
       "widgetId": "widget_8",
@@ -2719,8 +2610,8 @@
           "config": {
             "messageUseDataSource": null,
             "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+              "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
               "rootDataSourceId": "dataSource_1"
             },
             "sqlExprObj": null,
@@ -2730,8 +2621,8 @@
           "version": "1.10.0",
           "useDataSources": [
             {
-              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
+              "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+              "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
               "rootDataSourceId": "dataSource_1",
               "fields": []
             }
@@ -2764,19 +2655,7 @@
             "enabledDataRelationShip": true
           },
           "version": "1.10.0",
-          "useDataSources": [
-            {
-              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
-              "rootDataSourceId": "dataSource_1"
-            },
-            {
-              "dataSourceId": "dataSource_1-186c6f8623f-layer-4",
-              "mainDataSourceId": "dataSource_1-186c6f8623f-layer-4",
-              "rootDataSourceId": "dataSource_1",
-              "fields": []
-            }
-          ]
+          "useDataSources": []
         }
       ]
     },
@@ -2808,6 +2687,106 @@
             "zoomToOption": {
               "scale": 75000
             }
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_7": {
+      "id": "messageConfig_7",
+      "widgetId": "widget_26",
+      "messageType": "DATA_SOURCE_FILTER_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_8-zoomToFeature-1698179012809",
+          "widgetId": "widget_8",
+          "messageWidgetId": "widget_26",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+              "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Principal_County_Served"
+              ]
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+                "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
+                "rootDataSourceId": "dataSource_1",
+                "fields": [
+                  "Principal_County_Served"
+                ]
+              }
+            ],
+            "isUseCustomZoomToOption": false,
+            "zoomToOption": {
+              "scale": 5000
+            }
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_8": {
+      "id": "messageConfig_8",
+      "widgetId": "widget_24",
+      "messageType": "DATA_SOURCE_FILTER_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_8-zoomToFeature-1698179084989",
+          "widgetId": "widget_8",
+          "messageWidgetId": "widget_24",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+              "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+                "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
+                "rootDataSourceId": "dataSource_1"
+              }
+            ]
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_9": {
+      "id": "messageConfig_9",
+      "widgetId": "widget_10",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_8-zoomToFeature-1698239361196",
+          "widgetId": "widget_8",
+          "messageWidgetId": "widget_10",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+              "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-18b6342d192-layer-8",
+                "mainDataSourceId": "dataSource_1-18b6342d192-layer-8",
+                "rootDataSourceId": "dataSource_1"
+              }
+            ]
           },
           "version": "1.10.0",
           "useDataSources": []
@@ -2869,5 +2848,5 @@
       "index": 0
     }
   },
-  "timestamp": 1678377621795
+  "timestamp": 1698240449319
 }

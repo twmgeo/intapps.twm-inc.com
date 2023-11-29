@@ -1,0 +1,20 @@
+{
+  "1701274860593.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1701274860593.png",
+    "properties": {
+      "filename": "1701274860593.png",
+      "originalName": "noun-polygon-17101.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1701274860593.png",
+      "inlineSvg": false
+    }
+  },
+  "1701275045074.png": {
+    "svg": "${appResourceUrl}/images/icon_picker_in_setting/1701275045074.png",
+    "properties": {
+      "filename": "1701275045074.png",
+      "originalName": "noun-polygon-17101_WHITE.png",
+      "path": "${appResourceUrl}/images/icon_picker_in_setting/1701275045074.png",
+      "inlineSvg": false
+    }
+  }
+}

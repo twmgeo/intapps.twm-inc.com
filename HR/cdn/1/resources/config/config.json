@@ -1,0 +1,4148 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page",
+      "header": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_1",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_1": {
+      "type": "FIXED",
+      "label": "First",
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "7",
+        "8"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "-0.1%",
+            "right": "0.6%",
+            "top": "27.6%",
+            "bottom": "67.0%",
+            "width": "99.5%",
+            "height": "5.4%"
+          },
+          "widgetId": "widget_22",
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.6%",
+            "top": "34.7%",
+            "bottom": "47.0%",
+            "width": "99.4%",
+            "height": "18.3%"
+          },
+          "widgetId": "widget_21",
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.6%",
+            "top": "7.3%",
+            "bottom": "88.2%",
+            "width": "99.4%",
+            "height": "4.6%"
+          },
+          "widgetId": "widget_20"
+        },
+        "3": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "-0.1%",
+            "right": "0.6%",
+            "top": "0.0%",
+            "bottom": "94.6%",
+            "width": "99.5%",
+            "height": "5.4%"
+          },
+          "widgetId": "widget_23",
+          "isPending": false
+        },
+        "4": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.5%",
+            "top": "13.8%",
+            "bottom": "80.8%",
+            "width": "99.5%",
+            "height": "5.4%"
+          },
+          "widgetId": "widget_24",
+          "isPending": false
+        },
+        "5": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.6%",
+            "top": "21.1%",
+            "bottom": "74.3%",
+            "width": "99.4%",
+            "height": "4.6%"
+          },
+          "widgetId": "widget_25",
+          "isPending": false
+        },
+        "7": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.5%",
+            "top": "54.9%",
+            "bottom": "39.7%",
+            "width": "99.5%",
+            "height": "5.4%"
+          },
+          "widgetId": "widget_27",
+          "isPending": false
+        },
+        "8": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "62.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "38.0%"
+          },
+          "widgetId": "widget_29"
+        }
+      }
+    },
+    "layout_2": {
+      "type": "FIXED",
+      "label": "Second",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_7",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_5": {
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "30.00px",
+            "right": "89.2%",
+            "top": "50%",
+            "bottom": "20.0%",
+            "width": "112px",
+            "height": "48px"
+          },
+          "widgetId": "widget_4",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "right": "39.7%",
+            "top": "50%",
+            "bottom": "18.3%",
+            "width": "313px",
+            "height": "38px"
+          },
+          "widgetId": "widget_5",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": true,
+            "hCenter": true
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_6": {
+      "type": "FIXED",
+      "label": "First",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_8",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      }
+    },
+    "layout_7": {
+      "type": "FIXED",
+      "label": "Second",
+      "order": [
+        "1",
+        "0"
+      ],
+      "content": {
+        "0": {
+          "sectionId": "section_1",
+          "type": "SECTION",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0px",
+            "bottom": "65px",
+            "width": "100.0%",
+            "height": "91.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "90.1%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "65.00px"
+          },
+          "widgetId": "widget_14",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": true,
+              "bottom": false,
+              "width": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      }
+    },
+    "layout_8": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": [],
+      "content": {}
+    },
+    "layout_13": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "91.0%",
+            "width": "100.0%",
+            "height": "40px"
+          },
+          "widgetId": "widget_15"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_15": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "88.7%",
+            "width": "100%",
+            "height": "6.0%"
+          },
+          "widgetId": "widget_17"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "40.00px",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_19",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    }
+  },
+  "exbVersion": "1.10.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/ink/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "3",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.10.0",
+      "label": "Outer Layout (sidebar left)",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "337px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "iconSource": 0,
+          "icon": "LEFT",
+          "offsetX": 15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 12,
+          "width": 15,
+          "height": 60,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          }
+        },
+        "defaultState": 1,
+        "firstPanelStyle": {
+          "background": {
+            "fillType": "fit",
+            "image": {
+              "url": ""
+            }
+          }
+        },
+        "secondPanelStyle": {
+          "background": {
+            "fillType": "fit",
+            "image": {
+              "url": ""
+            }
+          }
+        }
+      },
+      "id": "widget_1",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_1"
+        },
+        "SECOND": {
+          "LARGE": "layout_2"
+        }
+      }
+    },
+    "widget_4": {
+      "uri": "widgets/common/image/",
+      "version": "1.10.0",
+      "label": "TWM Logo (image)",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_4/1678112002687.png",
+            "originalUrl": "${appResourceUrl}/images/widget_4/1678112002687.png",
+            "fileName": "1678112002687.png",
+            "originalName": "TWM_CMYK_white_buffer_xs.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1678112002687",
+            "isUseCompress": false,
+            "originalWidth": 150,
+            "originalHeight": 63
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_4"
+    },
+    "widget_5": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Title of App (text)",
+      "config": {
+        "text": "<p><span style=\"font-size: 24px; color: var(--light);\">Engineer &amp; Surveyor Search</span></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_5"
+    },
+    "widget_7": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.10.0",
+      "label": "Inner Layout (sidebar right)",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "SECOND",
+        "overlay": false,
+        "size": "335px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "iconSource": 0,
+          "icon": "RIGHT",
+          "offsetX": -15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 60,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "92px 0 0 92px"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "92px 0 0 92px"
+            }
+          }
+        },
+        "defaultState": 1,
+        "firstPanelStyle": {
+          "background": {
+            "fillType": "fit",
+            "image": {
+              "url": ""
+            }
+          }
+        },
+        "secondPanelStyle": {
+          "background": {
+            "fillType": "fit",
+            "image": {
+              "url": ""
+            }
+          }
+        }
+      },
+      "id": "widget_7",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_6"
+        },
+        "SECOND": {
+          "LARGE": "layout_7"
+        }
+      },
+      "style": {
+        "background": {
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_8": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.10.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true,
+          "canBaseMap": true
+        },
+        "isUseCustomMapState": false
+      },
+      "id": "widget_8",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_8"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_14": {
+      "uri": "widgets/common/navigator/",
+      "version": "1.10.0",
+      "label": "Right Sidebar Navigation (views navigation)",
+      "config": {
+        "data": {
+          "type": "AUTO",
+          "section": "section_1",
+          "views": [
+            "view_1",
+            "view_3"
+          ]
+        },
+        "display": {
+          "type": "nav",
+          "navStyle": "default",
+          "standard": {
+            "gap": "0px",
+            "scrollable": true,
+            "showIcon": false,
+            "showText": true,
+            "iconPosition": "start",
+            "textAlign": "center"
+          },
+          "vertical": false,
+          "advanced": true,
+          "variant": {
+            "size": {
+              "fontSize": "0.875rem",
+              "lineHeight": 1.5,
+              "paddingX": "1rem",
+              "paddingY": "0.25rem"
+            },
+            "gutter": "0.25rem",
+            "icon": {
+              "spacing": "0.5rem"
+            },
+            "root": {
+              "borderRadius": 0
+            },
+            "item": {
+              "default": {
+                "color": "#181818",
+                "bg": "transparent",
+                "border": {
+                  "width": 0
+                },
+                "borderRadius": 0,
+                "icon": {
+                  "size": "8px"
+                },
+                "size": "14px"
+              },
+              "hover": {
+                "color": "#181818",
+                "borderRadius": 0,
+                "icon": {
+                  "color": "var(--primary)",
+                  "size": "8px"
+                },
+                "size": "14px",
+                "border": {
+                  "type": "dashed",
+                  "color": "var(--dark-700)",
+                  "width": "1px"
+                }
+              },
+              "active": {
+                "color": "#181818",
+                "borderRadius": 0,
+                "icon": {
+                  "color": "var(--primary)",
+                  "size": "8px"
+                },
+                "size": "14px",
+                "border": {
+                  "type": "solid",
+                  "color": "var(--dark-700)",
+                  "width": "1px"
+                }
+              },
+              "disabled": {
+                "color": "#989898",
+                "shadow": "none",
+                "borderRadius": 0
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_14"
+    },
+    "widget_15": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Heading (text)",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"color: var(--light); font-size: 16px;\">  Details﻿</span></p>",
+        "placeholder": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">Double click to edit text</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_15",
+      "style": {
+        "background": {
+          "color": "var(--dark-400)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_17": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Heading (text)",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"color: var(--light); font-size: 16px;\">   Edit Data</span></p>",
+        "placeholder": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">Double click to edit text</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_17",
+      "style": {
+        "background": {
+          "color": "var(--dark-400)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_19": {
+      "uri": "widgets/common/edit/",
+      "version": "1.10.0",
+      "label": "Edit",
+      "config": {
+        "layersConfig": [
+          {
+            "id": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+            "name": "Surveyors",
+            "layerId": "33093af8d28046e79127cb7f71bf0fb6",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+              "mainDataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "addRecords": true,
+            "deleteRecords": true,
+            "updateGeometries": true,
+            "featureSnapping": false,
+            "showFields": [
+              {
+                "jimuName": "ObjectID",
+                "name": "ObjectID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "ObjectID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Loc_name",
+                "name": "Loc_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Loc_name",
+                "format": null
+              },
+              {
+                "jimuName": "Status",
+                "name": "Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Status",
+                "format": null
+              },
+              {
+                "jimuName": "Score",
+                "name": "Score",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Score",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                }
+              },
+              {
+                "jimuName": "Match_type",
+                "name": "Match_type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Match_type",
+                "format": null
+              },
+              {
+                "jimuName": "Match_addr",
+                "name": "Match_addr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Match_addr",
+                "format": null
+              },
+              {
+                "jimuName": "LongLabel",
+                "name": "LongLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LongLabel",
+                "format": null
+              },
+              {
+                "jimuName": "ShortLabel",
+                "name": "ShortLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "ShortLabel",
+                "format": null
+              },
+              {
+                "jimuName": "Addr_type",
+                "name": "Addr_type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Addr_type",
+                "format": null
+              },
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
+                "format": null
+              },
+              {
+                "jimuName": "PlaceName",
+                "name": "PlaceName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PlaceName",
+                "format": null
+              },
+              {
+                "jimuName": "Place_addr",
+                "name": "Place_addr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Place_addr",
+                "format": null
+              },
+              {
+                "jimuName": "Phone",
+                "name": "Phone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone",
+                "format": null
+              },
+              {
+                "jimuName": "URL",
+                "name": "URL",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "URL",
+                "format": null
+              },
+              {
+                "jimuName": "Rank",
+                "name": "Rank",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Rank",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                }
+              },
+              {
+                "jimuName": "AddBldg",
+                "name": "AddBldg",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BuildingName",
+                "format": null
+              },
+              {
+                "jimuName": "AddNum",
+                "name": "AddNum",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddressNumber",
+                "format": null
+              },
+              {
+                "jimuName": "AddNumFrom",
+                "name": "AddNumFrom",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddNumFrom",
+                "format": null
+              },
+              {
+                "jimuName": "AddNumTo",
+                "name": "AddNumTo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddNumTo",
+                "format": null
+              },
+              {
+                "jimuName": "AddRange",
+                "name": "AddRange",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddressRange",
+                "format": null
+              },
+              {
+                "jimuName": "Side",
+                "name": "Side",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Side",
+                "format": null
+              },
+              {
+                "jimuName": "StPreDir",
+                "name": "StPreDir",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StPreDir",
+                "format": null
+              },
+              {
+                "jimuName": "StPreType",
+                "name": "StPreType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StPreType",
+                "format": null
+              },
+              {
+                "jimuName": "StName",
+                "name": "StName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StName",
+                "format": null
+              },
+              {
+                "jimuName": "StType",
+                "name": "StType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StType",
+                "format": null
+              },
+              {
+                "jimuName": "StDir",
+                "name": "StDir",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StDir",
+                "format": null
+              },
+              {
+                "jimuName": "BldgType",
+                "name": "BldgType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BldgType",
+                "format": null
+              },
+              {
+                "jimuName": "BldgName",
+                "name": "BldgName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BldgName",
+                "format": null
+              },
+              {
+                "jimuName": "LevelType",
+                "name": "LevelType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LevelType",
+                "format": null
+              },
+              {
+                "jimuName": "LevelName",
+                "name": "LevelName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LevelName",
+                "format": null
+              },
+              {
+                "jimuName": "UnitType",
+                "name": "UnitType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "UnitType",
+                "format": null
+              },
+              {
+                "jimuName": "UnitName",
+                "name": "UnitName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "UnitName",
+                "format": null
+              },
+              {
+                "jimuName": "SubAddr",
+                "name": "SubAddr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "SubAddress",
+                "format": null
+              },
+              {
+                "jimuName": "StAddr",
+                "name": "StAddr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StAddr",
+                "format": null
+              },
+              {
+                "jimuName": "Block",
+                "name": "Block",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Block",
+                "format": null
+              },
+              {
+                "jimuName": "Sector",
+                "name": "Sector",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Sector",
+                "format": null
+              },
+              {
+                "jimuName": "Nbrhd",
+                "name": "Nbrhd",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Neighborhood",
+                "format": null
+              },
+              {
+                "jimuName": "District",
+                "name": "District",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "District",
+                "format": null
+              },
+              {
+                "jimuName": "City",
+                "name": "City",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "City",
+                "format": null
+              },
+              {
+                "jimuName": "MetroArea",
+                "name": "MetroArea",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "MetroArea",
+                "format": null
+              },
+              {
+                "jimuName": "Subregion",
+                "name": "Subregion",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Subregion",
+                "format": null
+              },
+              {
+                "jimuName": "Region",
+                "name": "Region",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Region",
+                "format": null
+              },
+              {
+                "jimuName": "RegionAbbr",
+                "name": "RegionAbbr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "RegionAbbr",
+                "format": null
+              },
+              {
+                "jimuName": "Territory",
+                "name": "Territory",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Territory",
+                "format": null
+              },
+              {
+                "jimuName": "Zone",
+                "name": "Zone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Zone",
+                "format": null
+              },
+              {
+                "jimuName": "Postal",
+                "name": "Postal",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Postal",
+                "format": null
+              },
+              {
+                "jimuName": "PostalExt",
+                "name": "PostalExt",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PostalExt",
+                "format": null
+              },
+              {
+                "jimuName": "Country",
+                "name": "Country",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Country",
+                "format": null
+              },
+              {
+                "jimuName": "LangCode",
+                "name": "LangCode",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LangCode",
+                "format": null
+              },
+              {
+                "jimuName": "Distance",
+                "name": "Distance",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Distance",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                }
+              }
+            ],
+            "groupedFields": [
+              {
+                "jimuName": "ObjectID",
+                "name": "ObjectID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "ObjectID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "Loc_name",
+                "name": "Loc_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Loc_name",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Status",
+                "name": "Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Status",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Score",
+                "name": "Score",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Score",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Match_type",
+                "name": "Match_type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Match_type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Match_addr",
+                "name": "Match_addr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Match_addr",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LongLabel",
+                "name": "LongLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LongLabel",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ShortLabel",
+                "name": "ShortLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "ShortLabel",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Addr_type",
+                "name": "Addr_type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Addr_type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "PlaceName",
+                "name": "PlaceName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PlaceName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Place_addr",
+                "name": "Place_addr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Place_addr",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Phone",
+                "name": "Phone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "URL",
+                "name": "URL",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "URL",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Rank",
+                "name": "Rank",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Rank",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "AddBldg",
+                "name": "AddBldg",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BuildingName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "AddNum",
+                "name": "AddNum",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddressNumber",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "AddNumFrom",
+                "name": "AddNumFrom",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddNumFrom",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "AddNumTo",
+                "name": "AddNumTo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddNumTo",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "AddRange",
+                "name": "AddRange",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddressRange",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Side",
+                "name": "Side",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Side",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StPreDir",
+                "name": "StPreDir",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StPreDir",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StPreType",
+                "name": "StPreType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StPreType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StName",
+                "name": "StName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StType",
+                "name": "StType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StDir",
+                "name": "StDir",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StDir",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "BldgType",
+                "name": "BldgType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BldgType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "BldgName",
+                "name": "BldgName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BldgName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LevelType",
+                "name": "LevelType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LevelType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LevelName",
+                "name": "LevelName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LevelName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "UnitType",
+                "name": "UnitType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "UnitType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "UnitName",
+                "name": "UnitName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "UnitName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "SubAddr",
+                "name": "SubAddr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "SubAddress",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StAddr",
+                "name": "StAddr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StAddr",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Block",
+                "name": "Block",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Block",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Sector",
+                "name": "Sector",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Sector",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Nbrhd",
+                "name": "Nbrhd",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Neighborhood",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "District",
+                "name": "District",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "District",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "City",
+                "name": "City",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "City",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "MetroArea",
+                "name": "MetroArea",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "MetroArea",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Subregion",
+                "name": "Subregion",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Subregion",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Region",
+                "name": "Region",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Region",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "RegionAbbr",
+                "name": "RegionAbbr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "RegionAbbr",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Territory",
+                "name": "Territory",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Territory",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Zone",
+                "name": "Zone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Zone",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Postal",
+                "name": "Postal",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Postal",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "PostalExt",
+                "name": "PostalExt",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PostalExt",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Country",
+                "name": "Country",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Country",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LangCode",
+                "name": "LangCode",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LangCode",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Distance",
+                "name": "Distance",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Distance",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              }
+            ],
+            "layerHonorMode": "WEBMAP"
+          },
+          {
+            "id": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
+            "name": "Structural",
+            "layerId": "761314bcb8b84701bf11be6068da79ac",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
+              "mainDataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "addRecords": true,
+            "deleteRecords": true,
+            "updateGeometries": true,
+            "featureSnapping": false,
+            "showFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "ObjectID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null
+              },
+              {
+                "jimuName": "License_Status",
+                "name": "License_Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "License Status",
+                "format": null
+              },
+              {
+                "jimuName": "City_State",
+                "name": "City_State",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "City/State",
+                "format": null
+              },
+              {
+                "jimuName": "Original_Issue_Date",
+                "name": "Original_Issue_Date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Original Issue Date",
+                "format": null
+              },
+              {
+                "jimuName": "Current_Expiration_Date",
+                "name": "Current_Expiration_Date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Current Expiration Date",
+                "format": null
+              },
+              {
+                "jimuName": "Ever_Disciplined",
+                "name": "Ever_Disciplined",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Ever Disciplined",
+                "format": null
+              },
+              {
+                "jimuName": "License_Number",
+                "name": "License_Number",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "License Number",
+                "format": null
+              },
+              {
+                "jimuName": "Match_addr",
+                "name": "Match_addr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Match_addr",
+                "format": null
+              },
+              {
+                "jimuName": "LongLabel",
+                "name": "LongLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LongLabel",
+                "format": null
+              },
+              {
+                "jimuName": "ShortLabel",
+                "name": "ShortLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "ShortLabel",
+                "format": null
+              },
+              {
+                "jimuName": "Phone",
+                "name": "Phone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone",
+                "format": null
+              },
+              {
+                "jimuName": "StName",
+                "name": "StName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StName",
+                "format": null
+              },
+              {
+                "jimuName": "StDir",
+                "name": "StDir",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StDir",
+                "format": null
+              },
+              {
+                "jimuName": "District",
+                "name": "District",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "District",
+                "format": null
+              },
+              {
+                "jimuName": "City",
+                "name": "City",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "City",
+                "format": null
+              },
+              {
+                "jimuName": "Country",
+                "name": "Country",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Country",
+                "format": null
+              },
+              {
+                "jimuName": "LangCode",
+                "name": "LangCode",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LangCode",
+                "format": null
+              },
+              {
+                "jimuName": "X",
+                "name": "X",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "X",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                }
+              },
+              {
+                "jimuName": "Y",
+                "name": "Y",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Y",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                }
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null
+              },
+              {
+                "jimuName": "LicenseType",
+                "name": "LicenseType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "License Type",
+                "format": null
+              },
+              {
+                "jimuName": "ContactStatus",
+                "name": "ContactStatus",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Status",
+                "format": null
+              }
+            ],
+            "groupedFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "ObjectID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "License_Status",
+                "name": "License_Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "License Status",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "City_State",
+                "name": "City_State",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "City/State",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Original_Issue_Date",
+                "name": "Original_Issue_Date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Original Issue Date",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Current_Expiration_Date",
+                "name": "Current_Expiration_Date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Current Expiration Date",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Ever_Disciplined",
+                "name": "Ever_Disciplined",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Ever Disciplined",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "License_Number",
+                "name": "License_Number",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "License Number",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Match_addr",
+                "name": "Match_addr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Match_addr",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LongLabel",
+                "name": "LongLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LongLabel",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ShortLabel",
+                "name": "ShortLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "ShortLabel",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Phone",
+                "name": "Phone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StName",
+                "name": "StName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StDir",
+                "name": "StDir",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StDir",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "District",
+                "name": "District",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "District",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "City",
+                "name": "City",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "City",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Country",
+                "name": "Country",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Country",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LangCode",
+                "name": "LangCode",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LangCode",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "X",
+                "name": "X",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "X",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Y",
+                "name": "Y",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Y",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LicenseType",
+                "name": "LicenseType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "License Type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ContactStatus",
+                "name": "ContactStatus",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Contact Status",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              }
+            ],
+            "layerHonorMode": "WEBMAP"
+          },
+          {
+            "id": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
+            "name": "Engineers",
+            "layerId": "30ae641260b54c5cb2b0ecc610b4e964",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
+              "mainDataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "addRecords": true,
+            "deleteRecords": true,
+            "updateGeometries": true,
+            "featureSnapping": false,
+            "showFields": [
+              {
+                "jimuName": "ObjectID",
+                "name": "ObjectID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "ObjectID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Loc_name",
+                "name": "Loc_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Loc_name",
+                "format": null
+              },
+              {
+                "jimuName": "Status",
+                "name": "Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Status",
+                "format": null
+              },
+              {
+                "jimuName": "Score",
+                "name": "Score",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Score",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                }
+              },
+              {
+                "jimuName": "Match_type",
+                "name": "Match_type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Match_type",
+                "format": null
+              },
+              {
+                "jimuName": "Match_addr",
+                "name": "Match_addr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Match_addr",
+                "format": null
+              },
+              {
+                "jimuName": "LongLabel",
+                "name": "LongLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LongLabel",
+                "format": null
+              },
+              {
+                "jimuName": "ShortLabel",
+                "name": "ShortLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "ShortLabel",
+                "format": null
+              },
+              {
+                "jimuName": "Addr_type",
+                "name": "Addr_type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Addr_type",
+                "format": null
+              },
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
+                "format": null
+              },
+              {
+                "jimuName": "PlaceName",
+                "name": "PlaceName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PlaceName",
+                "format": null
+              },
+              {
+                "jimuName": "Place_addr",
+                "name": "Place_addr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Place_addr",
+                "format": null
+              },
+              {
+                "jimuName": "Phone",
+                "name": "Phone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone",
+                "format": null
+              },
+              {
+                "jimuName": "URL",
+                "name": "URL",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "URL",
+                "format": null
+              },
+              {
+                "jimuName": "Rank",
+                "name": "Rank",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Rank",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                }
+              },
+              {
+                "jimuName": "AddBldg",
+                "name": "AddBldg",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BuildingName",
+                "format": null
+              },
+              {
+                "jimuName": "AddNum",
+                "name": "AddNum",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddressNumber",
+                "format": null
+              },
+              {
+                "jimuName": "AddNumFrom",
+                "name": "AddNumFrom",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddNumFrom",
+                "format": null
+              },
+              {
+                "jimuName": "AddNumTo",
+                "name": "AddNumTo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddNumTo",
+                "format": null
+              },
+              {
+                "jimuName": "AddRange",
+                "name": "AddRange",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddressRange",
+                "format": null
+              },
+              {
+                "jimuName": "Side",
+                "name": "Side",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Side",
+                "format": null
+              },
+              {
+                "jimuName": "StPreDir",
+                "name": "StPreDir",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StPreDir",
+                "format": null
+              },
+              {
+                "jimuName": "StPreType",
+                "name": "StPreType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StPreType",
+                "format": null
+              },
+              {
+                "jimuName": "StName",
+                "name": "StName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StName",
+                "format": null
+              },
+              {
+                "jimuName": "StType",
+                "name": "StType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StType",
+                "format": null
+              },
+              {
+                "jimuName": "StDir",
+                "name": "StDir",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StDir",
+                "format": null
+              },
+              {
+                "jimuName": "BldgType",
+                "name": "BldgType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BldgType",
+                "format": null
+              },
+              {
+                "jimuName": "BldgName",
+                "name": "BldgName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BldgName",
+                "format": null
+              },
+              {
+                "jimuName": "LevelType",
+                "name": "LevelType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LevelType",
+                "format": null
+              },
+              {
+                "jimuName": "LevelName",
+                "name": "LevelName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LevelName",
+                "format": null
+              },
+              {
+                "jimuName": "UnitType",
+                "name": "UnitType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "UnitType",
+                "format": null
+              },
+              {
+                "jimuName": "UnitName",
+                "name": "UnitName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "UnitName",
+                "format": null
+              },
+              {
+                "jimuName": "SubAddr",
+                "name": "SubAddr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "SubAddress",
+                "format": null
+              },
+              {
+                "jimuName": "StAddr",
+                "name": "StAddr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StAddr",
+                "format": null
+              },
+              {
+                "jimuName": "Block",
+                "name": "Block",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Block",
+                "format": null
+              },
+              {
+                "jimuName": "Sector",
+                "name": "Sector",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Sector",
+                "format": null
+              },
+              {
+                "jimuName": "Nbrhd",
+                "name": "Nbrhd",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Neighborhood",
+                "format": null
+              },
+              {
+                "jimuName": "District",
+                "name": "District",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "District",
+                "format": null
+              },
+              {
+                "jimuName": "City",
+                "name": "City",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "City",
+                "format": null
+              },
+              {
+                "jimuName": "MetroArea",
+                "name": "MetroArea",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "MetroArea",
+                "format": null
+              },
+              {
+                "jimuName": "Subregion",
+                "name": "Subregion",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Subregion",
+                "format": null
+              },
+              {
+                "jimuName": "Region",
+                "name": "Region",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Region",
+                "format": null
+              },
+              {
+                "jimuName": "RegionAbbr",
+                "name": "RegionAbbr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "RegionAbbr",
+                "format": null
+              },
+              {
+                "jimuName": "Territory",
+                "name": "Territory",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Territory",
+                "format": null
+              },
+              {
+                "jimuName": "Zone",
+                "name": "Zone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Zone",
+                "format": null
+              },
+              {
+                "jimuName": "Postal",
+                "name": "Postal",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Postal",
+                "format": null
+              },
+              {
+                "jimuName": "PostalExt",
+                "name": "PostalExt",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PostalExt",
+                "format": null
+              },
+              {
+                "jimuName": "Country",
+                "name": "Country",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Country",
+                "format": null
+              },
+              {
+                "jimuName": "LangCode",
+                "name": "LangCode",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LangCode",
+                "format": null
+              },
+              {
+                "jimuName": "Distance",
+                "name": "Distance",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Distance",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                }
+              }
+            ],
+            "groupedFields": [
+              {
+                "jimuName": "ObjectID",
+                "name": "ObjectID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "ObjectID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "Loc_name",
+                "name": "Loc_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Loc_name",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Status",
+                "name": "Status",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Status",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Score",
+                "name": "Score",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Score",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Match_type",
+                "name": "Match_type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Match_type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Match_addr",
+                "name": "Match_addr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Match_addr",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LongLabel",
+                "name": "LongLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LongLabel",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ShortLabel",
+                "name": "ShortLabel",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "ShortLabel",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Addr_type",
+                "name": "Addr_type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Addr_type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "PlaceName",
+                "name": "PlaceName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PlaceName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Place_addr",
+                "name": "Place_addr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Place_addr",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Phone",
+                "name": "Phone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Phone",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "URL",
+                "name": "URL",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "URL",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Rank",
+                "name": "Rank",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Rank",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "AddBldg",
+                "name": "AddBldg",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BuildingName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "AddNum",
+                "name": "AddNum",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddressNumber",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "AddNumFrom",
+                "name": "AddNumFrom",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddNumFrom",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "AddNumTo",
+                "name": "AddNumTo",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddNumTo",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "AddRange",
+                "name": "AddRange",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AddressRange",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Side",
+                "name": "Side",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Side",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StPreDir",
+                "name": "StPreDir",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StPreDir",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StPreType",
+                "name": "StPreType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StPreType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StName",
+                "name": "StName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StType",
+                "name": "StType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StDir",
+                "name": "StDir",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StDir",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "BldgType",
+                "name": "BldgType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BldgType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "BldgName",
+                "name": "BldgName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "BldgName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LevelType",
+                "name": "LevelType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LevelType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LevelName",
+                "name": "LevelName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LevelName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "UnitType",
+                "name": "UnitType",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "UnitType",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "UnitName",
+                "name": "UnitName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "UnitName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "SubAddr",
+                "name": "SubAddr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "SubAddress",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "StAddr",
+                "name": "StAddr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "StAddr",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Block",
+                "name": "Block",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Block",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Sector",
+                "name": "Sector",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Sector",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Nbrhd",
+                "name": "Nbrhd",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Neighborhood",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "District",
+                "name": "District",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "District",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "City",
+                "name": "City",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "City",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "MetroArea",
+                "name": "MetroArea",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "MetroArea",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Subregion",
+                "name": "Subregion",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Subregion",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Region",
+                "name": "Region",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Region",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "RegionAbbr",
+                "name": "RegionAbbr",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "RegionAbbr",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Territory",
+                "name": "Territory",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Territory",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Zone",
+                "name": "Zone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Zone",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Postal",
+                "name": "Postal",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Postal",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "PostalExt",
+                "name": "PostalExt",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PostalExt",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Country",
+                "name": "Country",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Country",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "LangCode",
+                "name": "LangCode",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "LangCode",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Distance",
+                "name": "Distance",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Distance",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 6
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              }
+            ],
+            "layerHonorMode": "WEBMAP"
+          }
+        ],
+        "editMode": "GEOMETRY",
+        "selfSnapping": false,
+        "featureSnapping": false,
+        "description": "",
+        "noDataMessage": ""
+      },
+      "id": "widget_19",
+      "useMapWidgetIds": [
+        "widget_8"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+          "mainDataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
+          "dataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
+          "mainDataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
+          "dataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
+          "mainDataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_20": {
+      "uri": "widgets/common/search/",
+      "version": "1.10.0",
+      "label": "Search",
+      "config": {
+        "searchResultView": "Result_Panel",
+        "arrangementStyle": "Style1",
+        "maxSuggestions": 3,
+        "recentSearchesMaxNumber": 6,
+        "resultMaxNumber": 6,
+        "datasourceConfig": [
+          {
+            "configId": "config_0",
+            "icon": null,
+            "label": "Surveyors",
+            "displayLabel": true,
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+              "mainDataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "USER_prc_last_name",
+                "USER_prc_first_name",
+                "Loc_name"
+              ]
+            },
+            "displayFields": [
+              {
+                "jimuName": "Loc_name",
+                "name": "Loc_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Loc_name",
+                "format": null
+              }
+            ],
+            "searchFields": [
+              {
+                "jimuName": "USER_prc_last_name",
+                "name": "USER_prc_last_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "prc_last_name",
+                "format": null
+              },
+              {
+                "jimuName": "USER_prc_first_name",
+                "name": "USER_prc_first_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "prc_first_name",
+                "format": null
+              }
+            ],
+            "hint": "",
+            "searchServiceType": "FeatureService"
+          },
+          {
+            "configId": "config_1",
+            "icon": null,
+            "label": "Structural",
+            "displayLabel": true,
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
+              "mainDataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Name"
+              ]
+            },
+            "displayFields": [
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null
+              }
+            ],
+            "searchFields": [
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null
+              }
+            ],
+            "hint": "",
+            "searchServiceType": "FeatureService"
+          },
+          {
+            "configId": "config_2",
+            "icon": null,
+            "label": "Engineers",
+            "displayLabel": true,
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
+              "mainDataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "Loc_name",
+                "USER_prc_last_name",
+                "USER_prc_first_name"
+              ]
+            },
+            "displayFields": [
+              {
+                "jimuName": "Loc_name",
+                "name": "Loc_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Loc_name",
+                "format": null
+              },
+              {
+                "jimuName": "USER_prc_last_name",
+                "name": "USER_prc_last_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "prc_last_name",
+                "format": null
+              },
+              {
+                "jimuName": "USER_prc_first_name",
+                "name": "USER_prc_first_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "prc_first_name",
+                "format": null
+              }
+            ],
+            "searchFields": [
+              {
+                "jimuName": "Loc_name",
+                "name": "Loc_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Loc_name",
+                "format": null
+              }
+            ],
+            "hint": "",
+            "searchServiceType": "FeatureService"
+          }
+        ],
+        "hint": "Search by First or Last Name",
+        "isShowRecentSearches": false,
+        "isAutoSelectFirstResult": true
+      },
+      "id": "widget_20",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+          "mainDataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "USER_prc_last_name",
+            "USER_prc_first_name",
+            "Loc_name"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
+          "mainDataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Name"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
+          "mainDataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "Loc_name",
+            "USER_prc_last_name",
+            "USER_prc_first_name"
+          ]
+        }
+      ],
+      "outputDataSources": [],
+      "useUtilities": []
+    },
+    "widget_21": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.10.0",
+      "label": "Map Layers 2",
+      "config": {
+        "useMapWidget": true,
+        "label": false,
+        "setVisibility": true
+      },
+      "id": "widget_21",
+      "useMapWidgetIds": [
+        "widget_8"
+      ]
+    },
+    "widget_22": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Heading (text) 2",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">  Layer Visibility</span></p>",
+        "placeholder": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">Double click to edit text</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_22",
+      "style": {
+        "background": {
+          "color": "var(--dark-400)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_23": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Name Search",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"color: var(--light); font-size: 16px;\">  Search by Name</span></p>",
+        "placeholder": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">Double click to edit text</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_23",
+      "style": {
+        "background": {
+          "color": "var(--dark-400)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_24": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Heading (text) 4",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">  Search by Location</span></p>",
+        "placeholder": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">Double click to edit text</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_24",
+      "style": {
+        "background": {
+          "color": "var(--dark-400)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_25": {
+      "uri": "widgets/common/search/",
+      "version": "1.10.0",
+      "label": "Location Search",
+      "config": {
+        "searchResultView": "Result_Panel",
+        "arrangementStyle": "Style1",
+        "maxSuggestions": 6,
+        "recentSearchesMaxNumber": 6,
+        "resultMaxNumber": 6,
+        "datasourceConfig": [
+          {
+            "configId": "config_0",
+            "icon": null,
+            "label": "ArcGIS World Geocoding Service",
+            "hint": "",
+            "useUtility": {
+              "utilityId": "utility_1"
+            },
+            "searchServiceType": "GeocodeService",
+            "singleLineFieldName": "SingleLine",
+            "isSupportSuggest": true,
+            "outputDataSourceId": "widget_25_output_config_0",
+            "addressFields": [
+              {
+                "jimuName": "Default Address",
+                "alias": "Default Address",
+                "type": "STRING",
+                "name": "Default Address"
+              },
+              {
+                "jimuName": "Address or Place",
+                "alias": "Address or Place",
+                "type": "STRING",
+                "name": "Address or Place"
+              },
+              {
+                "jimuName": "Address2",
+                "alias": "Address2",
+                "type": "STRING",
+                "name": "Address2"
+              },
+              {
+                "jimuName": "Address3",
+                "alias": "Address3",
+                "type": "STRING",
+                "name": "Address3"
+              },
+              {
+                "jimuName": "Neighborhood",
+                "alias": "Neighborhood",
+                "type": "STRING",
+                "name": "Neighborhood"
+              },
+              {
+                "jimuName": "City",
+                "alias": "City",
+                "type": "STRING",
+                "name": "City"
+              },
+              {
+                "jimuName": "County",
+                "alias": "County",
+                "type": "STRING",
+                "name": "County"
+              },
+              {
+                "jimuName": "State",
+                "alias": "State",
+                "type": "STRING",
+                "name": "State"
+              },
+              {
+                "jimuName": "ZIP",
+                "alias": "ZIP",
+                "type": "STRING",
+                "name": "ZIP"
+              },
+              {
+                "jimuName": "ZIP4",
+                "alias": "ZIP4",
+                "type": "STRING",
+                "name": "ZIP4"
+              },
+              {
+                "jimuName": "Country",
+                "alias": "Country",
+                "type": "STRING",
+                "name": "Country"
+              }
+            ],
+            "displayFields": [
+              {
+                "jimuName": "Default Address",
+                "alias": "Default Address",
+                "type": "STRING",
+                "name": "Default Address"
+              }
+            ],
+            "defaultAddressFieldName": "Default Address"
+          }
+        ],
+        "hint": "Search by First or Last Name",
+        "isShowRecentSearches": true,
+        "isAutoSelectFirstResult": true
+      },
+      "id": "widget_25",
+      "useDataSources": [],
+      "outputDataSources": [
+        "widget_25_output_config_0"
+      ],
+      "useUtilities": [
+        {
+          "utilityId": "utility_1"
+        }
+      ]
+    },
+    "widget_27": {
+      "uri": "widgets/common/text/",
+      "version": "1.10.0",
+      "label": "Heading (text) 5",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"color: var(--light); font-size: 16px;\">  Bookmarks<span class=\"ql-cursor\">﻿</span></span></p>",
+        "placeholder": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">Double click to edit text</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_27",
+      "style": {
+        "background": {
+          "color": "var(--dark-400)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_29": {
+      "uri": "widgets/arcgis/bookmark/",
+      "version": "1.10.0",
+      "label": "Bookmark",
+      "config": {
+        "templateType": "LIST",
+        "isTemplateConfirm": true,
+        "isInitialed": true,
+        "bookmarks": [],
+        "initBookmark": false,
+        "runtimeAddAllow": true,
+        "autoPlayAllow": false,
+        "autoInterval": 3,
+        "autoLoopAllow": true,
+        "style": {
+          "id": "default"
+        },
+        "direction": "HORIZON",
+        "pageStyle": "PAGING",
+        "space": 10,
+        "scrollBarOpen": true,
+        "navigatorOpen": false,
+        "transition": "None",
+        "transitionDirection": "H",
+        "displayType": "SELECTED",
+        "itemHeight": 240,
+        "itemWidth": 240,
+        "transitionInfo": {
+          "transition": {
+            "type": "None",
+            "direction": "H"
+          },
+          "effect": {
+            "type": "None",
+            "option": {
+              "direction": "TOP",
+              "configType": "DEFAULT"
+            }
+          },
+          "oneByOneEffect": null,
+          "previewId": null
+        },
+        "displayFromWeb": true
+      },
+      "id": "widget_29",
+      "useMapWidgetIds": [
+        "widget_8"
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {
+    "view_1": {
+      "id": "view_1",
+      "label": "Info",
+      "layout": {
+        "LARGE": "layout_13"
+      }
+    },
+    "view_3": {
+      "id": "view_3",
+      "label": "Edit",
+      "layout": {
+        "LARGE": "layout_15"
+      }
+    }
+  },
+  "sections": {
+    "section_1": {
+      "id": "section_1",
+      "label": "Right Sidebar Views (section)",
+      "views": [
+        "view_1",
+        "view_3"
+      ],
+      "arrowsNav": {
+        "visible": false
+      },
+      "dotsNav": {
+        "visible": true
+      }
+    }
+  },
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Licensed Engineers and Surveyors",
+      "itemId": "7bfdb118d42d4b53b62db75666095256",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
+    },
+    "widget_25_output_config_0": {
+      "id": "widget_25_output_config_0",
+      "type": "FEATURE_LAYER",
+      "label": "ArcGIS World Geocoding Service",
+      "originDataSources": [],
+      "isOutputFromWidget": true,
+      "isDataInDataSourceInstance": false,
+      "schema": {
+        "label": "ArcGIS World Geocoding Service",
+        "idField": "objectid",
+        "fields": {
+          "Default Address": {
+            "jimuName": "Default Address",
+            "alias": "Default Address",
+            "type": "STRING",
+            "name": "Default Address"
+          },
+          "objectid": {
+            "jimuName": "objectid",
+            "alias": "OBJECTID",
+            "type": "NUMBER",
+            "name": "objectid"
+          },
+          "Address or Place": {
+            "jimuName": "Address or Place",
+            "alias": "Address or Place",
+            "type": "STRING",
+            "name": "Address or Place"
+          },
+          "Address2": {
+            "jimuName": "Address2",
+            "alias": "Address2",
+            "type": "STRING",
+            "name": "Address2"
+          },
+          "Address3": {
+            "jimuName": "Address3",
+            "alias": "Address3",
+            "type": "STRING",
+            "name": "Address3"
+          },
+          "Neighborhood": {
+            "jimuName": "Neighborhood",
+            "alias": "Neighborhood",
+            "type": "STRING",
+            "name": "Neighborhood"
+          },
+          "City": {
+            "jimuName": "City",
+            "alias": "City",
+            "type": "STRING",
+            "name": "City"
+          },
+          "County": {
+            "jimuName": "County",
+            "alias": "County",
+            "type": "STRING",
+            "name": "County"
+          },
+          "State": {
+            "jimuName": "State",
+            "alias": "State",
+            "type": "STRING",
+            "name": "State"
+          },
+          "ZIP": {
+            "jimuName": "ZIP",
+            "alias": "ZIP",
+            "type": "STRING",
+            "name": "ZIP"
+          },
+          "ZIP4": {
+            "jimuName": "ZIP4",
+            "alias": "ZIP4",
+            "type": "STRING",
+            "name": "ZIP4"
+          },
+          "Country": {
+            "jimuName": "Country",
+            "alias": "Country",
+            "type": "STRING",
+            "name": "Country"
+          }
+        }
+      },
+      "geometryType": "esriGeometryPoint"
+    }
+  },
+  "messageConfigs": {
+    "messageConfig_1": {
+      "id": "messageConfig_1",
+      "widgetId": "widget_20",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_8-zoomToFeature-1706640642657",
+          "widgetId": "widget_8",
+          "messageWidgetId": "widget_20",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+              "mainDataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+                "mainDataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
+                "rootDataSourceId": "dataSource_1"
+              },
+              {
+                "dataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
+                "mainDataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
+                "rootDataSourceId": "dataSource_1"
+              },
+              {
+                "dataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
+                "mainDataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
+                "rootDataSourceId": "dataSource_1"
+              }
+            ]
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_2": {
+      "id": "messageConfig_2",
+      "widgetId": "widget_25",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_8-zoomToFeature-1706640670715",
+          "widgetId": "widget_8",
+          "messageWidgetId": "widget_25",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "widget_25_output_config_0",
+              "mainDataSourceId": "widget_25_output_config_0",
+              "rootDataSourceId": null
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "widget_25_output_config_0",
+                "mainDataSourceId": "widget_25_output_config_0",
+                "rootDataSourceId": null
+              }
+            ]
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
+    }
+  },
+  "attributes": {
+    "portalUrl": "https://geo.twm-inc.com/arcgis"
+  },
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#730000",
+      "color": "#ffffff"
+    },
+    "body": {},
+    "button": {
+      "bg": "#730000",
+      "color": "#ffffff"
+    },
+    "logo": {
+      "small": "https://geo.twm-inc.com/arcgis/sharing/rest/content/items/d11424e0028246bdad694ab475c33447/data",
+      "link": "https://twm-inc.com"
+    }
+  },
+  "originExbVersion": "1.10.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "customTheme": {
+    "colors": {
+      "primary": "#98012e"
+    }
+  },
+  "header": {
+    "layout": {
+      "LARGE": "layout_5"
+    },
+    "height": {
+      "LARGE": "60px"
+    },
+    "backgroundColor": "var(--dark-700)"
+  },
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": null,
+      "name": "geocode",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source": "org",
+      "orgSetting": {
+        "name": "ArcGIS World Geocoding Service",
+        "placefinding": true,
+        "batch": false
+      },
+      "taskName": "ArcGIS World Geocoding Service",
+      "index": 0
+    }
+  },
+  "timestamp": 1706641318143,
+  "id": "3",
+  "success": true
+}

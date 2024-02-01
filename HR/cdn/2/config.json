@@ -879,29 +879,16 @@
         "resultMaxNumber": 5,
         "datasourceConfig": [
           {
-            "configId": "config_3",
-            "icon": {
-              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0Zm-1.27 4.936a6.5 6.5 0 1 1 .707-.707l4.136 4.137a.5.5 0 1 1-.707.707l-4.137-4.137Z\" fill=\"#000\"></path></svg>",
-              "properties": {
-                "filename": "search",
-                "originalName": "outlined/editor/search.svg",
-                "path": [
-                  "general",
-                  "search"
-                ],
-                "inlineSvg": true
-              }
-            },
-            "label": "Licensure Search by Name",
+            "configId": "config_1",
+            "icon": null,
+            "label": "Licensure map - large scale",
             "displayLabel": true,
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18d60539a0d-layer-6",
-              "mainDataSourceId": "dataSource_1-18d60539a0d-layer-6",
+              "dataSourceId": "dataSource_1-18d60500c1a-layer-5",
+              "mainDataSourceId": "dataSource_1-18d60500c1a-layer-5",
               "rootDataSourceId": "dataSource_1",
               "fields": [
-                "USER_prc_first_name",
-                "USER_prc_last_name",
-                "USER_prc_middle_name"
+                "USER_prc_first_name"
               ]
             },
             "displayFields": [
@@ -912,13 +899,42 @@
                 "esriType": "esriFieldTypeString",
                 "alias": "prc_first_name",
                 "format": null
-              },
+              }
+            ],
+            "searchFields": [
               {
-                "jimuName": "USER_prc_middle_name",
-                "name": "USER_prc_middle_name",
+                "jimuName": "USER_prc_first_name",
+                "name": "USER_prc_first_name",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "prc_middle_name",
+                "alias": "prc_first_name",
+                "format": null
+              }
+            ],
+            "hint": "",
+            "searchServiceType": "FeatureService"
+          },
+          {
+            "configId": "config_0",
+            "icon": null,
+            "label": "Licensure map - small scale",
+            "displayLabel": true,
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18d60539a0d-layer-6",
+              "mainDataSourceId": "dataSource_1-18d60539a0d-layer-6",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "USER_prc_first_name",
+                "USER_prc_last_name"
+              ]
+            },
+            "displayFields": [
+              {
+                "jimuName": "USER_prc_first_name",
+                "name": "USER_prc_first_name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "prc_first_name",
                 "format": null
               },
               {
@@ -952,9 +968,9 @@
             "searchServiceType": "FeatureService"
           }
         ],
-        "hint": "Search by First or Last Name",
+        "hint": "Search by First or Last Name. Zoom out to expand search.",
         "isShowRecentSearches": false,
-        "isAutoSelectFirstResult": true
+        "isAutoSelectFirstResult": false
       },
       "id": "widget_20",
       "useDataSources": [
@@ -964,8 +980,15 @@
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "USER_prc_first_name",
-            "USER_prc_last_name",
-            "USER_prc_middle_name"
+            "USER_prc_last_name"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_1-18d60500c1a-layer-5",
+          "mainDataSourceId": "dataSource_1-18d60500c1a-layer-5",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "USER_prc_first_name"
           ]
         }
       ],
@@ -1154,7 +1177,7 @@
             "defaultAddressFieldName": "Default Address"
           }
         ],
-        "hint": "Search by First or Last Name",
+        "hint": "",
         "isShowRecentSearches": true,
         "isAutoSelectFirstResult": true
       },
@@ -3129,46 +3152,6 @@
     }
   },
   "messageConfigs": {
-    "messageConfig_1": {
-      "id": "messageConfig_1",
-      "widgetId": "widget_20",
-      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
-      "actions": [
-        {
-          "actionId": "widget_8-zoomToFeature-1706640642657",
-          "widgetId": "widget_8",
-          "messageWidgetId": "widget_20",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
-              "mainDataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
-                "mainDataSourceId": "dataSource_1-33093af8d28046e79127cb7f71bf0fb6",
-                "rootDataSourceId": "dataSource_1"
-              },
-              {
-                "dataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
-                "mainDataSourceId": "dataSource_1-761314bcb8b84701bf11be6068da79ac",
-                "rootDataSourceId": "dataSource_1"
-              },
-              {
-                "dataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
-                "mainDataSourceId": "dataSource_1-30ae641260b54c5cb2b0ecc610b4e964",
-                "rootDataSourceId": "dataSource_1"
-              }
-            ]
-          },
-          "version": "1.10.0",
-          "useDataSources": []
-        }
-      ]
-    },
     "messageConfig_2": {
       "id": "messageConfig_2",
       "widgetId": "widget_25",
@@ -3235,6 +3218,40 @@
           ]
         }
       ]
+    },
+    "messageConfig_4": {
+      "id": "messageConfig_4",
+      "widgetId": "widget_20",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_8-zoomToFeature-1706738152489",
+          "widgetId": "widget_8",
+          "messageWidgetId": "widget_20",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18d60539a0d-layer-6",
+              "mainDataSourceId": "dataSource_1-18d60539a0d-layer-6",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-18d60539a0d-layer-6",
+                "mainDataSourceId": "dataSource_1-18d60539a0d-layer-6",
+                "rootDataSourceId": "dataSource_1"
+              }
+            ],
+            "isUseCustomZoomToOption": true,
+            "zoomToOption": {
+              "scale": 5000
+            }
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
     }
   },
   "attributes": {
@@ -3244,7 +3261,7 @@
     "title": "HR - Engineer & Surveyor Search",
     "description": "",
     "type": "Web Experience",
-    "thumbnail": null
+    "thumbnail": "thumbnail/thumbnail1706734822620.JPG"
   },
   "sharedThemeVariables": {
     "header": {
@@ -3297,7 +3314,7 @@
       "index": 0
     }
   },
-  "timestamp": 1706734289202,
+  "timestamp": 1706801168948,
   "id": "3",
   "success": true
 }

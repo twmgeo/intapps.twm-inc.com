@@ -733,6 +733,7 @@
       "label": "Title of App (text)",
       "config": {
         "text": "<p><span style=\"font-size: 24px; color: var(--light);\">Engineer &amp; Surveyor Search</span></p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1015,6 +1016,7 @@
       "label": "Heading (text) 2",
       "config": {
         "text": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">  Filter by License</span></p>",
+        "placeholder": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1037,6 +1039,7 @@
       "label": "Name Search",
       "config": {
         "text": "<p style=\"line-height: 2;\"><span style=\"color: var(--light); font-size: 16px;\">  Search by Name</span></p>",
+        "placeholder": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1059,6 +1062,7 @@
       "label": "Heading (text) 4",
       "config": {
         "text": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">  Search by Location</span></p>",
+        "placeholder": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1239,7 +1243,7 @@
                   "operator": "STRING_OPERATOR_IS",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "UNIQUE",
+                    "sourceType": "USER_INPUT",
                     "inputEditor": "SIMPLE_SELECT",
                     "value": null
                   },
@@ -1248,7 +1252,7 @@
                     "label": "License Type is:",
                     "display": "BLOCK",
                     "hint": "",
-                    "cascade": "NONE"
+                    "cascade": null
                   },
                   "displayLabel": null,
                   "caseSensitive": false
@@ -2103,6 +2107,7 @@
       "label": "Text 2",
       "config": {
         "text": "<p><span style=\"color: var(--dark-800); font-size: 13px;\">﻿</span><strong><exp data-uniqueid=\"c776dd32_29d1_2812_ff5c_5d1dd06b31ad\" data-dsid=\"dataSource_1-18d60539a0d-layer-6-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7Bprc_last_name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bprc_last_name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18d60539a0d-layer-6-dataView_1%22%2C%22jimuFieldName%22%3A%22USER_prc_last_name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿{prc_last_name}﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>  , <exp data-uniqueid=\"f670ad40_8325_e311_18db_2c568bd027c9\" data-dsid=\"dataSource_1-18d60539a0d-layer-6-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7Bprc_first_name%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bprc_first_name%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18d60539a0d-layer-6-dataView_1%22%2C%22jimuFieldName%22%3A%22USER_prc_first_name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿{prc_first_name}﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></strong></p><p><strong>Type: </strong><exp data-uniqueid=\"7aa8ee11_2826_a11e_2da9_4dcd7745ed5b\" data-dsid=\"dataSource_1-18d60539a0d-layer-6-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7BLicenseType%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLicenseType%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18d60539a0d-layer-6-dataView_1%22%2C%22jimuFieldName%22%3A%22LicenseType%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{LicenseType}﻿﻿﻿</span>﻿</exp> \t<strong>License Expiration: </strong>  <exp data-uniqueid=\"fa71221d_dcbe_d2f3_ebc1_8b1849a74e44\" data-dsid=\"dataSource_1-18d60539a0d-layer-6-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7Blic_exp_date%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Blic_exp_date%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18d60539a0d-layer-6-dataView_1%22%2C%22jimuFieldName%22%3A%22USER_lic_exp_date%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿{lic_exp_date}﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp></p><p><exp data-uniqueid=\"3bd470d1_a015_d282_3acc_0202006226d6\" data-dsid=\"dataSource_1-18d60539a0d-layer-6-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7Bba_city%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bba_city%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18d60539a0d-layer-6-dataView_1%22%2C%22jimuFieldName%22%3A%22USER_ba_city%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿{ba_city}﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>  ,<exp data-uniqueid=\"a9ed82d1_fcfa_2688_7a2d_8a5420137d8e\" data-dsid=\"dataSource_1-18d60539a0d-layer-6-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7Bba_state%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bba_state%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-18d60539a0d-layer-6-dataView_1%22%2C%22jimuFieldName%22%3A%22USER_ba_state%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿{ba_state}﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>  </p>",
+        "placeholder": "<p><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -2158,6 +2163,7 @@
       "label": "Heading (text) 5",
       "config": {
         "text": "<p style=\"line-height: 2;\"><span style=\"color: var(--light); font-size: 16px;\">List of License Holders</span></p>",
+        "placeholder": "<p style=\"line-height: 2;\"><span style=\"font-size: 16px; color: var(--light);\">Double click to edit text</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -3255,13 +3261,7 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis",
-    "isWebTier": false,
-    "clientId": "",
-    "title": "HR - Engineer & Surveyor Search",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": "thumbnail/thumbnail1706734822620.JPG"
+    "portalUrl": "https://geo.twm-inc.com/arcgis"
   },
   "sharedThemeVariables": {
     "header": {
@@ -3314,7 +3314,7 @@
       "index": 0
     }
   },
-  "timestamp": 1706801168948,
+  "timestamp": 1706890158243,
   "id": "3",
   "success": true
 }

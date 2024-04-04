@@ -278,7 +278,7 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_88",
+          "widgetId": "widget_87",
           "bbox": {
             "left": 0,
             "top": 0,
@@ -477,7 +477,6 @@
       "label": "Title of App (text)",
       "config": {
         "text": "<p><span style=\"color: var(--light); font-size: 20px;\">230597<span class=\"ql-cursor\">﻿</span></span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -610,7 +609,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/search/icon.svg",
+        "svg": "widgets/common/search/icon.svg",
         "properties": {
           "filename": "search.svg",
           "originalName": "default/search.svg",
@@ -763,7 +762,10 @@
       "version": "1.10.0",
       "label": "Legend",
       "config": {},
-      "id": "widget_87"
+      "id": "widget_87",
+      "useMapWidgetIds": [
+        "widget_83"
+      ]
     },
     "widget_88": {
       "uri": "widgets/common/edit/",
@@ -2450,7 +2452,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "230597",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1709329265315.png"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2623,5 +2631,12 @@
       }
     }
   },
-  "timestamp": 1712249170258
+  "timestamp": 1712257434894,
+  "historyLabels": {
+    "pages": {
+      "page_0": [
+        "Page"
+      ]
+    }
+  }
 }

@@ -278,7 +278,7 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_87",
+          "widgetId": "widget_88",
           "bbox": {
             "left": 0,
             "top": 0,
@@ -1452,6 +1452,354 @@
               }
             ],
             "layerHonorMode": "WEBMAP"
+          },
+          {
+            "id": "dataSource_1-18ea503ccb5-layer-43-18ebf5c8711-layer-32",
+            "name": "TWM_TractsStatus",
+            "layerId": "18ebf5c8711-layer-32",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf5c8711-layer-32",
+              "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf5c8711-layer-32",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "addRecords": true,
+            "deleteRecords": false,
+            "updateGeometries": true,
+            "featureSnapping": false,
+            "showFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "TractName",
+                "name": "TractName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TractName",
+                "format": null
+              },
+              {
+                "jimuName": "FeatureName",
+                "name": "FeatureName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "FeatureName",
+                "format": null
+              },
+              {
+                "jimuName": "AssetName",
+                "name": "AssetName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AssetName",
+                "format": null
+              },
+              {
+                "jimuName": "County",
+                "name": "County",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "County",
+                "format": null
+              },
+              {
+                "jimuName": "State",
+                "name": "State",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "State",
+                "format": null
+              },
+              {
+                "jimuName": "PrimaryOwnerName",
+                "name": "PrimaryOwnerName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PrimaryOwnerName",
+                "format": null
+              },
+              {
+                "jimuName": "TractTax",
+                "name": "TractTax",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TractTax",
+                "format": null
+              },
+              {
+                "jimuName": "PrimaryAddress",
+                "name": "PrimaryAddress",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PrimaryAddress",
+                "format": null
+              },
+              {
+                "jimuName": "PrimaryPhone",
+                "name": "PrimaryPhone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PrimaryPhone",
+                "format": null
+              },
+              {
+                "jimuName": "PrimaryEmail",
+                "name": "PrimaryEmail",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PrimaryEmail",
+                "format": null
+              },
+              {
+                "jimuName": "EasementWidth",
+                "name": "EasementWidth",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "EasementWidth",
+                "format": null
+              },
+              {
+                "jimuName": "FeatureTractStationingId",
+                "name": "FeatureTractStationingId",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGUID",
+                "alias": "FeatureTractStationingId",
+                "format": null
+              },
+              {
+                "jimuName": "Shape__Area",
+                "name": "Shape__Area",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STArea()",
+                "format": null
+              },
+              {
+                "jimuName": "Shape__Length",
+                "name": "Shape__Length",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STLength()",
+                "format": null
+              },
+              {
+                "jimuName": "PlatStatus",
+                "name": "PlatStatus",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Plat status",
+                "format": null
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null
+              }
+            ],
+            "groupedFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "TractName",
+                "name": "TractName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TractName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "FeatureName",
+                "name": "FeatureName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "FeatureName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "AssetName",
+                "name": "AssetName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "AssetName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "County",
+                "name": "County",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "County",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "State",
+                "name": "State",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "State",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "PrimaryOwnerName",
+                "name": "PrimaryOwnerName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PrimaryOwnerName",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "TractTax",
+                "name": "TractTax",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TractTax",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "PrimaryAddress",
+                "name": "PrimaryAddress",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PrimaryAddress",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "PrimaryPhone",
+                "name": "PrimaryPhone",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PrimaryPhone",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "PrimaryEmail",
+                "name": "PrimaryEmail",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PrimaryEmail",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "EasementWidth",
+                "name": "EasementWidth",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "EasementWidth",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "FeatureTractStationingId",
+                "name": "FeatureTractStationingId",
+                "type": "STRING",
+                "esriType": "esriFieldTypeGUID",
+                "alias": "FeatureTractStationingId",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Shape__Area",
+                "name": "Shape__Area",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STArea()",
+                "format": null,
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "Shape__Length",
+                "name": "Shape__Length",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STLength()",
+                "format": null,
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "PlatStatus",
+                "name": "PlatStatus",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Plat status",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              }
+            ],
+            "layerHonorMode": "WEBMAP"
           }
         ],
         "editMode": "GEOMETRY",
@@ -1478,6 +1826,11 @@
         {
           "dataSourceId": "dataSource_1-18ea55f6767-layer-45-18ea55f3396-layer-44",
           "mainDataSourceId": "dataSource_1-18ea55f6767-layer-45-18ea55f3396-layer-44",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
+          "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf5c8711-layer-32",
+          "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf5c8711-layer-32",
           "rootDataSourceId": "dataSource_1"
         }
       ]
@@ -2626,5 +2979,5 @@
       }
     }
   },
-  "timestamp": 1712257434894
+  "timestamp": 1712609011725
 }

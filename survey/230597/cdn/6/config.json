@@ -477,7 +477,6 @@
       "label": "Title of App (text)",
       "config": {
         "text": "<p><span style=\"color: var(--light); font-size: 20px;\">230597<span class=\"ql-cursor\">﻿</span></span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -610,7 +609,7 @@
         }
       },
       "icon": {
-        "svg": "https://localhost:3001/builder/../widgets/common/search/icon.svg",
+        "svg": "widgets/common/search/icon.svg",
         "properties": {
           "filename": "search.svg",
           "originalName": "default/search.svg",
@@ -1454,16 +1453,16 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-18ea503ccb5-layer-43-18ebf5c8711-layer-32",
+            "id": "dataSource_1-18ea503ccb5-layer-43-18ebf7f1aae-layer-32",
             "name": "TWM_TractsStatus",
-            "layerId": "18ebf5c8711-layer-32",
+            "layerId": "18ebf7f1aae-layer-32",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf5c8711-layer-32",
-              "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf5c8711-layer-32",
+              "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf7f1aae-layer-32",
+              "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf7f1aae-layer-32",
               "rootDataSourceId": "dataSource_1"
             },
             "addRecords": true,
-            "deleteRecords": false,
+            "deleteRecords": true,
             "updateGeometries": true,
             "featureSnapping": false,
             "showFields": [
@@ -1829,8 +1828,8 @@
           "rootDataSourceId": "dataSource_1"
         },
         {
-          "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf5c8711-layer-32",
-          "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf5c8711-layer-32",
+          "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf7f1aae-layer-32",
+          "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf7f1aae-layer-32",
           "rootDataSourceId": "dataSource_1"
         }
       ]
@@ -2806,7 +2805,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "230597",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1709329265315.png"
   },
   "sharedThemeVariables": {
     "header": {
@@ -2979,5 +2984,12 @@
       }
     }
   },
-  "timestamp": 1712609011725
+  "timestamp": 1712609913341,
+  "historyLabels": {
+    "pages": {
+      "page_0": [
+        "Page"
+      ]
+    }
+  }
 }

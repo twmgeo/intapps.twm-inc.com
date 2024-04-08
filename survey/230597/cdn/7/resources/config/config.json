@@ -585,13 +585,154 @@
               }
             ],
             "defaultAddressFieldName": "Default Address"
+          },
+          {
+            "configId": "config_2",
+            "icon": null,
+            "label": "TractsWithPrimaryOwnerName",
+            "displayLabel": true,
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18eaea01104-layer-32",
+              "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18eaea01104-layer-32",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "TractName",
+                "PrimaryOwnerName",
+                "TractTax",
+                "PrimaryAddress"
+              ]
+            },
+            "displayFields": [
+              {
+                "jimuName": "TractName",
+                "name": "TractName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TractName",
+                "format": null
+              },
+              {
+                "jimuName": "PrimaryOwnerName",
+                "name": "PrimaryOwnerName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PrimaryOwnerName",
+                "format": null
+              },
+              {
+                "jimuName": "TractTax",
+                "name": "TractTax",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TractTax",
+                "format": null
+              },
+              {
+                "jimuName": "PrimaryAddress",
+                "name": "PrimaryAddress",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "PrimaryAddress",
+                "format": null
+              }
+            ],
+            "searchFields": [
+              {
+                "jimuName": "TractName",
+                "name": "TractName",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "TractName",
+                "format": null
+              }
+            ],
+            "hint": "",
+            "searchServiceType": "FeatureService"
+          },
+          {
+            "configId": "config_1",
+            "icon": null,
+            "label": "p230597_Parcels_TazSouth",
+            "displayLabel": true,
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-18ea503ccb5-layer-43-18eaa57d59c-layer-30-39",
+              "mainDataSourceId": "dataSource_2-18ea503ccb5-layer-43-18eaa57d59c-layer-30-39",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "Proj_Name",
+                "Tract_Numb",
+                "Tax_ID1",
+                "Last_Name"
+              ]
+            },
+            "displayFields": [
+              {
+                "jimuName": "Tract_Numb",
+                "name": "Tract_Numb",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Tract Number",
+                "format": null
+              },
+              {
+                "jimuName": "Tax_ID1",
+                "name": "Tax_ID1",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Tax_ID",
+                "format": null
+              },
+              {
+                "jimuName": "Last_Name",
+                "name": "Last_Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Last Name",
+                "format": null
+              }
+            ],
+            "searchFields": [
+              {
+                "jimuName": "Proj_Name",
+                "name": "Proj_Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Project Name",
+                "format": null
+              }
+            ],
+            "hint": "",
+            "searchServiceType": "FeatureService"
           }
         ],
         "isUseCurrentLoation": true,
         "isShowRecentSearches": true
       },
       "id": "widget_6",
-      "useDataSources": [],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18eaea01104-layer-32",
+          "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18eaea01104-layer-32",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "TractName",
+            "PrimaryOwnerName",
+            "TractTax",
+            "PrimaryAddress"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_2-18ea503ccb5-layer-43-18eaa57d59c-layer-30-39",
+          "mainDataSourceId": "dataSource_2-18ea503ccb5-layer-43-18eaa57d59c-layer-30-39",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Proj_Name",
+            "Tract_Numb",
+            "Tax_ID1",
+            "Last_Name"
+          ]
+        }
+      ],
       "outputDataSources": [
         "widget_6_output_config_0"
       ],
@@ -629,7 +770,7 @@
         "toolConfig": {
           "canZoom": true,
           "canHome": true,
-          "canSearch": true,
+          "canSearch": false,
           "canNavigation": true,
           "canLocate": false,
           "canLayers": true,
@@ -1843,7 +1984,7 @@
         "toolConfig": {
           "canZoom": true,
           "canHome": true,
-          "canSearch": true,
+          "canSearch": false,
           "canNavigation": true,
           "canLocate": false,
           "canLayers": true,
@@ -2979,5 +3120,5 @@
       }
     }
   },
-  "timestamp": 1712609913341
+  "timestamp": 1712610533888
 }

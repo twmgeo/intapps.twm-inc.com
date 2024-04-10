@@ -214,12 +214,12 @@
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "right": "2.00%",
+            "right": "1.2%",
             "top": "0.0%",
-            "width": "10.7%",
-            "height": "7.9%",
-            "left": "89.3%",
-            "bottom": "92.1%"
+            "width": "7.9%",
+            "height": "26.3%",
+            "left": "90.9%",
+            "bottom": "73.7%"
           },
           "widgetId": "widget_86",
           "setting": {
@@ -237,12 +237,10 @@
         "2": {
           "type": "WIDGET",
           "bbox": {
-            "right": "2.0%",
-            "top": "6.3%",
-            "width": "9.1%",
-            "height": "7.9%",
-            "left": "88.9%",
-            "bottom": "85.8%"
+            "right": "1.5%",
+            "top": "11.7%",
+            "width": "7.2%",
+            "height": "21.1%"
           },
           "widgetId": "widget_94",
           "setting": {
@@ -274,14 +272,15 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "NaNpx",
-            "right": "NaNpx",
-            "top": "NaNpx",
-            "bottom": "NaNpx",
+            "left": "30px",
+            "right": "74px",
+            "top": "22px",
+            "bottom": "66px",
             "width": "400px",
             "height": "400px"
           },
-          "widgetId": "widget_87"
+          "widgetId": "widget_87",
+          "isPending": false
         },
         "1": {
           "type": "WIDGET",
@@ -300,21 +299,8 @@
     },
     "layout_10": {
       "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_88",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_11": {
       "type": "FIXED",
@@ -393,35 +379,11 @@
             "hCenter": false
           },
           "isPending": false
-        },
-        "2": {
-          "type": "WIDGET",
-          "bbox": {
-            "right": "2.0%",
-            "top": "5.0%",
-            "width": "9.0%",
-            "height": "7.9%",
-            "left": "89.0%",
-            "bottom": "87.1%"
-          },
-          "widgetId": "widget_97",
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": false
-          },
-          "isPending": true
         }
       },
       "order": [
         "0",
-        "1",
-        "2"
+        "1"
       ]
     },
     "layout_13": {
@@ -477,68 +439,30 @@
     },
     "layout_15": {
       "label": "Controller layout",
+      "order": [
+        "0"
+      ],
       "content": {
-        "1": {
+        "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "NaNpx",
-            "right": "NaNpx",
-            "top": "NaNpx",
-            "bottom": "NaNpx",
-            "width": "400px",
-            "height": "400px"
+            "left": "0px",
+            "right": "92px",
+            "top": "0px",
+            "bottom": "233px",
+            "width": "92px",
+            "height": "233px"
           },
-          "widgetId": "widget_96"
+          "widgetId": "widget_95"
         }
-      },
-      "order": [
-        "1"
-      ]
+      }
     },
     "layout_16": {
       "label": "Open widget layout",
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_96",
-          "bbox": {
-            "left": 0,
-            "top": 0,
-            "bottom": 0,
-            "right": 0
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_17": {
-      "label": "Controller layout",
-      "content": {
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "NaNpx",
-            "right": "NaNpx",
-            "top": "NaNpx",
-            "bottom": "NaNpx",
-            "width": "400px",
-            "height": "400px"
-          },
-          "widgetId": "widget_99"
-        }
-      },
-      "order": [
-        "1"
-      ]
-    },
-    "layout_18": {
-      "label": "Open widget layout",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_99",
+          "widgetId": "widget_95",
           "bbox": {
             "left": 0,
             "top": 0,
@@ -991,7 +915,7 @@
           "onlyOpenOne": true,
           "openStarts": [],
           "displayType": "STACK",
-          "vertical": false,
+          "vertical": true,
           "size": {
             "widget_88": {
               "width": 280,
@@ -1001,7 +925,7 @@
         },
         "appearance": {
           "space": 0,
-          "advanced": false,
+          "advanced": true,
           "card": {
             "showLabel": false,
             "labelGrowth": 0,
@@ -1009,6 +933,30 @@
               "type": "primary",
               "size": "default",
               "shape": "rectangle"
+            },
+            "variant": {
+              "default": {
+                "color": "#080808",
+                "bg": "var(--org-header-bg)",
+                "border": {
+                  "color": "#a20131",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "var(--dark-600)"
+              },
+              "active": {
+                "bg": "#870129",
+                "color": "#080808"
+              },
+              "disabled": {
+                "color": "#7f9f9f",
+                "bg": "#e6ecec",
+                "border": {
+                  "color": "#e6ecec"
+                }
+              }
             }
           }
         }
@@ -2586,17 +2534,12 @@
           "onlyOpenOne": true,
           "openStarts": [],
           "displayType": "STACK",
-          "vertical": false,
-          "size": {
-            "widget_88": {
-              "width": 280,
-              "height": 472
-            }
-          }
+          "vertical": true,
+          "size": {}
         },
         "appearance": {
           "space": 0,
-          "advanced": false,
+          "advanced": true,
           "card": {
             "showLabel": false,
             "labelGrowth": 0,
@@ -2604,6 +2547,30 @@
               "type": "primary",
               "size": "default",
               "shape": "rectangle"
+            },
+            "variant": {
+              "default": {
+                "color": "#080808",
+                "bg": "#049546",
+                "border": {
+                  "color": "#a20131",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "var(--dark-600)"
+              },
+              "active": {
+                "bg": "var(--success-800)",
+                "color": "#080808"
+              },
+              "disabled": {
+                "color": "#7f9f9f",
+                "bg": "#e6ecec",
+                "border": {
+                  "color": "#e6ecec"
+                }
+              }
             }
           }
         }
@@ -2618,20 +2585,20 @@
         }
       }
     },
-    "widget_96": {
+    "widget_95": {
       "uri": "widgets/common/edit/",
       "version": "1.10.0",
-      "label": "Update Parcel",
+      "label": "Tract Status",
       "config": {
         "layersConfig": [
           {
-            "id": "dataSource_1-18ea503ccb5-layer-43-18ebf7f1aae-layer-32",
+            "id": "dataSource_3-18ea503ccb5-layer-43-18ec9d68010-layer-33",
             "name": "TWM_TractsStatus",
-            "layerId": "18ebf7f1aae-layer-32",
+            "layerId": "18ec9d68010-layer-33",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf7f1aae-layer-32",
-              "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf7f1aae-layer-32",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_3-18ea503ccb5-layer-43-18ec9d68010-layer-33",
+              "mainDataSourceId": "dataSource_3-18ea503ccb5-layer-43-18ec9d68010-layer-33",
+              "rootDataSourceId": "dataSource_3"
             },
             "addRecords": false,
             "deleteRecords": false,
@@ -2746,22 +2713,6 @@
                 "format": null
               },
               {
-                "jimuName": "Shape__Area",
-                "name": "Shape__Area",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Shape.STArea()",
-                "format": null
-              },
-              {
-                "jimuName": "Shape__Length",
-                "name": "Shape__Length",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Shape.STLength()",
-                "format": null
-              },
-              {
                 "jimuName": "PlatStatus",
                 "name": "PlatStatus",
                 "type": "STRING",
@@ -2775,6 +2726,22 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Notes",
+                "format": null
+              },
+              {
+                "jimuName": "Shape__Area",
+                "name": "Shape__Area",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STArea()",
+                "format": null
+              },
+              {
+                "jimuName": "Shape__Length",
+                "name": "Shape__Length",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STLength()",
                 "format": null
               }
             ],
@@ -2926,28 +2893,6 @@
                 "editable": true
               },
               {
-                "jimuName": "Shape__Area",
-                "name": "Shape__Area",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Shape.STArea()",
-                "format": null,
-                "editAuthority": false,
-                "subDescription": "",
-                "editable": false
-              },
-              {
-                "jimuName": "Shape__Length",
-                "name": "Shape__Length",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Shape.STLength()",
-                "format": null,
-                "editAuthority": false,
-                "subDescription": "",
-                "editable": false
-              },
-              {
                 "jimuName": "PlatStatus",
                 "name": "PlatStatus",
                 "type": "STRING",
@@ -2968,18 +2913,40 @@
                 "editAuthority": true,
                 "subDescription": "",
                 "editable": true
+              },
+              {
+                "jimuName": "Shape__Area",
+                "name": "Shape__Area",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STArea()",
+                "format": null,
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "Shape__Length",
+                "name": "Shape__Length",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Shape.STLength()",
+                "format": null,
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
               }
             ],
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-49ddbff4265b47e4a4f6114c63c3d1bd",
+            "id": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-49ddbff4265b47e4a4f6114c63c3d1bd",
             "name": "Fulton_Parcels",
             "layerId": "49ddbff4265b47e4a4f6114c63c3d1bd",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-49ddbff4265b47e4a4f6114c63c3d1bd",
-              "mainDataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-49ddbff4265b47e4a4f6114c63c3d1bd",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-49ddbff4265b47e4a4f6114c63c3d1bd",
+              "mainDataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-49ddbff4265b47e4a4f6114c63c3d1bd",
+              "rootDataSourceId": "dataSource_3"
             },
             "addRecords": false,
             "deleteRecords": false,
@@ -4014,16 +3981,16 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-082feddf4fb94ed28a52b38e9a4d7a9b",
+            "id": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-082feddf4fb94ed28a52b38e9a4d7a9b",
             "name": "Hancock_Parcels",
             "layerId": "082feddf4fb94ed28a52b38e9a4d7a9b",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-082feddf4fb94ed28a52b38e9a4d7a9b",
-              "mainDataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-082feddf4fb94ed28a52b38e9a4d7a9b",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-082feddf4fb94ed28a52b38e9a4d7a9b",
+              "mainDataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-082feddf4fb94ed28a52b38e9a4d7a9b",
+              "rootDataSourceId": "dataSource_3"
             },
             "addRecords": false,
-            "deleteRecords": true,
+            "deleteRecords": false,
             "updateGeometries": true,
             "featureSnapping": false,
             "showFields": [
@@ -5079,13 +5046,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-f29d7b6eca5d4ef892fea7dd5790c057",
+            "id": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-f29d7b6eca5d4ef892fea7dd5790c057",
             "name": "McDonough_Parcels",
             "layerId": "f29d7b6eca5d4ef892fea7dd5790c057",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-f29d7b6eca5d4ef892fea7dd5790c057",
-              "mainDataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-f29d7b6eca5d4ef892fea7dd5790c057",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-f29d7b6eca5d4ef892fea7dd5790c057",
+              "mainDataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-f29d7b6eca5d4ef892fea7dd5790c057",
+              "rootDataSourceId": "dataSource_3"
             },
             "addRecords": false,
             "deleteRecords": false,
@@ -6096,13 +6063,13 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-199a9228dbf44d8081e881ecaf796050",
+            "id": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-199a9228dbf44d8081e881ecaf796050",
             "name": "Peoria_Parcels",
             "layerId": "199a9228dbf44d8081e881ecaf796050",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-199a9228dbf44d8081e881ecaf796050",
-              "mainDataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-199a9228dbf44d8081e881ecaf796050",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-199a9228dbf44d8081e881ecaf796050",
+              "mainDataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-199a9228dbf44d8081e881ecaf796050",
+              "rootDataSourceId": "dataSource_3"
             },
             "addRecords": false,
             "deleteRecords": false,
@@ -7206,7 +7173,7 @@
               "rootDataSourceId": "dataSource_1"
             },
             "addRecords": false,
-            "deleteRecords": true,
+            "deleteRecords": false,
             "updateGeometries": true,
             "featureSnapping": false,
             "showFields": [
@@ -8223,118 +8190,42 @@
         "editMode": "ATTRIBUTE",
         "selfSnapping": false,
         "featureSnapping": false,
-        "description": "",
+        "description": "Use this edit tool to update tract status or add attachments.",
         "noDataMessage": ""
       },
-      "id": "widget_96",
-      "useMapWidgetIds": [
-        "widget_83"
-      ],
+      "id": "widget_95",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf7f1aae-layer-32",
-          "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18ebf7f1aae-layer-32",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_3-18ea503ccb5-layer-43-18ec9d68010-layer-33",
+          "mainDataSourceId": "dataSource_3-18ea503ccb5-layer-43-18ec9d68010-layer-33",
+          "rootDataSourceId": "dataSource_3"
         },
         {
-          "dataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-49ddbff4265b47e4a4f6114c63c3d1bd",
-          "mainDataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-49ddbff4265b47e4a4f6114c63c3d1bd",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-49ddbff4265b47e4a4f6114c63c3d1bd",
+          "mainDataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-49ddbff4265b47e4a4f6114c63c3d1bd",
+          "rootDataSourceId": "dataSource_3"
         },
         {
-          "dataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-082feddf4fb94ed28a52b38e9a4d7a9b",
-          "mainDataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-082feddf4fb94ed28a52b38e9a4d7a9b",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-082feddf4fb94ed28a52b38e9a4d7a9b",
+          "mainDataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-082feddf4fb94ed28a52b38e9a4d7a9b",
+          "rootDataSourceId": "dataSource_3"
         },
         {
-          "dataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-f29d7b6eca5d4ef892fea7dd5790c057",
-          "mainDataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-f29d7b6eca5d4ef892fea7dd5790c057",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-f29d7b6eca5d4ef892fea7dd5790c057",
+          "mainDataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-f29d7b6eca5d4ef892fea7dd5790c057",
+          "rootDataSourceId": "dataSource_3"
         },
         {
-          "dataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-199a9228dbf44d8081e881ecaf796050",
-          "mainDataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-199a9228dbf44d8081e881ecaf796050",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-199a9228dbf44d8081e881ecaf796050",
+          "mainDataSourceId": "dataSource_3-ad9e450598dd45d9aa53ee270af50695-199a9228dbf44d8081e881ecaf796050",
+          "rootDataSourceId": "dataSource_3"
         },
         {
           "dataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-523af021041e49459e8c12e177b1c352",
           "mainDataSourceId": "dataSource_1-ad9e450598dd45d9aa53ee270af50695-523af021041e49459e8c12e177b1c352",
           "rootDataSourceId": "dataSource_1"
         }
-      ],
-      "icon": {
-        "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M13 6.133c0 .598-.28 1.46-.825 2.51-.53 1.02-1.247 2.102-1.981 3.102A45.718 45.718 0 0 1 8 14.492a48.01 48.01 0 0 1-2.194-2.747c-.734-1-1.451-2.081-1.98-3.102C3.28 7.593 3 6.731 3 6.133 3 3.277 5.26 1 8 1s5 2.277 5 5.133Zm1 0c0 2.685-3.768 7.311-5.332 9.115C8.258 15.722 8 16 8 16s-.258-.279-.668-.752C5.768 13.444 2 8.819 2 6.133 2 2.746 4.686 0 8 0s6 2.746 6 6.133ZM10 5.5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm1 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z\" fill=\"#000\"></path></svg>",
-        "properties": {
-          "filename": "mapPin",
-          "originalName": "outlined/application/pin.svg",
-          "path": [
-            "general",
-            "mapPin"
-          ],
-          "color": "var(--org-header-color)",
-          "size": 16,
-          "inlineSvg": true
-        }
-      }
-    },
-    "widget_97": {
-      "uri": "widgets/common/controller/",
-      "version": "1.10.0",
-      "label": "Widget Controller 4",
-      "config": {
-        "behavior": {
-          "onlyOpenOne": true,
-          "openStarts": [],
-          "displayType": "STACK",
-          "vertical": false,
-          "size": {
-            "widget_88": {
-              "width": 280,
-              "height": 472
-            }
-          }
-        },
-        "appearance": {
-          "space": 0,
-          "advanced": false,
-          "card": {
-            "showLabel": false,
-            "labelGrowth": 0,
-            "avatar": {
-              "type": "primary",
-              "size": "default",
-              "shape": "rectangle"
-            }
-          }
-        }
-      },
-      "id": "widget_97",
-      "layouts": {
-        "controller": {
-          "LARGE": "layout_17"
-        },
-        "_openwidget": {
-          "LARGE": "layout_18"
-        }
-      }
-    },
-    "widget_99": {
-      "uri": "widgets/common/edit/",
-      "version": "1.10.0",
-      "label": "Update Parcel",
-      "config": {
-        "layersConfig": [],
-        "editMode": "GEOMETRY",
-        "selfSnapping": false,
-        "featureSnapping": false,
-        "description": "",
-        "noDataMessage": ""
-      },
-      "id": "widget_99",
-      "useMapWidgetIds": [
-        "widget_89"
-      ],
-      "useDataSources": []
+      ]
     }
   },
   "widgetsManifest": {},
@@ -8663,7 +8554,7 @@
       }
     }
   },
-  "timestamp": 1712778145223,
+  "timestamp": 1712784397810,
   "historyLabels": {
     "pages": {
       "page_0": [

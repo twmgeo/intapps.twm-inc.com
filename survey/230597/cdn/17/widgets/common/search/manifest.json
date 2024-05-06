@@ -2,8 +2,8 @@
   "name": "search",
   "label": "Search",
   "type": "widget",
-  "version": "1.10.0",
-  "exbVersion": "1.10.0",
+  "version": "1.14.0",
+  "exbVersion": "1.14.0",
   "author": "Esri R&D Center Beijing",
   "description": "This is the widget used in developer guide",
   "copyright": "",
@@ -24,11 +24,19 @@
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
   "defaultSize": {
     "width": 400,
-    "height": 34
+    "height": 34,
+    "autoHeight": true
   },
   "properties": {
-    "hasSettingPage": true
+    "hasSettingPage": true,
+    "canGenerateMultipleOutputDataSources": true
   },
+  "urlParameters": [
+    {
+      "name": "search_status",
+      "label": "Search status"
+    }
+  ],
   "translatedLocales": [
     "en",
     "ar",

@@ -9,7 +9,7 @@ export default {
   capability: 'Capability',
   addRecords: 'Add records',
   deleteRecords: 'Delete records',
-  updateGeometries: 'Update geometries',
+  updateRecords: 'Update records',
   snappingSettings: 'Snapping settings',
   selfSnapping: 'Geometry guides',
   featureSnapping: 'Feature to feature',
@@ -31,9 +31,14 @@ export default {
   changeModeConfirmTips: 'You will lose the settings configured.',
   editable: 'Editable',
   editFieldDescription: 'Please input the description.',
-  selectMap: 'Select a Map widget',
   editableCount: '{count} Editable',
   layerHonorSetting: 'Use webmap settings',
   layerCustomize: 'Customize',
-  noLayerTips: 'The Map does not contain any editable data.'
+  noLayerTips: 'The Map does not contain any editable data.',
+  noMapTips: 'Please establish a connection with a Map widget.',
+  defaultEnabled: 'Enable by default',
+  chooseDefault: 'Choose default snapping layers',
+  uneditableTips: 'The layer is in a read-only state.',
+  prescriptiveMode: 'Prescriptive mode',
+  flexibleMode: 'Flexible mode'
 }

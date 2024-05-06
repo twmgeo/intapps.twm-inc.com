@@ -2,30 +2,32 @@
   "name": "controller",
   "label": "Widget Controller",
   "type": "widget",
-  "version": "1.10.0",
-  "exbVersion": "1.10.0",
+  "version": "1.14.0",
+  "exbVersion": "1.14.0",
   "author": "Esri R&D Center Beijing",
   "description": "This is the widget used in developer guide",
   "copyright": "",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
   "defaultSize": {
     "height": 54,
-    "width": 400
+    "width": 200,
+    "autoWidth": true,
+    "autoHeight": true
   },
   "properties": {
     "hasSettingPage": true,
-    "layoutType": "CONTROLLER",
     "hasEmbeddedLayout": true,
+    "isWidgetController": true,
+    "supportAutoSize": true,
+    "useDragHandler": true,
+    "canCrossLayoutBoundary": true,
     "hasBuilderSupportModule": true
   },
   "layouts": [
     {
       "name": "controller",
-      "label": "Controller layout"
-    },
-    {
-      "name": "_openwidget",
-      "label": "Open widget layout"
+      "label": "Controller layout",
+      "type": "FIXED"
     }
   ],
   "extensions": [

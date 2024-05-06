@@ -14,5 +14,12 @@ export default {
   maximumResults: 'Maximum display results per source',
   outputDsLabel: '{label} result',
   searchBoxTip: 'Search box',
-  searchIconTip: 'Search icon'
+  searchIconTip: 'Search icon',
+  searchClassic: 'Classic',
+  searchCompact: 'Compact',
+  arrangementStyleIndex: 'Arrangement style {index}',
+  styleSquare: 'Square',
+  styleCurve: 'Curve',
+  styleLinear: 'Linear',
+  _url_params_search_status_label: 'Search status'
 }

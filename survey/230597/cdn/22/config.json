@@ -2430,7 +2430,7 @@
                 "editable": false
               }
             ],
-            "layerHonorMode": "WEBMAP"
+            "layerHonorMode": "CUSTOM"
           }
         ],
         "editMode": "GEOMETRY",
@@ -9106,7 +9106,7 @@
       }
     }
   },
-  "timestamp": 1715604535741,
+  "timestamp": 1715626245229,
   "historyLabels": {
     "pages": {
       "page_0": [

@@ -496,7 +496,6 @@
       "label": "Title of App (text)",
       "config": {
         "text": "<p><span style=\"color: var(--light); font-size: 20px;\">230597<span class=\"ql-cursor\">﻿</span></span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -1622,6 +1621,178 @@
               }
             ],
             "layerHonorMode": "WEBMAP"
+          },
+          {
+            "id": "dataSource_1-18fc62ac5b5-layer-35",
+            "name": "RefDocs",
+            "layerId": "18fc62ac5b5-layer-35",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18fc62ac5b5-layer-35",
+              "mainDataSourceId": "dataSource_1-18fc62ac5b5-layer-35",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "addRecords": true,
+            "deleteRecords": true,
+            "updateRecords": true,
+            "updateAttributes": true,
+            "updateGeometries": true,
+            "featureSnapping": false,
+            "showFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null
+              },
+              {
+                "jimuName": "Updated",
+                "name": "Updated",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Updated",
+                "format": null
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "created_user",
+                "format": null
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "created_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "last_edited_user",
+                "format": null
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "last_edited_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                }
+              }
+            ],
+            "groupedFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Updated",
+                "name": "Updated",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Updated",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "created_user",
+                "name": "created_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "created_user",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "created_date",
+                "name": "created_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "created_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "last_edited_user",
+                "name": "last_edited_user",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "last_edited_user",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "last_edited_date",
+                "name": "last_edited_date",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "last_edited_date",
+                "format": {
+                  "dateFormat": "longMonthDayYear",
+                  "digitSeparator": false
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              }
+            ],
+            "layerHonorMode": "WEBMAP"
           }
         ],
         "editMode": "GEOMETRY",
@@ -1659,6 +1830,11 @@
         {
           "dataSourceId": "dataSource_1-18f96f3f531-layer-34",
           "mainDataSourceId": "dataSource_1-18f96f3f531-layer-34",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
+          "dataSourceId": "dataSource_1-18fc62ac5b5-layer-35",
+          "mainDataSourceId": "dataSource_1-18fc62ac5b5-layer-35",
           "rootDataSourceId": "dataSource_1"
         }
       ]
@@ -9258,7 +9434,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "230597",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1709329265315.png"
   },
   "sharedThemeVariables": {
     "header": {
@@ -9431,5 +9613,12 @@
       }
     }
   },
-  "timestamp": 1716225015809
+  "timestamp": 1717017085378,
+  "historyLabels": {
+    "pages": {
+      "page_0": [
+        "Page"
+      ]
+    }
+  }
 }

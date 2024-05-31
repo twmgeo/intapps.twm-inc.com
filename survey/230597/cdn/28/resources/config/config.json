@@ -2254,7 +2254,7 @@
     "widget_93": {
       "uri": "widgets/common/edit/",
       "version": "1.14.0",
-      "label": "Edit 2",
+      "label": "Edit",
       "config": {
         "layersConfig": [
           {
@@ -9904,5 +9904,5 @@
       }
     }
   },
-  "timestamp": 1717100685976
+  "timestamp": 1717183359062
 }

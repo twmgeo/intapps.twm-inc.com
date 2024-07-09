@@ -10994,16 +10994,16 @@
       "config": {
         "layersConfig": [
           {
-            "id": "dataSource_1-18ea503ccb5-layer-43-18f639cee3f-layer-33",
-            "name": "TWM_TractsStatus",
-            "layerId": "18f639cee3f-layer-33",
+            "id": "dataSource_2-18ea503ccb5-layer-43-19055432024-layer-28",
+            "name": "TractsStatus",
+            "layerId": "19055432024-layer-28",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18f639cee3f-layer-33",
-              "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18f639cee3f-layer-33",
-              "rootDataSourceId": "dataSource_1"
+              "dataSourceId": "dataSource_2-18ea503ccb5-layer-43-19055432024-layer-28",
+              "mainDataSourceId": "dataSource_2-18ea503ccb5-layer-43-19055432024-layer-28",
+              "rootDataSourceId": "dataSource_2"
             },
             "addRecords": true,
-            "deleteRecords": true,
+            "deleteRecords": false,
             "updateRecords": true,
             "updateAttributes": true,
             "updateGeometries": true,
@@ -11356,13 +11356,13 @@
       },
       "id": "widget_99",
       "useMapWidgetIds": [
-        "widget_83"
+        "widget_89"
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-18ea503ccb5-layer-43-18f639cee3f-layer-33",
-          "mainDataSourceId": "dataSource_1-18ea503ccb5-layer-43-18f639cee3f-layer-33",
-          "rootDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_2-18ea503ccb5-layer-43-19055432024-layer-28",
+          "mainDataSourceId": "dataSource_2-18ea503ccb5-layer-43-19055432024-layer-28",
+          "rootDataSourceId": "dataSource_2"
         }
       ]
     },
@@ -13122,7 +13122,7 @@
       }
     }
   },
-  "timestamp": 1720191796576,
+  "timestamp": 1720552341155,
   "historyLabels": {
     "pages": {
       "page_0": [

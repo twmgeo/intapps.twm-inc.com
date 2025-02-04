@@ -222,8 +222,7 @@
       "order": [
         "0",
         "1",
-        "2",
-        "3"
+        "2"
       ],
       "content": {
         "0": {
@@ -264,18 +263,6 @@
           },
           "widgetId": "widget_94",
           "isPending": true
-        },
-        "3": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "NaNpx",
-            "right": "NaNpx",
-            "top": "NaNpx",
-            "bottom": "NaNpx",
-            "width": "400px",
-            "height": "400px"
-          },
-          "widgetId": "widget_98"
         }
       }
     }
@@ -357,14 +344,14 @@
         "initialMapState": {
           "viewPoint": {
             "rotation": 0,
-            "scale": 72223.819286,
+            "scale": 36111.909643,
             "targetGeometry": {
               "spatialReference": {
                 "latestWkid": 3857,
                 "wkid": 102100
               },
-              "x": -10013674.86317977,
-              "y": 4690224.625690746
+              "x": -10014467.561268263,
+              "y": 4689277.816440173
             }
           },
           "extent": {
@@ -372,10 +359,10 @@
               "latestWkid": 3857,
               "wkid": 102100
             },
-            "xmin": -10025904.78770538,
-            "ymin": 4683106.427431699,
-            "xmax": -10001444.938654158,
-            "ymax": 4697342.823949793
+            "xmin": -10020582.523531068,
+            "ymin": 4685718.717310649,
+            "xmax": -10008352.599005457,
+            "ymax": 4692836.9155696975
           },
           "rotation": 0,
           "viewType": "2d"
@@ -483,12 +470,12 @@
       "config": {
         "layersConfig": [
           {
-            "id": "dataSource_1-9b7304bea3f741fd9d969cb9836f2f7e",
+            "id": "dataSource_1-bf9aff43bc5c4f8e90c7ea2e5456774a",
             "name": "Point Search",
-            "layerId": "9b7304bea3f741fd9d969cb9836f2f7e",
+            "layerId": "bf9aff43bc5c4f8e90c7ea2e5456774a",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-9b7304bea3f741fd9d969cb9836f2f7e",
-              "mainDataSourceId": "dataSource_1-9b7304bea3f741fd9d969cb9836f2f7e",
+              "dataSourceId": "dataSource_1-bf9aff43bc5c4f8e90c7ea2e5456774a",
+              "mainDataSourceId": "dataSource_1-bf9aff43bc5c4f8e90c7ea2e5456774a",
               "rootDataSourceId": "dataSource_1"
             },
             "addRecords": true,
@@ -643,12 +630,12 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-e3f17fc005f7436e90621d90a4f0438e",
+            "id": "dataSource_1-af25fe7484c9452f92bcf5b0a1effc80",
             "name": "FieldNotes_Polygon",
-            "layerId": "e3f17fc005f7436e90621d90a4f0438e",
+            "layerId": "af25fe7484c9452f92bcf5b0a1effc80",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-e3f17fc005f7436e90621d90a4f0438e",
-              "mainDataSourceId": "dataSource_1-e3f17fc005f7436e90621d90a4f0438e",
+              "dataSourceId": "dataSource_1-af25fe7484c9452f92bcf5b0a1effc80",
+              "mainDataSourceId": "dataSource_1-af25fe7484c9452f92bcf5b0a1effc80",
               "rootDataSourceId": "dataSource_1"
             },
             "addRecords": true,
@@ -928,12 +915,12 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-3e4cf578f2e34b42af946c329e5366ff",
+            "id": "dataSource_1-d8f8a95d9fd94769b3b4a83858493e7d",
             "name": "Boundary_Point",
-            "layerId": "3e4cf578f2e34b42af946c329e5366ff",
+            "layerId": "d8f8a95d9fd94769b3b4a83858493e7d",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-3e4cf578f2e34b42af946c329e5366ff",
-              "mainDataSourceId": "dataSource_1-3e4cf578f2e34b42af946c329e5366ff",
+              "dataSourceId": "dataSource_1-d8f8a95d9fd94769b3b4a83858493e7d",
+              "mainDataSourceId": "dataSource_1-d8f8a95d9fd94769b3b4a83858493e7d",
               "rootDataSourceId": "dataSource_1"
             },
             "addRecords": true,
@@ -1107,12 +1094,12 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-ce3a8d73f9bc4ab1a211bc4502aec69a",
+            "id": "dataSource_1-678e6d16a30f46948bdef8723e52c251",
             "name": "Monument_Record",
-            "layerId": "ce3a8d73f9bc4ab1a211bc4502aec69a",
+            "layerId": "678e6d16a30f46948bdef8723e52c251",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-ce3a8d73f9bc4ab1a211bc4502aec69a",
-              "mainDataSourceId": "dataSource_1-ce3a8d73f9bc4ab1a211bc4502aec69a",
+              "dataSourceId": "dataSource_1-678e6d16a30f46948bdef8723e52c251",
+              "mainDataSourceId": "dataSource_1-678e6d16a30f46948bdef8723e52c251",
               "rootDataSourceId": "dataSource_1"
             },
             "addRecords": true,
@@ -1267,12 +1254,12 @@
             "layerHonorMode": "WEBMAP"
           },
           {
-            "id": "dataSource_1-57edc16e03f64beb9d5e7ce0126b3932",
-            "name": "MASTERCONTROL",
-            "layerId": "57edc16e03f64beb9d5e7ce0126b3932",
+            "id": "dataSource_1-51c0ca80165c4e7b8fb47217a710f2f3",
+            "name": "Monuments",
+            "layerId": "51c0ca80165c4e7b8fb47217a710f2f3",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-57edc16e03f64beb9d5e7ce0126b3932",
-              "mainDataSourceId": "dataSource_1-57edc16e03f64beb9d5e7ce0126b3932",
+              "dataSourceId": "dataSource_1-51c0ca80165c4e7b8fb47217a710f2f3",
+              "mainDataSourceId": "dataSource_1-51c0ca80165c4e7b8fb47217a710f2f3",
               "rootDataSourceId": "dataSource_1"
             },
             "addRecords": true,
@@ -1294,52 +1281,51 @@
                 }
               },
               {
-                "jimuName": "Field1",
-                "name": "Field1",
+                "jimuName": "Name",
+                "name": "Name",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Field1",
+                "alias": "Name",
                 "format": null
               },
               {
-                "jimuName": "Field2",
-                "name": "Field2",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Field2",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Field3",
-                "name": "Field3",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Field3",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Field4",
-                "name": "Field4",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Field4",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Field5",
-                "name": "Field5",
+                "jimuName": "Ties",
+                "name": "Ties",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Field5",
+                "alias": "Ties",
+                "format": null
+              },
+              {
+                "jimuName": "RecordedBy",
+                "name": "RecordedBy",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "RecordedBy",
+                "format": null
+              },
+              {
+                "jimuName": "Project",
+                "name": "Project",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Project",
+                "format": null
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null
+              },
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
                 "format": null
               }
             ],
@@ -1359,64 +1345,169 @@
                 "editable": false
               },
               {
-                "jimuName": "Field1",
-                "name": "Field1",
+                "jimuName": "Name",
+                "name": "Name",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Field1",
+                "alias": "Name",
                 "format": null,
                 "editAuthority": true,
                 "subDescription": "",
                 "editable": true
               },
               {
-                "jimuName": "Field2",
-                "name": "Field2",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Field2",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Field3",
-                "name": "Field3",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Field3",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Field4",
-                "name": "Field4",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Field4",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Field5",
-                "name": "Field5",
+                "jimuName": "Ties",
+                "name": "Ties",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
-                "alias": "Field5",
+                "alias": "Ties",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "RecordedBy",
+                "name": "RecordedBy",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "RecordedBy",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Project",
+                "name": "Project",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Project",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Type",
+                "name": "Type",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              }
+            ],
+            "layerHonorMode": "WEBMAP"
+          },
+          {
+            "id": "dataSource_1-82b37c6b507d4abc8511a85c5ed1f5fa",
+            "name": "Plat Records",
+            "layerId": "82b37c6b507d4abc8511a85c5ed1f5fa",
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-82b37c6b507d4abc8511a85c5ed1f5fa",
+              "mainDataSourceId": "dataSource_1-82b37c6b507d4abc8511a85c5ed1f5fa",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "addRecords": true,
+            "deleteRecords": true,
+            "updateRecords": true,
+            "updateAttributes": true,
+            "updateGeometries": true,
+            "featureSnapping": false,
+            "showFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null
+              },
+              {
+                "jimuName": "Description",
+                "name": "Description",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description",
+                "format": null
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
+                "format": null
+              }
+            ],
+            "groupedFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "Name",
+                "name": "Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Name",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Description",
+                "name": "Description",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Description",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Notes",
+                "name": "Notes",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Notes",
                 "format": null,
                 "editAuthority": true,
                 "subDescription": "",
@@ -1439,28 +1530,33 @@
       ],
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-9b7304bea3f741fd9d969cb9836f2f7e",
-          "mainDataSourceId": "dataSource_1-9b7304bea3f741fd9d969cb9836f2f7e",
+          "dataSourceId": "dataSource_1-bf9aff43bc5c4f8e90c7ea2e5456774a",
+          "mainDataSourceId": "dataSource_1-bf9aff43bc5c4f8e90c7ea2e5456774a",
           "rootDataSourceId": "dataSource_1"
         },
         {
-          "dataSourceId": "dataSource_1-e3f17fc005f7436e90621d90a4f0438e",
-          "mainDataSourceId": "dataSource_1-e3f17fc005f7436e90621d90a4f0438e",
+          "dataSourceId": "dataSource_1-af25fe7484c9452f92bcf5b0a1effc80",
+          "mainDataSourceId": "dataSource_1-af25fe7484c9452f92bcf5b0a1effc80",
           "rootDataSourceId": "dataSource_1"
         },
         {
-          "dataSourceId": "dataSource_1-3e4cf578f2e34b42af946c329e5366ff",
-          "mainDataSourceId": "dataSource_1-3e4cf578f2e34b42af946c329e5366ff",
+          "dataSourceId": "dataSource_1-d8f8a95d9fd94769b3b4a83858493e7d",
+          "mainDataSourceId": "dataSource_1-d8f8a95d9fd94769b3b4a83858493e7d",
           "rootDataSourceId": "dataSource_1"
         },
         {
-          "dataSourceId": "dataSource_1-ce3a8d73f9bc4ab1a211bc4502aec69a",
-          "mainDataSourceId": "dataSource_1-ce3a8d73f9bc4ab1a211bc4502aec69a",
+          "dataSourceId": "dataSource_1-678e6d16a30f46948bdef8723e52c251",
+          "mainDataSourceId": "dataSource_1-678e6d16a30f46948bdef8723e52c251",
           "rootDataSourceId": "dataSource_1"
         },
         {
-          "dataSourceId": "dataSource_1-57edc16e03f64beb9d5e7ce0126b3932",
-          "mainDataSourceId": "dataSource_1-57edc16e03f64beb9d5e7ce0126b3932",
+          "dataSourceId": "dataSource_1-51c0ca80165c4e7b8fb47217a710f2f3",
+          "mainDataSourceId": "dataSource_1-51c0ca80165c4e7b8fb47217a710f2f3",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
+          "dataSourceId": "dataSource_1-82b37c6b507d4abc8511a85c5ed1f5fa",
+          "mainDataSourceId": "dataSource_1-82b37c6b507d4abc8511a85c5ed1f5fa",
           "rootDataSourceId": "dataSource_1"
         }
       ]
@@ -2519,48 +2615,7 @@
         "searchResultStyle": "Classic"
       },
       "id": "widget_96",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-1e7fbdc3bc2a46bb85f8ac3eed450c1f",
-          "mainDataSourceId": "dataSource_1-1e7fbdc3bc2a46bb85f8ac3eed450c1f",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "Input_Pa_1"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_1-9b7304bea3f741fd9d969cb9836f2f7e",
-          "mainDataSourceId": "dataSource_1-9b7304bea3f741fd9d969cb9836f2f7e",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "Notes"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_1-3e4cf578f2e34b42af946c329e5366ff",
-          "mainDataSourceId": "dataSource_1-3e4cf578f2e34b42af946c329e5366ff",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "Type"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_1-ce3a8d73f9bc4ab1a211bc4502aec69a",
-          "mainDataSourceId": "dataSource_1-ce3a8d73f9bc4ab1a211bc4502aec69a",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "Notes"
-          ]
-        },
-        {
-          "dataSourceId": "dataSource_1-57edc16e03f64beb9d5e7ce0126b3932",
-          "mainDataSourceId": "dataSource_1-57edc16e03f64beb9d5e7ce0126b3932",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "Field1"
-          ]
-        }
-      ],
+      "useDataSources": [],
       "outputDataSources": [
         "widget_96_output_config_5"
       ],
@@ -2569,1083 +2624,6 @@
           "utilityId": "utility_1"
         }
       ]
-    },
-    "widget_98": {
-      "uri": "widgets/common/edit/",
-      "version": "1.14.0",
-      "label": "Add Attachments",
-      "config": {
-        "layersConfig": [
-          {
-            "id": "dataSource_1-1e7fbdc3bc2a46bb85f8ac3eed450c1f",
-            "name": "Parcels",
-            "layerId": "1e7fbdc3bc2a46bb85f8ac3eed450c1f",
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-1e7fbdc3bc2a46bb85f8ac3eed450c1f",
-              "mainDataSourceId": "dataSource_1-1e7fbdc3bc2a46bb85f8ac3eed450c1f",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "addRecords": true,
-            "deleteRecords": true,
-            "updateRecords": true,
-            "updateAttributes": true,
-            "updateGeometries": true,
-            "featureSnapping": false,
-            "showFields": [
-              {
-                "jimuName": "OBJECTID",
-                "name": "OBJECTID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeOID",
-                "alias": "OBJECTID",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
-              },
-              {
-                "jimuName": "Input_Parc",
-                "name": "Input_Parc",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_Parc",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Input_Pa_1",
-                "name": "Input_Pa_1",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_1",
-                "format": null
-              },
-              {
-                "jimuName": "Input_Pa_2",
-                "name": "Input_Pa_2",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_2",
-                "format": null
-              },
-              {
-                "jimuName": "Input_Pa_3",
-                "name": "Input_Pa_3",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_Pa_3",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Input_Pa_4",
-                "name": "Input_Pa_4",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_4",
-                "format": null
-              },
-              {
-                "jimuName": "Input_Pa_5",
-                "name": "Input_Pa_5",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_5",
-                "format": null
-              },
-              {
-                "jimuName": "Input_Pa_6",
-                "name": "Input_Pa_6",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_6",
-                "format": null
-              },
-              {
-                "jimuName": "Input_Pa_7",
-                "name": "Input_Pa_7",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_7",
-                "format": null
-              },
-              {
-                "jimuName": "Input_Pa_8",
-                "name": "Input_Pa_8",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_8",
-                "format": null
-              },
-              {
-                "jimuName": "Input_Pa_9",
-                "name": "Input_Pa_9",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_9",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_10",
-                "name": "Input_P_10",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_10",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_11",
-                "name": "Input_P_11",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_11",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_12",
-                "name": "Input_P_12",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_12",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_13",
-                "name": "Input_P_13",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_13",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_14",
-                "name": "Input_P_14",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_14",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_15",
-                "name": "Input_P_15",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_15",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_16",
-                "name": "Input_P_16",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_16",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_17",
-                "name": "Input_P_17",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_17",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_18",
-                "name": "Input_P_18",
-                "type": "DATE",
-                "esriType": "esriFieldTypeDate",
-                "alias": "Input_P_18",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_19",
-                "name": "Input_P_19",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_19",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Input_P_20",
-                "name": "Input_P_20",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_20",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Input_P_21",
-                "name": "Input_P_21",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_21",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Input_P_22",
-                "name": "Input_P_22",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_22",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_23",
-                "name": "Input_P_23",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_23",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_24",
-                "name": "Input_P_24",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_24",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_25",
-                "name": "Input_P_25",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_25",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_26",
-                "name": "Input_P_26",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_26",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_27",
-                "name": "Input_P_27",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_27",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Input_P_28",
-                "name": "Input_P_28",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_28",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Input_P_29",
-                "name": "Input_P_29",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_29",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Input_P_30",
-                "name": "Input_P_30",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_30",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Input_P_31",
-                "name": "Input_P_31",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_31",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                }
-              },
-              {
-                "jimuName": "Input_P_32",
-                "name": "Input_P_32",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_32",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_33",
-                "name": "Input_P_33",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_33",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_34",
-                "name": "Input_P_34",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_34",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_35",
-                "name": "Input_P_35",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_35",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_36",
-                "name": "Input_P_36",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_36",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_37",
-                "name": "Input_P_37",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_37",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_38",
-                "name": "Input_P_38",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_38",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_39",
-                "name": "Input_P_39",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_39",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_40",
-                "name": "Input_P_40",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_40",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_41",
-                "name": "Input_P_41",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_41",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_42",
-                "name": "Input_P_42",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_42",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_43",
-                "name": "Input_P_43",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_43",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_44",
-                "name": "Input_P_44",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_44",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_45",
-                "name": "Input_P_45",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_45",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_46",
-                "name": "Input_P_46",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_46",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_47",
-                "name": "Input_P_47",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_47",
-                "format": null
-              },
-              {
-                "jimuName": "Input_P_48",
-                "name": "Input_P_48",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_48",
-                "format": null
-              }
-            ],
-            "groupedFields": [
-              {
-                "jimuName": "OBJECTID",
-                "name": "OBJECTID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeOID",
-                "alias": "OBJECTID",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": false,
-                "subDescription": "",
-                "editable": false
-              },
-              {
-                "jimuName": "Input_Parc",
-                "name": "Input_Parc",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_Parc",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_Pa_1",
-                "name": "Input_Pa_1",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_1",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_Pa_2",
-                "name": "Input_Pa_2",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_2",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_Pa_3",
-                "name": "Input_Pa_3",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_Pa_3",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_Pa_4",
-                "name": "Input_Pa_4",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_4",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_Pa_5",
-                "name": "Input_Pa_5",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_5",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_Pa_6",
-                "name": "Input_Pa_6",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_6",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_Pa_7",
-                "name": "Input_Pa_7",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_7",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_Pa_8",
-                "name": "Input_Pa_8",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_8",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_Pa_9",
-                "name": "Input_Pa_9",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_Pa_9",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_10",
-                "name": "Input_P_10",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_10",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_11",
-                "name": "Input_P_11",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_11",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_12",
-                "name": "Input_P_12",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_12",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_13",
-                "name": "Input_P_13",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_13",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_14",
-                "name": "Input_P_14",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_14",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_15",
-                "name": "Input_P_15",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_15",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_16",
-                "name": "Input_P_16",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_16",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_17",
-                "name": "Input_P_17",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_17",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_18",
-                "name": "Input_P_18",
-                "type": "DATE",
-                "esriType": "esriFieldTypeDate",
-                "alias": "Input_P_18",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_19",
-                "name": "Input_P_19",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_19",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_20",
-                "name": "Input_P_20",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_20",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_21",
-                "name": "Input_P_21",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_21",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_22",
-                "name": "Input_P_22",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_22",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_23",
-                "name": "Input_P_23",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_23",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_24",
-                "name": "Input_P_24",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_24",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_25",
-                "name": "Input_P_25",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_25",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_26",
-                "name": "Input_P_26",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_26",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_27",
-                "name": "Input_P_27",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_27",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_28",
-                "name": "Input_P_28",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_28",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_29",
-                "name": "Input_P_29",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_29",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_30",
-                "name": "Input_P_30",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_30",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_31",
-                "name": "Input_P_31",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Input_P_31",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 6
-                },
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_32",
-                "name": "Input_P_32",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_32",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_33",
-                "name": "Input_P_33",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_33",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_34",
-                "name": "Input_P_34",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_34",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_35",
-                "name": "Input_P_35",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_35",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_36",
-                "name": "Input_P_36",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_36",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_37",
-                "name": "Input_P_37",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_37",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_38",
-                "name": "Input_P_38",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_38",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_39",
-                "name": "Input_P_39",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_39",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_40",
-                "name": "Input_P_40",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_40",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_41",
-                "name": "Input_P_41",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_41",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_42",
-                "name": "Input_P_42",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_42",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_43",
-                "name": "Input_P_43",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_43",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_44",
-                "name": "Input_P_44",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_44",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_45",
-                "name": "Input_P_45",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_45",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_46",
-                "name": "Input_P_46",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_46",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_47",
-                "name": "Input_P_47",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_47",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Input_P_48",
-                "name": "Input_P_48",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Input_P_48",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              }
-            ],
-            "layerHonorMode": "WEBMAP"
-          }
-        ],
-        "editMode": "GEOMETRY",
-        "selfSnapping": false,
-        "featureSnapping": false,
-        "description": "",
-        "noDataMessage": "",
-        "snapSettingMode": "FLEXIBLE"
-      },
-      "id": "widget_98",
-      "useMapWidgetIds": [
-        "widget_83"
-      ],
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-1e7fbdc3bc2a46bb85f8ac3eed450c1f",
-          "mainDataSourceId": "dataSource_1-1e7fbdc3bc2a46bb85f8ac3eed450c1f",
-          "rootDataSourceId": "dataSource_1"
-        }
-      ],
-      "icon": {
-        "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m1.373 8 2.07-2.071.83.828L2.2 8.828a3.515 3.515 0 0 0 4.97 4.971l2.072-2.071.828.828L8 14.627A4.686 4.686 0 1 1 1.373 8ZM13.799 7.172l-2.071 2.07.828.83L14.627 8A4.686 4.686 0 1 0 8 1.373l-2.071 2.07.828.83L8.828 2.2a3.515 3.515 0 0 1 4.971 4.97Z\" fill=\"#000\"></path><path d=\"M5.515 9.657a.586.586 0 0 0 .828.828l4.142-4.142a.586.586 0 0 0-.828-.828L5.515 9.657Z\" fill=\"#000\"></path></svg>",
-        "properties": {
-          "filename": "link",
-          "originalName": "outlined/data/link-tilted.svg",
-          "path": [
-            "general",
-            "link"
-          ],
-          "color": "#ffffff",
-          "size": 16,
-          "inlineSvg": true
-        }
-      }
     }
   },
   "widgetsManifest": {},
@@ -3755,13 +2733,6 @@
         }
       },
       "geometryType": "esriGeometryPoint"
-    },
-    "dataSource_1": {
-      "id": "dataSource_1",
-      "type": "WEB_MAP",
-      "sourceLabel": "250092",
-      "itemId": "f6ba377c6b2c4d7584d89ad93ed816db",
-      "portalUrl": "https://geo.twm-inc.com/arcgis"
     },
     "widget_96_output_config_5": {
       "id": "widget_96_output_config_5",
@@ -4197,6 +3168,13 @@
         }
       },
       "geometryType": "esriGeometryPoint"
+    },
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "250092",
+      "itemId": "36c1a6bd18914931841afec0d622536f",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
     }
   },
   "messageConfigs": {
@@ -4417,5 +3395,5 @@
       }
     }
   },
-  "timestamp": 1738610254124
+  "timestamp": 1738706781073
 }

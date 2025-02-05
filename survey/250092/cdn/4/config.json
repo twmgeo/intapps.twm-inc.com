@@ -341,9 +341,34 @@
           "canBaseMap": true,
           "canMeasure": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "layoutIndex": 1,
-        "initialMapState": null,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 36111.909643,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -10014581.069973284,
+              "y": 4689925.932898465
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -10020696.03223609,
+            "ymin": 4686366.8337689405,
+            "xmax": -10008466.107710479,
+            "ymax": 4693485.032027989
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
         "initialMapDataSourceID": "dataSource_1"
       },
       "id": "widget_83",
@@ -5011,5 +5036,5 @@
       }
     }
   },
-  "timestamp": 1738779134701
+  "timestamp": 1738779866401
 }

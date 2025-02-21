@@ -308,7 +308,6 @@
       "label": "Title of App (text)",
       "config": {
         "text": "<p><span style=\"font-size: 20px; color: var(--light);\">190281AV Tree Inventory<span class=\"ql-cursor\">﻿</span></span></p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -637,7 +636,7 @@
               "mainDataSourceId": "dataSource_6-9a43d22fa3a940938eb3068b33ba61fe",
               "rootDataSourceId": "dataSource_6"
             },
-            "addRecords": true,
+            "addRecords": false,
             "deleteRecords": true,
             "updateRecords": true,
             "updateAttributes": true,
@@ -645,15 +644,20 @@
             "featureSnapping": false,
             "showFields": [
               {
-                "jimuName": "OBJECTID",
-                "name": "OBJECTID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeOID",
-                "alias": "OBJECTID",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                }
+                "jimuName": "Stems",
+                "name": "Stems",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Stems",
+                "format": null
+              },
+              {
+                "jimuName": "CAD_Name",
+                "name": "CAD_Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "CAD_Name",
+                "format": null
               },
               {
                 "jimuName": "DIAMETER",
@@ -673,214 +677,19 @@
                 "esriType": "esriFieldTypeString",
                 "alias": "Offset Distance",
                 "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_POSITIONSOURCETYPE",
-                "name": "ESRIGNSS_POSITIONSOURCETYPE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "Position source type",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_RECEIVER",
-                "name": "ESRIGNSS_RECEIVER",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Receiver Name",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_LATITUDE",
-                "name": "ESRIGNSS_LATITUDE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Latitude",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_LONGITUDE",
-                "name": "ESRIGNSS_LONGITUDE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Longitude",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_ALTITUDE",
-                "name": "ESRIGNSS_ALTITUDE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Altitude",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_H_RMS",
-                "name": "ESRIGNSS_H_RMS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Horizontal Accuracy (m)",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_V_RMS",
-                "name": "ESRIGNSS_V_RMS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Vertical Accuracy (m)",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_FIXDATETIME",
-                "name": "ESRIGNSS_FIXDATETIME",
-                "type": "DATE",
-                "esriType": "esriFieldTypeDate",
-                "alias": "Fix Time",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_FIXTYPE",
-                "name": "ESRIGNSS_FIXTYPE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "Fix Type",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_CORRECTIONAGE",
-                "name": "ESRIGNSS_CORRECTIONAGE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Correction Age",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_STATIONID",
-                "name": "ESRIGNSS_STATIONID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "Station ID",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_NUMSATS",
-                "name": "ESRIGNSS_NUMSATS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "Number of Satellites",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_PDOP",
-                "name": "ESRIGNSS_PDOP",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "PDOP",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_HDOP",
-                "name": "ESRIGNSS_HDOP",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "HDOP",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_VDOP",
-                "name": "ESRIGNSS_VDOP",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "VDOP",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_DIRECTION",
-                "name": "ESRIGNSS_DIRECTION",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Direction of travel (°)",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_SPEED",
-                "name": "ESRIGNSS_SPEED",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Speed (km/h)",
-                "format": null
-              },
-              {
-                "jimuName": "ESRISNSR_AZIMUTH",
-                "name": "ESRISNSR_AZIMUTH",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Compass reading (°)",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_AVG_H_RMS",
-                "name": "ESRIGNSS_AVG_H_RMS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Average Horizontal Accuracy (m)",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_AVG_V_RMS",
-                "name": "ESRIGNSS_AVG_V_RMS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Average Vertical Accuracy (m)",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_AVG_POSITIONS",
-                "name": "ESRIGNSS_AVG_POSITIONS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "Averaged Positions",
-                "format": null
-              },
-              {
-                "jimuName": "ESRIGNSS_H_STDDEV",
-                "name": "ESRIGNSS_H_STDDEV",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Standard Deviation (m)",
-                "format": null
-              },
-              {
-                "jimuName": "XCoor",
-                "name": "XCoor",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "XCoor",
-                "format": null
-              },
-              {
-                "jimuName": "YCoor",
-                "name": "YCoor",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "YCoor",
-                "format": null
-              },
-              {
-                "jimuName": "ZCoor",
-                "name": "ZCoor",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "ZCoor",
-                "format": null
-              },
+              }
+            ],
+            "groupedFields": [
               {
                 "jimuName": "Stems",
                 "name": "Stems",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "Stems",
-                "format": null
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
               },
               {
                 "jimuName": "CAD_Name",
@@ -888,60 +697,23 @@
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "CAD_Name",
-                "format": null
+                "format": null,
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": true
               },
               {
-                "jimuName": "POINT_X",
-                "name": "POINT_X",
+                "jimuName": "DIAMETER",
+                "name": "DIAMETER",
                 "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "POINT_X",
-                "format": null
-              },
-              {
-                "jimuName": "POINT_Y",
-                "name": "POINT_Y",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "POINT_Y",
-                "format": null
-              },
-              {
-                "jimuName": "POINT_Z",
-                "name": "POINT_Z",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "POINT_Z",
-                "format": null
-              }
-            ],
-            "groupedFields": [
-              {
-                "jimuName": "OBJECTID",
-                "name": "OBJECTID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeOID",
-                "alias": "OBJECTID",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "DIAMETER",
                 "format": {
                   "digitSeparator": false,
                   "places": 0
                 },
                 "editAuthority": false,
                 "subDescription": "",
-                "editable": false
-              },
-              {
-                "jimuName": "DIAMETER",
-                "name": "DIAMETER",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "DIAMETER",
-                "format": {
-                  "digitSeparator": false,
-                  "places": 0
-                },
-                "editAuthority": true,
-                "subDescription": "",
                 "editable": true
               },
               {
@@ -951,345 +723,17 @@
                 "esriType": "esriFieldTypeString",
                 "alias": "Offset Distance",
                 "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_POSITIONSOURCETYPE",
-                "name": "ESRIGNSS_POSITIONSOURCETYPE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "Position source type",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_RECEIVER",
-                "name": "ESRIGNSS_RECEIVER",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Receiver Name",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_LATITUDE",
-                "name": "ESRIGNSS_LATITUDE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Latitude",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_LONGITUDE",
-                "name": "ESRIGNSS_LONGITUDE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Longitude",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_ALTITUDE",
-                "name": "ESRIGNSS_ALTITUDE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Altitude",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_H_RMS",
-                "name": "ESRIGNSS_H_RMS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Horizontal Accuracy (m)",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_V_RMS",
-                "name": "ESRIGNSS_V_RMS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Vertical Accuracy (m)",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_FIXDATETIME",
-                "name": "ESRIGNSS_FIXDATETIME",
-                "type": "DATE",
-                "esriType": "esriFieldTypeDate",
-                "alias": "Fix Time",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_FIXTYPE",
-                "name": "ESRIGNSS_FIXTYPE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "Fix Type",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_CORRECTIONAGE",
-                "name": "ESRIGNSS_CORRECTIONAGE",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Correction Age",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_STATIONID",
-                "name": "ESRIGNSS_STATIONID",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "Station ID",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_NUMSATS",
-                "name": "ESRIGNSS_NUMSATS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "Number of Satellites",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_PDOP",
-                "name": "ESRIGNSS_PDOP",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "PDOP",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_HDOP",
-                "name": "ESRIGNSS_HDOP",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "HDOP",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_VDOP",
-                "name": "ESRIGNSS_VDOP",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "VDOP",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_DIRECTION",
-                "name": "ESRIGNSS_DIRECTION",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Direction of travel (°)",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_SPEED",
-                "name": "ESRIGNSS_SPEED",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Speed (km/h)",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRISNSR_AZIMUTH",
-                "name": "ESRISNSR_AZIMUTH",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Compass reading (°)",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_AVG_H_RMS",
-                "name": "ESRIGNSS_AVG_H_RMS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Average Horizontal Accuracy (m)",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_AVG_V_RMS",
-                "name": "ESRIGNSS_AVG_V_RMS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Average Vertical Accuracy (m)",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_AVG_POSITIONS",
-                "name": "ESRIGNSS_AVG_POSITIONS",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeSmallInteger",
-                "alias": "Averaged Positions",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ESRIGNSS_H_STDDEV",
-                "name": "ESRIGNSS_H_STDDEV",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "Standard Deviation (m)",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "XCoor",
-                "name": "XCoor",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "XCoor",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "YCoor",
-                "name": "YCoor",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "YCoor",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "ZCoor",
-                "name": "ZCoor",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "ZCoor",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "Stems",
-                "name": "Stems",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Stems",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "CAD_Name",
-                "name": "CAD_Name",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "CAD_Name",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "POINT_X",
-                "name": "POINT_X",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "POINT_X",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "POINT_Y",
-                "name": "POINT_Y",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "POINT_Y",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
-                "jimuName": "POINT_Z",
-                "name": "POINT_Z",
-                "type": "NUMBER",
-                "esriType": "esriFieldTypeDouble",
-                "alias": "POINT_Z",
-                "format": null,
-                "editAuthority": true,
+                "editAuthority": false,
                 "subDescription": "",
                 "editable": true
               }
             ],
-            "layerHonorMode": "WEBMAP"
+            "layerHonorMode": "CUSTOM",
+            "layerEditingEnabled": true,
+            "isTable": false
           }
         ],
-        "editMode": "GEOMETRY",
+        "editMode": "ATTRIBUTE",
         "selfSnapping": false,
         "featureSnapping": false,
         "defaultSelfEnabled": false,
@@ -1350,7 +794,13 @@
     }
   },
   "attributes": {
-    "portalUrl": "https://geo.twm-inc.com/arcgis"
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "190281 AV",
+    "description": "Tree inventory",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1740161904511.jpg"
   },
   "sharedThemeVariables": {
     "header": {
@@ -1523,5 +973,5 @@
       }
     }
   },
-  "timestamp": 1740165472249
+  "timestamp": 1740166948497
 }

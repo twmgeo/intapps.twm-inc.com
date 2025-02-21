@@ -1,0 +1,1532 @@
+{
+  "pages": {
+    "page_0": {
+      "id": "page_0",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_0"
+      },
+      "isDefault": true,
+      "isVisible": true,
+      "label": "Page",
+      "header": true
+    }
+  },
+  "layouts": {
+    "layout_0": {
+      "type": "FIXED",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "61.1%",
+            "top": "0px",
+            "bottom": "0.0%",
+            "width": "38.9%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_37",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "width": "STRETCH",
+              "height": "STRETCH"
+            },
+            "hCenter": false,
+            "vCenter": false
+          },
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "38.9%",
+            "right": "28.2%",
+            "top": "0.0%",
+            "bottom": "0.1%",
+            "width": "32.9%",
+            "height": "99.9%"
+          },
+          "widgetId": "widget_68",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "effect": {
+              "SCROLL_IN": {
+                "type": "NONE",
+                "option": {
+                  "direction": null
+                }
+              }
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_70",
+          "bbox": {
+            "left": "71.8%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "28.2%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "2",
+        "3",
+        "5"
+      ]
+    },
+    "layout_5": {
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "30.00px",
+            "right": "89.2%",
+            "top": "50%",
+            "bottom": "20.0%",
+            "width": "112px",
+            "height": "48px"
+          },
+          "widgetId": "widget_4",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "160px",
+            "right": "56.6%",
+            "top": "50%",
+            "bottom": "16.7%",
+            "width": "396px",
+            "height": "36px"
+          },
+          "widgetId": "widget_5",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": true
+          }
+        }
+      }
+    },
+    "layout_20": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "content": {
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "98px",
+            "width": "174px",
+            "height": "5.7%",
+            "top": "6px",
+            "right": "1008px",
+            "bottom": "697px"
+          },
+          "widgetId": "widget_39",
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "11": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true,
+              "height": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "95.4%",
+            "right": "12.00px",
+            "top": "8.00px",
+            "bottom": "83.4%",
+            "width": "50.00px",
+            "height": "7.7%"
+          },
+          "widgetId": "widget_48",
+          "isPending": false
+        }
+      },
+      "order": [
+        "5",
+        "11"
+      ]
+    },
+    "layout_21": {
+      "label": "Controller layout",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "400px",
+            "top": "0px",
+            "bottom": "54px",
+            "width": "400px",
+            "height": "54px"
+          },
+          "widgetId": "widget_40"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "8px",
+            "right": "52px",
+            "top": "0px",
+            "bottom": "44px",
+            "width": "50px",
+            "height": "172px"
+          },
+          "widgetId": "widget_41",
+          "isPending": false
+        },
+        "5": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "80px",
+            "right": "124px",
+            "top": "3px",
+            "bottom": "47px",
+            "width": "317px",
+            "height": "50px"
+          },
+          "widgetId": "widget_45",
+          "isPending": false
+        }
+      },
+      "order": [
+        "1",
+        "0",
+        "5"
+      ]
+    }
+  },
+  "exbVersion": "1.14.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/ink/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankfullscreen",
+  "widgets": {
+    "widget_4": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "TWM Logo (image)",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_4/1678112002687.png",
+            "originalUrl": "${appResourceUrl}/images/widget_4/1678112002687.png",
+            "fileName": "1678112002687.png",
+            "originalName": "TWM_CMYK_white_buffer_xs.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1678112002687",
+            "isUseCompress": false,
+            "originalWidth": 150,
+            "originalHeight": 63
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_4"
+    },
+    "widget_5": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Title of App (text)",
+      "config": {
+        "text": "<p><span style=\"font-size: 20px; color: var(--light);\">190281AV Tree Inventory<span class=\"ql-cursor\">﻿</span></span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_5"
+    },
+    "widget_37": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.14.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": true,
+          "canBaseMap": true,
+          "canLayers": false,
+          "canScaleBar": true,
+          "canSelect": false,
+          "canSelectState": false,
+          "canMeasure": true,
+          "canCompass": false,
+          "canLocate": true
+        },
+        "isUseCustomMapState": false,
+        "layoutIndex": 1,
+        "initialMapDataSourceID": "dataSource_6",
+        "initialMapState": null
+      },
+      "id": "widget_37",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_20"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6",
+          "mainDataSourceId": "dataSource_6"
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_39": {
+      "uri": "widgets/common/controller/",
+      "version": "1.14.0",
+      "label": "Widget Controller (top left)",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": false,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": false,
+          "size": {
+            "widget_26": {
+              "width": 319,
+              "height": 584
+            },
+            "widget_29": {
+              "width": 360,
+              "height": 657
+            },
+            "widget_30": {
+              "width": 380,
+              "height": 556
+            },
+            "widget_33": {
+              "width": 1259,
+              "height": 603
+            },
+            "widget_34": {
+              "width": 450,
+              "height": 150
+            },
+            "widget_41": {
+              "width": 369,
+              "height": 676
+            },
+            "widget_45": {
+              "width": 320,
+              "height": 665
+            },
+            "widget_40": {
+              "width": 300,
+              "height": 347
+            },
+            "widget_43": {
+              "width": 1091,
+              "height": 565
+            }
+          }
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "default",
+              "shape": "rectangle"
+            },
+            "variant": {
+              "default": {
+                "color": "",
+                "bg": "var(--light-100)",
+                "border": {
+                  "color": "#98012e",
+                  "width": "1px"
+                }
+              },
+              "hover": {
+                "bg": "var(--info-100)",
+                "color": ""
+              },
+              "active": {
+                "bg": "var(--info-200)",
+                "color": "#080808",
+                "bold": false
+              },
+              "disabled": {
+                "color": "#8b8b8b",
+                "bg": "#e3e3e3",
+                "border": {
+                  "color": "#e3e3e3"
+                }
+              }
+            },
+            "showIndicator": false
+          }
+        }
+      },
+      "id": "widget_39",
+      "layouts": {
+        "controller": {
+          "LARGE": "layout_21"
+        }
+      },
+      "style": {
+        "background": {
+          "color": null,
+          "fillType": "fill"
+        },
+        "borderRadius": null
+      }
+    },
+    "widget_40": {
+      "uri": "widgets/arcgis/bookmark/",
+      "version": "1.10.0",
+      "label": "Bookmarks",
+      "config": {
+        "templateType": "LIST",
+        "isTemplateConfirm": true,
+        "isInitialed": true,
+        "bookmarks": [],
+        "initBookmark": false,
+        "runtimeAddAllow": true,
+        "autoPlayAllow": false,
+        "autoInterval": 3,
+        "autoLoopAllow": true,
+        "style": {
+          "id": "default"
+        },
+        "direction": "HORIZON",
+        "pageStyle": "PAGING",
+        "space": 10,
+        "scrollBarOpen": true,
+        "navigatorOpen": false,
+        "transition": "None",
+        "transitionDirection": "H",
+        "displayType": "SELECTED",
+        "itemHeight": 240,
+        "itemWidth": 240,
+        "transitionInfo": {
+          "transition": {
+            "type": "None",
+            "direction": "H"
+          },
+          "effect": {
+            "type": "None",
+            "option": {
+              "direction": "TOP",
+              "configType": "DEFAULT"
+            }
+          },
+          "oneByOneEffect": null,
+          "previewId": null
+        },
+        "displayFromWeb": true
+      },
+      "id": "widget_40",
+      "icon": {
+        "svg": "https://localhost:3001/experience/../widgets/arcgis/bookmark/icon.svg",
+        "properties": {
+          "filename": "Bookmark",
+          "originalName": null,
+          "path": null,
+          "color": "var(--dark-800)",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "useMapWidgetIds": [
+        "widget_37"
+      ]
+    },
+    "widget_41": {
+      "uri": "widgets/arcgis/map-layers/",
+      "version": "1.10.0",
+      "icon": {
+        "svg": "https://localhost:3001/builder/../widgets/arcgis/map-layers/icon.svg",
+        "properties": {
+          "filename": "map-layers.svg",
+          "originalName": "default/map-layers.svg",
+          "path": "default/map-layers.svg",
+          "color": "var(--dark-800)",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Map Layers",
+      "config": {
+        "useMapWidget": true,
+        "label": true,
+        "setVisibility": true
+      },
+      "id": "widget_41",
+      "useMapWidgetIds": [
+        "widget_37"
+      ],
+      "enableDataAction": false
+    },
+    "widget_45": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.10.0",
+      "icon": {
+        "svg": "https://localhost:3001/experience/../widgets/arcgis/legend/icon.svg",
+        "properties": {
+          "filename": "Legend",
+          "originalName": null,
+          "path": null,
+          "color": "var(--dark-800)",
+          "size": 16,
+          "inlineSvg": true
+        }
+      },
+      "label": "Legend",
+      "config": {
+        "cardStyle": false,
+        "showBaseMap": false,
+        "style": {
+          "useCustom": false
+        },
+        "cardLayout": "auto"
+      },
+      "id": "widget_45",
+      "useMapWidgetIds": [
+        "widget_37"
+      ]
+    },
+    "widget_48": {
+      "uri": "widgets/google-street-view/",
+      "version": "1.9.0",
+      "label": "Google Street View Up",
+      "config": {},
+      "id": "widget_48",
+      "useMapWidgetIds": [
+        "widget_37"
+      ]
+    },
+    "widget_68": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Image",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": null,
+          "imageDisplayQualityMode": "ORIGINAL",
+          "dynamicUrlType": "ATTACHMENT",
+          "altTextWithAttachmentName": null,
+          "toolTipWithAttachmentName": null,
+          "isSelectedFromRepeatedDataSourceContext": false,
+          "useDataSourceForMainDataAndViewSelector": {
+            "dataSourceId": "dataSource_6-9a43d22fa3a940938eb3068b33ba61fe-selection",
+            "mainDataSourceId": "dataSource_6-9a43d22fa3a940938eb3068b33ba61fe",
+            "rootDataSourceId": "dataSource_6",
+            "dataViewId": "selection",
+            "fields": []
+          },
+          "imgSourceType": "BYDYNAMICURL",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_68",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-9a43d22fa3a940938eb3068b33ba61fe-selection",
+          "mainDataSourceId": "dataSource_6-9a43d22fa3a940938eb3068b33ba61fe",
+          "rootDataSourceId": "dataSource_6",
+          "dataViewId": "selection",
+          "fields": []
+        }
+      ]
+    },
+    "widget_70": {
+      "uri": "widgets/common/edit/",
+      "version": "1.14.0",
+      "label": "Edit",
+      "config": {
+        "layersConfig": [
+          {
+            "id": "dataSource_6-9a43d22fa3a940938eb3068b33ba61fe",
+            "name": "Trees",
+            "layerId": "9a43d22fa3a940938eb3068b33ba61fe",
+            "useDataSource": {
+              "dataSourceId": "dataSource_6-9a43d22fa3a940938eb3068b33ba61fe",
+              "mainDataSourceId": "dataSource_6-9a43d22fa3a940938eb3068b33ba61fe",
+              "rootDataSourceId": "dataSource_6"
+            },
+            "addRecords": true,
+            "deleteRecords": true,
+            "updateRecords": true,
+            "updateAttributes": true,
+            "updateGeometries": true,
+            "featureSnapping": false,
+            "showFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "DIAMETER",
+                "name": "DIAMETER",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "DIAMETER",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "DISTANCE",
+                "name": "DISTANCE",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Offset Distance",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_POSITIONSOURCETYPE",
+                "name": "ESRIGNSS_POSITIONSOURCETYPE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Position source type",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_RECEIVER",
+                "name": "ESRIGNSS_RECEIVER",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Receiver Name",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_LATITUDE",
+                "name": "ESRIGNSS_LATITUDE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Latitude",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_LONGITUDE",
+                "name": "ESRIGNSS_LONGITUDE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Longitude",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_ALTITUDE",
+                "name": "ESRIGNSS_ALTITUDE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Altitude",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_H_RMS",
+                "name": "ESRIGNSS_H_RMS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Horizontal Accuracy (m)",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_V_RMS",
+                "name": "ESRIGNSS_V_RMS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Vertical Accuracy (m)",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_FIXDATETIME",
+                "name": "ESRIGNSS_FIXDATETIME",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Fix Time",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_FIXTYPE",
+                "name": "ESRIGNSS_FIXTYPE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Fix Type",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_CORRECTIONAGE",
+                "name": "ESRIGNSS_CORRECTIONAGE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Correction Age",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_STATIONID",
+                "name": "ESRIGNSS_STATIONID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Station ID",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_NUMSATS",
+                "name": "ESRIGNSS_NUMSATS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Number of Satellites",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_PDOP",
+                "name": "ESRIGNSS_PDOP",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "PDOP",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_HDOP",
+                "name": "ESRIGNSS_HDOP",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "HDOP",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_VDOP",
+                "name": "ESRIGNSS_VDOP",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "VDOP",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_DIRECTION",
+                "name": "ESRIGNSS_DIRECTION",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Direction of travel (°)",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_SPEED",
+                "name": "ESRIGNSS_SPEED",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Speed (km/h)",
+                "format": null
+              },
+              {
+                "jimuName": "ESRISNSR_AZIMUTH",
+                "name": "ESRISNSR_AZIMUTH",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Compass reading (°)",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_AVG_H_RMS",
+                "name": "ESRIGNSS_AVG_H_RMS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Average Horizontal Accuracy (m)",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_AVG_V_RMS",
+                "name": "ESRIGNSS_AVG_V_RMS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Average Vertical Accuracy (m)",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_AVG_POSITIONS",
+                "name": "ESRIGNSS_AVG_POSITIONS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Averaged Positions",
+                "format": null
+              },
+              {
+                "jimuName": "ESRIGNSS_H_STDDEV",
+                "name": "ESRIGNSS_H_STDDEV",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Standard Deviation (m)",
+                "format": null
+              },
+              {
+                "jimuName": "XCoor",
+                "name": "XCoor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "XCoor",
+                "format": null
+              },
+              {
+                "jimuName": "YCoor",
+                "name": "YCoor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "YCoor",
+                "format": null
+              },
+              {
+                "jimuName": "ZCoor",
+                "name": "ZCoor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ZCoor",
+                "format": null
+              },
+              {
+                "jimuName": "Stems",
+                "name": "Stems",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Stems",
+                "format": null
+              },
+              {
+                "jimuName": "CAD_Name",
+                "name": "CAD_Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "CAD_Name",
+                "format": null
+              },
+              {
+                "jimuName": "POINT_X",
+                "name": "POINT_X",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "POINT_X",
+                "format": null
+              },
+              {
+                "jimuName": "POINT_Y",
+                "name": "POINT_Y",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "POINT_Y",
+                "format": null
+              },
+              {
+                "jimuName": "POINT_Z",
+                "name": "POINT_Z",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "POINT_Z",
+                "format": null
+              }
+            ],
+            "groupedFields": [
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "DIAMETER",
+                "name": "DIAMETER",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "DIAMETER",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "DISTANCE",
+                "name": "DISTANCE",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Offset Distance",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_POSITIONSOURCETYPE",
+                "name": "ESRIGNSS_POSITIONSOURCETYPE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Position source type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_RECEIVER",
+                "name": "ESRIGNSS_RECEIVER",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Receiver Name",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_LATITUDE",
+                "name": "ESRIGNSS_LATITUDE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Latitude",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_LONGITUDE",
+                "name": "ESRIGNSS_LONGITUDE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Longitude",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_ALTITUDE",
+                "name": "ESRIGNSS_ALTITUDE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Altitude",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_H_RMS",
+                "name": "ESRIGNSS_H_RMS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Horizontal Accuracy (m)",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_V_RMS",
+                "name": "ESRIGNSS_V_RMS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Vertical Accuracy (m)",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_FIXDATETIME",
+                "name": "ESRIGNSS_FIXDATETIME",
+                "type": "DATE",
+                "esriType": "esriFieldTypeDate",
+                "alias": "Fix Time",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_FIXTYPE",
+                "name": "ESRIGNSS_FIXTYPE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Fix Type",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_CORRECTIONAGE",
+                "name": "ESRIGNSS_CORRECTIONAGE",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Correction Age",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_STATIONID",
+                "name": "ESRIGNSS_STATIONID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Station ID",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_NUMSATS",
+                "name": "ESRIGNSS_NUMSATS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Number of Satellites",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_PDOP",
+                "name": "ESRIGNSS_PDOP",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "PDOP",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_HDOP",
+                "name": "ESRIGNSS_HDOP",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "HDOP",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_VDOP",
+                "name": "ESRIGNSS_VDOP",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "VDOP",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_DIRECTION",
+                "name": "ESRIGNSS_DIRECTION",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Direction of travel (°)",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_SPEED",
+                "name": "ESRIGNSS_SPEED",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Speed (km/h)",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRISNSR_AZIMUTH",
+                "name": "ESRISNSR_AZIMUTH",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Compass reading (°)",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_AVG_H_RMS",
+                "name": "ESRIGNSS_AVG_H_RMS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Average Horizontal Accuracy (m)",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_AVG_V_RMS",
+                "name": "ESRIGNSS_AVG_V_RMS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Average Vertical Accuracy (m)",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_AVG_POSITIONS",
+                "name": "ESRIGNSS_AVG_POSITIONS",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeSmallInteger",
+                "alias": "Averaged Positions",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ESRIGNSS_H_STDDEV",
+                "name": "ESRIGNSS_H_STDDEV",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "Standard Deviation (m)",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "XCoor",
+                "name": "XCoor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "XCoor",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "YCoor",
+                "name": "YCoor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "YCoor",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "ZCoor",
+                "name": "ZCoor",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "ZCoor",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "Stems",
+                "name": "Stems",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Stems",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "CAD_Name",
+                "name": "CAD_Name",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "CAD_Name",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "POINT_X",
+                "name": "POINT_X",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "POINT_X",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "POINT_Y",
+                "name": "POINT_Y",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "POINT_Y",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "POINT_Z",
+                "name": "POINT_Z",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeDouble",
+                "alias": "POINT_Z",
+                "format": null,
+                "editAuthority": true,
+                "subDescription": "",
+                "editable": true
+              }
+            ],
+            "layerHonorMode": "WEBMAP"
+          }
+        ],
+        "editMode": "GEOMETRY",
+        "selfSnapping": false,
+        "featureSnapping": false,
+        "defaultSelfEnabled": false,
+        "defaultFeatureEnabled": false,
+        "defaultSnapLayers": [],
+        "description": "",
+        "noDataMessage": "",
+        "snapSettingMode": "FLEXIBLE"
+      },
+      "id": "widget_70",
+      "useMapWidgetIds": [
+        "widget_37"
+      ],
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-9a43d22fa3a940938eb3068b33ba61fe",
+          "mainDataSourceId": "dataSource_6-9a43d22fa3a940938eb3068b33ba61fe",
+          "rootDataSourceId": "dataSource_6"
+        }
+      ]
+    }
+  },
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_6": {
+      "id": "dataSource_6",
+      "type": "WEB_MAP",
+      "sourceLabel": "190281AV",
+      "itemId": "69cbaf3462d04520871897f046a81c3f",
+      "portalUrl": "https://geo.twm-inc.com/arcgis"
+    }
+  },
+  "messageConfigs": {
+    "messageConfig_3": {
+      "id": "messageConfig_3",
+      "widgetId": "widget_37",
+      "messageType": "EXTENT_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1678113142408",
+          "messageWidgetId": "widget_8",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": null,
+            "actionUseDataSource": null,
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.10.0",
+          "useDataSources": []
+        }
+      ]
+    }
+  },
+  "attributes": {
+    "portalUrl": "https://geo.twm-inc.com/arcgis",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "190281 AV",
+    "description": "Tree inventory",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1740161904511.jpg"
+  },
+  "sharedThemeVariables": {
+    "header": {
+      "bg": "#730000",
+      "color": "#ffffff"
+    },
+    "body": {},
+    "button": {
+      "bg": "#730000",
+      "color": "#ffffff"
+    },
+    "logo": {
+      "small": "https://geo.twm-inc.com/arcgis/sharing/rest/content/items/d11424e0028246bdad694ab475c33447/data",
+      "link": "https://twm-inc.com"
+    }
+  },
+  "originExbVersion": "1.14.0",
+  "pageStructure": [
+    {
+      "page_0": []
+    }
+  ],
+  "customTheme": {
+    "colors": {
+      "primary": "#a20131",
+      "danger": "#98012e",
+      "info": "#355070",
+      "light": "#f7f9f9",
+      "secondary": "#e0d0c1",
+      "success": "#00a676"
+    },
+    "typography": {
+      "fontFamilyBase": "Microsoft YaHei",
+      "fontSizeRoot": "100%"
+    }
+  },
+  "header": {
+    "layout": {
+      "LARGE": "layout_5"
+    },
+    "height": {
+      "LARGE": "54px"
+    },
+    "backgroundColor": "var(--info)"
+  },
+  "utilities": {
+    "utility_1": {
+      "id": "utility_1",
+      "type": null,
+      "name": "geocode",
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "source": "org",
+      "orgSetting": {
+        "name": "ArcGIS World Geocoding Service",
+        "placefinding": true,
+        "batch": false
+      },
+      "taskName": "ArcGIS World Geocoding Service",
+      "index": 0
+    },
+    "utility_2": {
+      "id": "utility_2",
+      "type": null,
+      "name": "route",
+      "url": "https://geo.twm-inc.com/arcgis/sharing/servers/ce949a70c9bb4a1fadb610d6ce38d0a8/rest/services/World/Route/NAServer/Route_World",
+      "source": "org"
+    },
+    "utility_3": {
+      "id": "utility_3",
+      "type": null,
+      "name": "printTask",
+      "url": "https://geo.twm-inc.com/arcgis/rest/services/TWM_Printing_Service/GPServer/Export%20Web%20Map",
+      "source": "org",
+      "orgSetting": {
+        "templates": [
+          {
+            "label": "TWM_Layout_Landscape_NoLegend",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape_NoLegend",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "11x17_Landscape",
+            "format": "PNG32",
+            "layout": "11x17_Landscape",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "11x17_Portrait",
+            "format": "PNG32",
+            "layout": "11x17_Portrait",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "8_5x11_Landscape",
+            "format": "PNG32",
+            "layout": "8_5x11_Landscape",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "8_5x11_Portrait",
+            "format": "PNG32",
+            "layout": "8_5x11_Portrait",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Landscape",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Landscape_24x36",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape_24x36",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Landscape_36x48",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Landscape_36x48",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Portrait",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Portrait",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Portrait_24x36",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Portrait_24x36",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "TWM_Layout_Portrait_36x48",
+            "format": "PNG32",
+            "layout": "TWM_Layout_Portrait_36x48",
+            "layoutOptions": {
+              "legend": false
+            }
+          },
+          {
+            "label": "MAP_ONLY",
+            "format": "PNG32",
+            "layout": "MAP_ONLY"
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": 1740165472249
+}

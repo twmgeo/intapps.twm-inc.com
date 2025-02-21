@@ -636,7 +636,7 @@
               "mainDataSourceId": "dataSource_6-9a43d22fa3a940938eb3068b33ba61fe",
               "rootDataSourceId": "dataSource_6"
             },
-            "addRecords": false,
+            "addRecords": true,
             "deleteRecords": true,
             "updateRecords": true,
             "updateAttributes": true,
@@ -644,19 +644,30 @@
             "featureSnapping": false,
             "showFields": [
               {
-                "jimuName": "Stems",
-                "name": "Stems",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Stems",
-                "format": null
-              },
-              {
                 "jimuName": "CAD_Name",
                 "name": "CAD_Name",
                 "type": "STRING",
                 "esriType": "esriFieldTypeString",
                 "alias": "CAD_Name",
+                "format": null
+              },
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                }
+              },
+              {
+                "jimuName": "Stems",
+                "name": "Stems",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Stems",
                 "format": null
               },
               {
@@ -681,17 +692,6 @@
             ],
             "groupedFields": [
               {
-                "jimuName": "Stems",
-                "name": "Stems",
-                "type": "STRING",
-                "esriType": "esriFieldTypeString",
-                "alias": "Stems",
-                "format": null,
-                "editAuthority": true,
-                "subDescription": "",
-                "editable": true
-              },
-              {
                 "jimuName": "CAD_Name",
                 "name": "CAD_Name",
                 "type": "STRING",
@@ -699,6 +699,31 @@
                 "alias": "CAD_Name",
                 "format": null,
                 "editAuthority": false,
+                "subDescription": "",
+                "editable": true
+              },
+              {
+                "jimuName": "OBJECTID",
+                "name": "OBJECTID",
+                "type": "NUMBER",
+                "esriType": "esriFieldTypeOID",
+                "alias": "OBJECTID",
+                "format": {
+                  "digitSeparator": false,
+                  "places": 0
+                },
+                "editAuthority": false,
+                "subDescription": "",
+                "editable": false
+              },
+              {
+                "jimuName": "Stems",
+                "name": "Stems",
+                "type": "STRING",
+                "esriType": "esriFieldTypeString",
+                "alias": "Stems",
+                "format": null,
+                "editAuthority": true,
                 "subDescription": "",
                 "editable": true
               },
@@ -728,12 +753,10 @@
                 "editable": true
               }
             ],
-            "layerHonorMode": "CUSTOM",
-            "layerEditingEnabled": true,
-            "isTable": false
+            "layerHonorMode": "CUSTOM"
           }
         ],
-        "editMode": "ATTRIBUTE",
+        "editMode": "GEOMETRY",
         "selfSnapping": false,
         "featureSnapping": false,
         "defaultSelfEnabled": false,
@@ -973,5 +996,5 @@
       }
     }
   },
-  "timestamp": 1740166948497
+  "timestamp": 1740172761766
 }
